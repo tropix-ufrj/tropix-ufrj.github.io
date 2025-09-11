@@ -1,0 +1,191 @@
+<HTML><HEAD>
+		<TITLE>TROPIX: Questões Freqüentemente Perguntadas</TITLE>
+</HEAD>
+
+<BODY>
+<CENTER><H1>O Sistema Operacional TROPIX </H1></CENTER>
+
+<table border="0" cellspacing="20" width="700">
+    <tr>
+        <td align="center" valign="top" width="400">
+	    <table border="0" cellpadding="5" width="400">
+	        <tr>
+		    <td valign="top">
+			<IMG SRC="tropix.gif"
+				WIDTH="400" HEIGHT="200" BORDER="0"
+			>
+		    </td>
+	        </tr>
+	    </table>
+        </td>
+
+        <td align="center" valign="center" width="300">
+		<table border="0" cellpadding="5" width="400">
+	            <tr>
+	                <td valign="top">
+				<H1>
+					Perguntas Freqüentes
+				</H1>
+	                </td>
+	            </tr>
+	        </table>
+        </td>
+    </tr>
+</table>
+
+<BODY BGCOLOR="#F0F0C0">
+
+<B> <FONT COLOR="#FF00FF">
+Versão 4.0.0, de 17.11.00
+</FONT> </B>
+
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+1. Tamanho dos disquetes
+</H2></CENTER>
+</FONT>
+
+<B>Pergunta:</B>
+Ao tentar gravar os disquetes do TROPIX, verifiquei que o arquivos não cabem
+nos disquetes.
+
+<p>
+<B>Resposta:</B>
+Você provavelmente tentou copiar os arquivos do TROPIX para os disquetes
+diretamente através do Windows, "arrastando" o ícone do arquivo.
+O correto é realizar a cópia através do utilitário "fdimage.exe".
+
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+2. Documentação do TROPIX
+</H2></CENTER>
+</FONT>
+
+<B>Pergunta:</B>
+O TROPIX tem documentação?
+
+<p>
+<B>Resposta:</B>
+Sim; o TROPIX contém centenas de manuais,
+com um total de mais de mil páginas. Após a instalação do TROPIX,
+eles estão todos disponíveis através do comando "man".
+
+<p>
+O principal manual é o de instalação,
+que pode ser obtido diretamente na
+<a href="index.html#manual">
+página principal do TROPIX</a>, ou consultado
+(com o sistema já instalado) através de "man install".
+
+<p>
+Leia o capítulo 16 do manual de instalação: ("E agora ...?").
+
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+3. Travamento da tela
+</H2></CENTER>
+</FONT>
+
+<B>Pergunta:</B>
+Após imprimir algumas linhas na tela
+(tanto no modo texto quanto no modo gráfico, com "xterm")
+o sistema "trava".
+
+<p>
+<B>Resposta:</B>
+Normalmente, a saída pára ao final de 24 linhas, evitando um "rolamento"
+da tela que faria com que linhas (possivelmente ainda não lidas) saíssem
+da tela. Para continuar, basta teclar <^Q>. Isto pode ser alterado através
+do comando "stty". Leia o capítulo 6 do manual de instalação.
+
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+4. Programas executáveis do LINUX/FreeBSD
+</H2></CENTER>
+</FONT>
+
+<B>Pergunta:</B>
+Os programas executáveis do LINUX/FreeBSD rodam no TROPIX?
+
+<p>
+<B>Resposta:</B>
+Não; no mundo UNIX (com raras exceções), os programas executáveis de um sistema
+não rodam em outro. Normalmente, o transporte é realizado através dos programas
+fontes.
+ 
+<p>
+<Hr width=80% height=3>
+
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+5. Instalação simultânea de várias Sistemas Operacionais em um PC
+</H2></CENTER>
+</FONT>
+
+<B>Pergunta:</B>
+Como instalar em um mesmo PC vários Sistemas Operacionais, tais como
+TROPIX, LINUX, FreeBSD, Win95/Win98/WinNT, ...
+
+<p>
+<B>Resposta:</B>
+Provavelmente há várias soluções para isto. Uma delas, a que usamos,
+é utilizar o "boot0", o gerenciador de carga do TROPIX. Para isto,
+é necessário que todas as partições contendo os sistemas carregáveis
+estejam "ativas". Isto pode ser feito através do "fdisk" do TROPIX,
+que é parte do "boot2" (veja no manual de instalação).
+Para instalar o "boot0", use o comando "edboot" (leia o seu manual).
+
+<p>
+Detalhes: Ao instalar o LINUX, deve-se instalar o LILO no início da
+partição raiz do LINUX, e NÃO no MBR ("master boot record").
+Se você tiver mais de um disco, pode instalar o TROPIX inteiramente
+no segundo (ou terceiro, ...), pois "boot0" carrega um sistema operacional
+em qualquer partição de todos os discos (desde que o programa de carga
+colocado no início da partição raiz do sistema operacional suporte isto).
+
+
+<p>
+<LI><B><a href="index.html">Volta para o Índice</a></B><BR>
+
+
+
+<p>
+<Hr width=80% height=3>
+
+
+<TABLE WIDTH="100%" BORDER=0>
+<TBODY>
+<TR><TD ALIGN=LEFT> <B>
+<FONT COLOR="#FF0000" SIZE=-1>
+Data: 30.05.2000
+</FONT></TD>
+
+<TD ALIGN=RIGHT VALIGN=TOP><FONT COLOR="#FF0000" SIZE="-1">
+Projeto TROPIX<BR>
+</FONT>
+</B>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+</BODY>
+</HTML>

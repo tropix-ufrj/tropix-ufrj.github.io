@@ -1,0 +1,624 @@
+<HTML><HEAD>
+		<meta http-equiv="content-type" content="text/html; charset=iso8859-1"/>
+		<TITLE>TROPIX: Distribuição e Instalação</TITLE>
+</HEAD>
+
+<BODY>
+<CENTER><H1>O Sistema Operacional TROPIX </H1></CENTER>
+
+<table border="0" cellspacing="20" width="700">
+    <tr>
+        <td align="center" valign="top" width="400">
+	    <table border="0" cellpadding="5" width="400">
+	        <tr>
+		    <td valign="top">
+			<IMG SRC="tropix.gif"
+				WIDTH="400" HEIGHT="200" BORDER="0"
+			>
+		    </td>
+	        </tr>
+	    </table>
+        </td>
+
+        <td align="center" valign="center" width="300">
+		<table border="0" cellpadding="5" width="300">
+	            <tr>
+	                <td valign="top">
+				<H1>
+					<!Reservado>
+					Página principal
+				</H1>
+	                </td>
+	            </tr>
+	        </table>
+        </td>
+    </tr>
+</table>
+
+<BODY BGCOLOR="#F0F0C0">
+
+<B> <FONT COLOR="#FF00FF">
+Versão do sistema: 4.9.0, de 28.11.08, Data da página: 15.12.08
+</FONT> </B>
+
+<p>
+<Hr width=80% height=3>
+
+<a name="índice">
+<H1>
+<CENTER>
+Índice
+</CENTER>
+</H1>
+<p>
+<LI><B><a href="#descricao">Descrição do sistema</a></B><BR>
+<LI><B><a href="#desenvolvimento">Projeto em desenvolvimento</a></B><BR>
+<LI><B><a href="#características">Características do sistema</a></B><BR>
+<LI><B><a href="#requisitos">Requisitos do PC para a instalação</a></B><BR>
+<LI><B><a href="#novidades">Novidades desta Versão</a></B><BR>
+<LI><B><a href="#exnovidades">Novidades da Versão Anterior</a></B><BR>
+<LI><B><a href="#manual">Obtenha o manual de instalação</a></B><BR>
+<LI><B><a href="#cd">Obtenha a imagem do CDROM do TROPIX</a></B><BR>
+<LI><B><a href="#disquetes">Obtenha os disquetes do TROPIX básico</a></B><BR>
+<LI><B><a href="#xwindow">Obtenha os disquetes do Sistema Gráfico X-Window</a></B><BR>
+<LI><B><a href="#fontes">Obtenha o código Fonte do TROPIX</a></B><BR>
+<LI><B><a href="qfp.html">Perguntas Freqüentes</a></B><BR>
+<LI><B><a href="entre.html">Entrevista da "GeekStore"</a></B><BR>
+<LI><B><a href="#estatistica">Estatística de acesso a esta página</a></B><BR>
+<LI><B><a href="#colaboradores">Ajude o desenvolvimento do TROPIX</a></B><BR>
+<LI><B><a href="http://www.nce.ufrj.br/pesquisa/projetos.asp">Visite os outros Projetos do NCE/UFRJ</a></B><BR>
+
+<p>
+<Hr width=80% height=3>
+
+<a name="descricao">
+<p>
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Descrição do Sistema
+</H2></CENTER>
+</FONT>
+
+<p>
+
+<p>
+O <B>TROPIX</B> (pronuncia-se "Trópix") é um Sistema Operacional multiusuário e multitarefa,
+de filosofia UNIX ®,
+desenvolvido no Núcleo de Computação
+Eletrônica da Universidade Federal do Rio de Janeiro (NCE/UFRJ).
+
+<p>
+O TROPIX
+foi inicialmente concebido durantes os anos de 1982 a 1986
+(na época com o nome PLURIX)
+para o computador PEGASUS.
+Este computador foi construído também no NCE, e era
+baseado nos processadores MOTOROLA 68010/20.
+O sistema foi transportado em 1987 para o computador ICARUS,
+também baseado nestes mesmos processadores.
+Em 1994 foi iniciado o transporte para a linha INTEL de
+processadores (386, 486, Pentium), e desde 1996 o TROPIX já está operacional
+em PCs, sendo utilizado em diversos computadores.
+
+<p>
+O TROPIX tem diversas utilidades, tais como o estudo/aprendizado/utilização
+de um sistema operacional de filosofia UNIX,
+o desenvolvimento de programas ("software")
+e a implementação de servidores para a INTERNET
+(esta página que você está lendo está vindo do servidor WWW
+de um computador rodando TROPIX).
+Além disto, é ideal para a utilização em cursos de sistemas
+operacionais, pois contém primitivas para processos "leves" ("threads"),
+memória compartilhada, semáforos a nível de usuário, dentre outros.
+
+<p>
+A distribuição do TROPIX é gratuita, segundo a licença pública do GNU.
+
+<p>
+Atualmente, o desenvolvimento e manutenção do TROPIX estão sendo feitos
+por Pedro Salenbauch e Oswaldo Vernet.
+Para maiores informações, sugestões, comunicação de erros,
+ou em caso de quaisquer dúvidas sobre a sua instalação e utilização,
+use o endereço eletrônico
+<A HREF="mailto:syspedrosal@gmail.com">syspedrosal@gmail.com</A>.
+
+<p>
+A continuação deste trabalho é uma homenagem póstuma para
+<B>Newton Faller</B>,
+o grande idealizador dos projetos PEGASUS, PLURIX, TROPIX e de tantos outros.
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="desenvolvimento">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Projeto em Desenvolvimento
+</H2></CENTER>
+</FONT>
+
+<p>
+O TROPIX é um projeto vivo, em contínuo desenvolvimento.
+Embora já contenha diversas componentes importantes, tais como acesso à INTERNET e
+uma interface gráfica simples, entre outros (veja abaixo), ainda NÃO é um sistema
+completo.
+
+<p>
+Para completá-lo, ele conta com a sua colaboração.
+Veja a seção
+<B><a href="#colaboradores">Ajude o desenvolvimento do TROPIX</a></B><BR>
+
+<p>
+Além disto, se você sentiu falta de algum aplicativo, linguagem, etc. ...
+está automaticamente convidado(a) a desenvolve-lo ou transportá-lo.
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="características">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Características do Sistema
+</H2></CENTER>
+</FONT>
+
+<p>
+O TROPIX é distribuído em 2 meios: disquetes ou CDROM.
+A distribuição através de disquetes consiste da parte básica
+com 2 disquetes de 3½" e o Sistema Gráfico X-Window em 2 disquetes adicionais.
+O CDROM é distribuído através de uma imagem, que deverá ser usada
+para gravar um CDROM com o auxílio de um programa apropriado
+(tal como "cdrecorder", "Easy CD Creator" ou "Nero").
+
+<p>
+A instalação em PCs pode ser feita de dois modos: em partições
+próprias ou em arquivos de uma partição do MS-DOS/Windows
+(neste caso sem a necessidade
+de alterar as partições dos discos).
+É incluído um gerenciador de carga de sistemas operacionais ("boot0")
+para a convivência amigável com outros sistemas operacionais. 
+
+<p>
+Atualmente o TROPIX possui os utilitários básicos do UNIX
+(além de mais alguns utilitários próprios),
+um sistema de desenvolvimento para a linguagem
+ANSI "C", o suporte para a rede de computadores INTERNET com protocolos TCP/IP, 
+SLIP, PPP (para linha discada), e os clientes/servidores "telnet",
+"rlogin", "ftp", "www", "pop3" e outros.
+
+<p>
+Todo o TROPIX é baseado no código de caracteres ISO-8859-1 (Latim-1),
+tendo toda a acentuação disponível em todos os modos (texto, gráfico) e
+utilitários.
+Além disto, todos os manuais podem ser consultados na tela ("on-line"),
+e são em português.
+
+<p>
+Os sistemas de arquivos FAT/NTFS do MS-DOS/Windows
+(tanto em disquetes como em partições dos discos rígidos)
+assim como os CDROMs podem ser montados diretamente
+(NTFS somente para leituras).
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="requisitos">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Requisitos do PC para a instalação
+</H2></CENTER>
+</FONT>
+
+<p>
+O PC deve possuir um processador Intel 486/PENTIUM ou equivalente.
+O mínimo razoável de memória principal é 8 MB. Com 4 MB é possível
+utilizar o sistema, mas pode haver dificuldades em simultaneamente
+usar a rede INTERNET e compilar programas.
+Para o Sistema Gráfico X-Window são necessários pelo menos 16 MB.
+
+<p>
+São suportados disquetes de 3½" e 5¼", e discos rígidos IDE/ATA/SATA.
+Também são suportados discos rígidos SCSI conectados através dos
+controladores SCSI Adaptec 1542 (ISA) e 2940/29160 (PCI).
+
+<p>
+Os discos Iomega ZIP (100 MB) e CDROMs também são suportados,
+nas versões de porta paralela (ZIP), IDE/ATAPI e SCSI
+(desde que conectados a um dos controladores SCSI indicados acima).
+
+<p>
+Para a rede INTERNET, são suportados os controladores "ethernet" Novell
+(NE1000, NE2000 ISA/PCI), 3Com 3c503 e
+Realtek RTL 8129/8139 Fast Ethernet (10/100 Mbs),
+além de linhas seriais com protocolos SLIP ou PPP.
+
+<p>
+São suportadas também as portas paralelas para o uso de impressoras.
+
+<p>
+São reconhecidos "mouse"s e "pen  drive" USB,
+desde que conectados à portas USB dos padrões UHCI, OHCI ou EHCI.
+
+<p>
+São aceitos os Fax-modems ISA e o 
+Fax-modem U.S. Robotics 56K PCI.
+
+<p>
+É suportada a saída de áudio digital (DSP) das placas de som
+"Sound Blaster 16" (ou sucessoras), para a execução de músicas PCM
+(arquivos "*.wav").
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="novidades">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Novidades desta Versão
+</H2></CENTER>
+</FONT>
+
+<p>
+A presente versão (4.9.0),
+contém como novidades:
+
+<OL start=1>
+<p>
+<p><LI>
+O Protocolo DHCP para a obtenção de endereços IP dinâmicos.
+
+<p><LI>
+Implementado o protocolo USB 2.0.
+
+<p><LI>
+Suporte a discos SATA.
+
+<p><LI>
+Nova versão da interface gráfica (baseada na versão 4.7.0 distribuída
+pelo Consórcio XFree86).
+
+</OL>
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="exnovidades">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Novidade da Versão Anterior
+</H2></CENTER>
+</FONT>
+
+<p>
+A versão 4.8.0 continha como novidade:
+
+<OL start=1>
+<p>
+<p><LI>
+O Sistema de Arquivos NFS (Network  File  System,  Versão  2),
+para a montagem de sistemas de arquivos remotos.
+
+</OL>
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="manual">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Obtenha o manual de instalação do TROPIX
+</H2></CENTER>
+</FONT>
+
+<p>
+Tanto a coleção da <a href="#cd"> imagem do CDROM </a>
+do TROPIX, como a coleção dos <a href="#disquetes"> disquetes
+do TROPIX básico</a> incluem este manual.
+
+<UL>	<LI> <A HREF="install.txt"> Manual de instalação (versão 4.9.0, de dezembro de 2008, 108 KB)</A>
+</UL>
+
+<p>
+Salve o arquivo "install.txt" com "save as", e em seguida leia
+o texto com "more" (sistemas UNIX) ou com "notepad"/"wordpad"
+(sistemas Windows).
+
+<p>
+Repare que este manual é acentuado,
+usando o código de caracteres ISO-8859-1 (Latim-1): talvez seja
+necessário configurar o seu sistema.
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="cd">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Obtenha a imagem do CDROM do TROPIX
+</H2></CENTER>
+</FONT>
+
+<p>
+Esta imagem contém o TROPIX objeto completo, inclusive o Sistema Gráfico X-Window.
+
+<p>
+O servidor WWW do TROPIX já está permitindo a retomada
+das transferências a partir do ponto em
+que foram interrompidas. É necessária a utilização de uma ferramenta
+apropriada, como por exemplo "GetRight".
+
+<p>
+<UL>
+	<LI> <A HREF="cdrom.tgz"> Imagem do CDROM do TROPIX (versão 4.9.0, de 10.12.08, 11 MB)</A>
+</UL>
+
+<p>
+Se você usa um sistema UNIX, use os utilitários "gunzip" e "tar" para descomprimir
+a coleção, e leia o manual de instalação com "more".
+
+<p>
+Se você usa um sistema Windows, use o utilitário "winzip" para descomprimir
+a coleção, e leia o manual de instalação com "notepad" ou "wordpad".
+
+<p>
+É necessária a gravação do CDROM; leia o capítulo 5 do
+<a href="#manual">
+manual de instalação.</a>
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="disquetes">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Obtenha os disquetes do TROPIX básico
+</H2></CENTER>
+</FONT>
+
+<p>
+Se você tiver uma partição MS-DOS/Windows FAT16/32 ou NTFS em seu computador, 
+só é necessária a criação de um único disquete para a instalação.
+
+<p>
+<UL>
+	<LI> <A HREF="tropix.tgz"> Disquetes do TROPIX básico (versão 4.9.0, de 10.12.08, 2221 KB)</A>
+</UL>
+
+<p>
+Se você usa um sistema UNIX, use os utilitários "gunzip" e "tar" para descomprimir
+a coleção, e leia o manual de instalação com "more".
+
+<p>
+Se você usa um sistema Windows, use o utilitário "winzip" para descomprimir
+a coleção, e leia o manual de instalação com "notepad" ou "wordpad".
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="xwindow">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Obtenha os disquetes do Sistema Gráfico X-Window
+</H2></CENTER>
+</FONT>
+
+<p>
+<UL>
+	<LI> <A HREF="xwin.tgz"> Disquetes do X-Window (versão 4.9.0, de 10.12.08, 2443 KB)</A>
+</UL>
+
+<p>
+Se você usa um sistema UNIX, use os utilitários "gunzip" e "tar" para descomprimir
+a coleção.
+
+<p>
+Se você usa um sistema Windows, use o utilitário "winzip" para descomprimir
+a coleção.
+
+<p>
+Se você tiver uma partição MS-DOS/Windows FAT16/32 ou NTFS em seu computador, 
+NÃO é necessária a criação de nenhum disquete para a instalação.
+
+<p>
+Para detalhes de instalação, leia os capítulos 19 a 22 do
+<a href="#manual">
+manual de instalação.</a>
+
+<p>
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="fontes">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Obtenha o Código Fonte do TROPIX
+</H2></CENTER>
+</FONT>
+
+<p>
+Já estão disponíveis os Códigos Fonte do Núcleo do Sistema, bibliotecas, comandos e
+o sistema gráfico X-Window do TROPIX:
+
+
+<p>
+<UL>
+	<LI> <A HREF="kernel.tgz"> Código Fonte do Núcleo do TROPIX (versão 4.9.0, 1063 KB)</A>
+</UL>
+
+<p>
+<p>
+<UL>
+	<LI> <A HREF="lib.tgz"> Código Fonte das Bibliotecas do TROPIX (versão 4.9.0, 562 KB)</A>
+</UL>
+
+<p>
+<p>
+<UL>
+	<LI> <A HREF="cmd.tgz"> Código Fonte dos Comandos do TROPIX (versão 4.9.0, 3088 KB)</A>
+</UL>
+
+<p>
+<p>
+<UL>
+	<LI> <A HREF="sxwin.tgz"> Código Fonte do sistema gráfico X-Window do TROPIX (versão 4.9.0, 17254 KB)</A>
+</UL>
+
+<p>
+Se você está usando um sistema Windows e
+tem o TROPIX instalado, monte a partição MS-DOS/Windows para
+copiar a coleção, use os utilitários "gunzip" e "gar" para descomprimi-la
+e em seguida compile os diversos módulos.
+
+<p>
+Se você está usando um sistema Windows, mas NÃO
+tem o TROPIX instalado, use o utilitário "Winzip"
+para descomprimi-la.
+
+<p>
+Se você está usando um sistema UNIX, use
+os utilitários "gunzip" e "tar" para descomprimi-la.
+
+<p>
+Para maiores detalhes, leia os capítulos 23 e 24 do
+<a href="#manual">
+manual de instalação.</a>
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<a name="estatistica">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Estatística de acesso a esta página
+</H2></CENTER>
+</FONT>
+
+No período de 21.06.99 a 30.09.06 houve:
+
+<p>
+<LI> 38677 acessos a esta página;
+<LI> 5225 distribuições do TROPIX básico;
+<LI> 3708 distribuições da Interface Gráfica X-Window;
+<LI> 3616 distribuições do Código Fonte do Núcleo do TROPIX.
+
+<p>
+No período de 17.05.00 a 30.09.06 houve:
+
+<p>
+<LI> 1749 distribuições do Código Fonte das Bibliotecas;
+<LI> 1619 distribuições do Código Fonte dos Comandos do TROPIX.
+
+<p>
+No período de 19.05.03 a 30.09.06 houve:
+
+<p>
+<LI> 460 distribuições do Código Fonte da Interface Gráfica X-Window.
+
+<p>
+No período de 01.12.04 a 30.09.06 houve:
+
+<p>
+<LI> 468 distribuições da imagem do CDROM do TROPIX.
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+
+<a name="colaboradores">
+<p>
+<Hr width=80% height=3>
+
+<p>
+<FONT COLOR="#FF0000">
+<CENTER><H2>
+Ajude o Desenvolvimento do TROPIX
+</H2></CENTER>
+</FONT>
+
+<p>
+Se você tem prazer em programar e gostaria de contribuir
+para a continuação do desenvolvimento do TROPIX, seja bem-vindo!
+Dentre os diversos projetos de desenvolvimento futuro
+para os quais necessitamos de colaboradores estão:
+
+<OL start=1>
+<p>
+<p>
+<LI> Transporte do Lynx para o TROPIX.
+<p>
+<LI> Transporte do Netscape para o TROPIX.
+</OL>
+
+Para maiores detalhes, entre em contato conosco
+no endereço eletrônico
+<A HREF="mailto:syspedrosal@gmail.com">syspedrosal@gmail.com</A>.
+
+<p>
+<LI><B><a href="#índice">Volta para o Índice</a></B><BR>
+
+<p>
+<Hr width=80% height=3>
+
+<TABLE WIDTH="100%" BORDER=0>
+<TBODY>
+<TR><TD ALIGN=LEFT> <B>
+<FONT COLOR="#FF0000" SIZE=-1>
+Data da Página: 15.12.08
+</FONT></TD>
+
+<TD ALIGN=RIGHT VALIGN=TOP><FONT COLOR="#FF0000" SIZE="-1">
+Projeto TROPIX<BR>
+</FONT>
+</B>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+</BODY>
+</HTML>
