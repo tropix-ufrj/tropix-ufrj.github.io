@@ -47,7 +47,6 @@
 
                          Dezembro de 2008
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 2
 
                              CONTEÚDO
 
@@ -107,10 +106,6 @@ INSTALL (ref) TROPIX: Guia de Instalação Pag. 2
 
         Cap. 21 - Configuração da interface Gráfica .... 43
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 3
-
         Cap. 22 - Utilização básica da interface Gráfica 45
 
         Cap. 23 - Obtenção e instalação do  código fonte
@@ -124,9 +119,6 @@ INSTALL (ref) TROPIX: Guia de Instalação Pag. 3
         Cap. 26 - Uma  lista  dos principais comandos do
                   TROPIX ............................... 49
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 4
 
      *********************************************************
      *                                                       *
@@ -183,10 +175,6 @@ licença" (após a sua instalação).
 Atualmente, o desenvolvimento e manutenção do TROPIX estão sendo feitos
 por Pedro Salenbauch e Oswaldo Vernet. Para maiores
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 5
-
 informações, sugestões, comunicação de erros, ou em caso de quaisquer
 dúvidas sobre a sua instalação e utilização, use o endereço eletrônico
 "tropix\@tropix.nce.ufrj.br".
@@ -198,10 +186,6 @@ sistema.
 A continuação deste trabalho é uma homenagem póstuma a Newton Faller, o
 grande idealizador dos projetos PEGASUS, PLURIX, TROPIX e de tantos
 outros.
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 6
 
      *********************************************************
      *                                                       *
@@ -254,11 +238,6 @@ Novidades da versão "4.5.0":
     1: Reconhecimento de "mouse" USB.
 
     2: Novos utilitários gráficos: o gerenciador de arquivos "xfm",
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 7
-
        o  programa  para acessar caixas postais remotas "xpop3" e o
        gerador de imagens fractais de Mandelbrot "xmandel".
 
@@ -320,10 +299,6 @@ Novidades da versão "4.2.0":
        blocos maiores do que 512 bytes (por exemplo o  CDROM,  cujo
        bloco  é  de  2  KB)  além  de  aumentarmos  a velocidade de
        processamento dos dispositivos já suportados.
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 8
 
     2: Criação da camada abstrata de "nós-índice" para possibilitar
        a montagem de vários sistemas de arquivos.
@@ -387,17 +362,12 @@ Novidades da versão "3.2.3":
      módulos   executáveis   diminuiu   drasticamente.   Com   isto
      reduziu-se  simultaneamente o tempo de carga e a quantidade de
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 9
-
      espaço ocupados (tanto no disco como  na  memória  principal).
      Como  exemplo,  um utilitário típico, o "cp" que ocupava 13704
      bytes, passou a ocupar apenas 4032, isto é, caiu  a  menos  do
      terço  do  tamanho.  No  caso  dos  utilitários gráficos, esta
      redução  é  muito  maior;  como  exemplo  citamos  o  programa
      "xedit", que passou de 612 KB para menos de 4KB!
-
 
      Esta  versão  inclui  também  alguns programas novos, entre os
      quais:
@@ -455,10 +425,6 @@ INSTALL (ref) TROPIX: Guia de Instalação Pag. 9
 
 Novidades da versão "3.2.1":
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 10
-
      Inclui a primeira distribuição do código fonte  do  núcleo  do
      sistema,  recomendando-o  mais ainda para um curso de sistemas
      operacionais.
@@ -473,9 +439,7 @@ Novidades da versão "3.1.8":
      Continha  como  novidades  a  Interface  Gráfica  X-Window e o
      suporte para sistemas de arquivos MS-DOS/Windows com FAT32.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 11
 
      *********************************************************
      *                                                       *
@@ -524,9 +488,7 @@ protocolo NFS, versão 2.
 Também CD-ROMs podem ser montados em todas as suas variantes (ISO-9660,
 Rock-Ridge e Joliet).
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 12
 
      *********************************************************
      *                                                       *
@@ -575,9 +537,7 @@ rígidos do PC (veja o capítulo 10). Em qualquer um destes modos é
 necessário alocar um certo espaço dos discos rígidos (tipicamente 128
 MB).
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 13
 
      *********************************************************
      *                                                       *
@@ -616,9 +576,7 @@ necessário gravá-lo.
     O CDROM deve ser gravado através de um utilitário adequado (tal como
     o "Easy CD Creator" ou o "Nero").
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 14
 
      *********************************************************
      *                                                       *
@@ -674,10 +632,6 @@ necessário (pelo menos) criar o disquete de 3½\" chamado de BOOT.
 
     No caso de WinXP/Win2000/WinNT, use a janela de comandos;
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 15
-
       para Win98/Win95/Win3.x  use  o  modo  DOS;  neste  caso  não
       recomendamos  usar  a janela de comandos DOS, pois às vezes a
       escrita é realizada incorretamente.
@@ -687,9 +641,7 @@ são ocasionados por disquetes defeituosos.
 
 Após a geração do disquete, recomendamos protegê-lo contra escritas.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 16
 
      *********************************************************
      *                                                       *
@@ -747,10 +699,6 @@ pela falta de uma cadeia de caracteres explicitamente teclada.
 
 Assim, para a pergunta
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 17
-
      Carrega (fd0, tropix)? (s):
 
 é equivalente teclar "s" seguido de `<enter>`{=html} ou simplesmente
@@ -786,9 +734,7 @@ acentuadas das linguas ocidentais. Se não desejarmos esta composição,
 basta teclar "\" entre os caracteres. Assim, por exemplo, se
 teclarmos"\~`\a`{=tex}\" obteremos "\~a".
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 18
 
      *********************************************************
      *                                                       *
@@ -845,9 +791,7 @@ CDROM ou disquete; após a leitura, teremos a mensagem
      ........ (e outros dados do computador) ............
      ....................................................
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 19
 
      boot>
 
@@ -905,13 +849,7 @@ Durante a carga, o núcleo do TROPIX escreve a mensagem
         Deseja modificar parâmetros? (n):
 
 após a qual normalmente teclamos `<enter>`{=html}. Com isto, aceitamos
-os
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 20
-
-valores "default" dos parâmetros, que em geral são os desejados.
+os valores "default" dos parâmetros, que em geral são os desejados.
 Podemos, no entanto modificar vários parâmetros, sendo o mais comum o
 "rootdev", isto é, o dispositivo raiz do sistema. Este parâmetro contém
 o valor NODEV (isto é, indefinido), e na inicialização do núcleo, este
@@ -968,10 +906,6 @@ usar o comando "hpprint".
 Uma outra possibilidade é a impressão deste guia através do
 MS-DOS/Windows, usando a seqüência de comandos:
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 21
-
      mount /dev/hda1 /mnt
      cp /usr/man/ref/install /mnt
      umount /dev/hda1
@@ -986,9 +920,7 @@ Após estes comandos, imprima o arquivo "install" através do
 MS-DOS/Windows; é melhor utilizar o Windows, em virtude do código de
 caracteres usado (ISO-8859-1 (Latim-1)).
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 22
 
      *********************************************************
      *                                                       *
@@ -1038,9 +970,7 @@ são ocasionados por disquetes defeituosos.
 
 Após a criação, recomendamos proteger o disquete contra escritas.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 23
 
      *********************************************************
      *                                                       *
@@ -1087,9 +1017,7 @@ afetado algum outro sistema operacional.
 NÓS NÃO NOS RESPONSABILIZAMOS POR ESTES POSSÍVEIS ACIDENTES! VOCÊ ESTÁ
 INSTALANDO/UTILIZANDO O TROPIX SOB SUA PRÓPRIA RESPONSABILIDADE E RISCO!
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 24
 
      *********************************************************
      *                                                       *
@@ -1143,9 +1071,6 @@ As etapas da instalação são as seguintes:
 
 5.  Inicie a instalação, teclando o comando "install.dos".
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 25
 
       Repare que com "C:" estamos nos referindo à primeira partição
       regular do primeiro disco;  idem  com  "D:"  para  o  segundo
@@ -1185,9 +1110,7 @@ Para facilitar a instalação futura de uma nova versão do TROPIX,
 recomendamos colocar seus arquivos particulares apenas no seu diretório
 "home" (nome de arquivos começando por "/home/...").
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 26
 
      *********************************************************
      *                                                       *
@@ -1244,10 +1167,6 @@ No exemplo do capítulo seguinte, criamos uma (nova) partição estendida
 solução simples e elegante, pois somente necessitamos de uma partição
 vaga.
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 27
-
 Naturalmente, podemos também criar uma partição regular para cada
 partição TROPIX desejada, ou ainda acrescentar novas partições lógicas
 TROPIX a uma partição estendida DOS já existente.
@@ -1258,9 +1177,7 @@ alocado em qualquer tipo de partição de qualquer disco.
 Se houver espaço disponível em mais de um disco rígido, aconselhamos
 fortemente a distribuir as partições entre os vários discos.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 28
 
      *********************************************************
      *                                                       *
@@ -1310,9 +1227,6 @@ Troca o dispositivo (disco) n: Cria uma partição nova d: Remove uma
 partição m: Altera o tamanho de uma partição a: Troca o estado
 (ativo/não ativo) da partição l: Imprime os tipos das partições
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 29
 
          t: Troca o tipo da partição
          s: Imprime as áreas vagas do disco
@@ -1374,9 +1288,6 @@ IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
      3  hda2a       4209093  4353614   144522    70.57  A9 TROPIX T1
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 30
 
 Em seguida, vamos criar a partição lógica para o HOME. Tecle "n", e siga
 o seguinte diálogo:
@@ -1434,10 +1345,6 @@ O único comando "perigoso" é o "w" (com a respectiva confirmação), pois
 todos os outros comandos apenas modificam a tabela de partições na
 memória principal, sem atualizá-la no disco rígido.
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 31
-
 Portanto, você pode "brincar" à vontade, criando e removendo partições,
 até que esteja satisfeito com a sua configuração, dando então o "w"
 final.
@@ -1449,9 +1356,7 @@ cilindro razoavelmente grande (255 \* 63 = 16065 blocos \~= 7.8 MB), as
 diferenças são significativas. Um modo de evitar isto, é usar o comando
 "u", que impede o arredondamento.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 32
 
      *********************************************************
      *                                                       *
@@ -1509,13 +1414,7 @@ carregue o sistema (conforme o capítulo 8), entrando no modo
 multiusuário.
 
 Retire o disquete de BOOT (se você está instalando através de disquete)
-e insira um disquete (por exemplo MS-DOS/Windows), e
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 33
-
-monte-o através de
+e insira um disquete (por exemplo MS-DOS/Windows), e monte-o através de
 
      mount /dev/fd0 /fd0
 
@@ -1577,10 +1476,6 @@ O comando "dosmp" guarda o superbloco original do sistema de arquivos
 DOS no arquivo "dos\_sb" do diretório corrente (no caso, no disquete
 montado), para o caso de eventuais problemas.
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 34
-
 Em seguida, saímos do "dosmp" (com "q") e do TROPIX (com "reboot").
 
 Entre novamente no sistema MS-DOS/Windows, e assegure-se de que ele
@@ -1614,9 +1509,7 @@ exemplo do capítulo 13 (no caso, 129.81 MB, 265856 blocos).
 Pronto! Já é hora de instalar o TROPIX nas novas partições, conforme o
 capítulo 15.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 35
 
      *********************************************************
      *                                                       *
@@ -1670,13 +1563,9 @@ As etapas da instalação são as seguintes:
     rígido. Siga as instruções.
 
     Se você deseja conservar uma versão antiga do sistema de arquivos
-    HOME, responda afirmativamente a pergunta \"Deseja
+    HOME, responda afirmativamente a pergunta:
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 36
-
-      conservar a versão antiga de HOME?", e durante  a  cópia  dos
+     "Deseja conservar a versão antiga de HOME?", e durante  a  cópia  dos
       arquivos não permita a reescrita dos arquivos ".profile".
 
 Parabéns! O TROPIX já está instalado e operacional em seu disco rígido.
@@ -1711,9 +1600,7 @@ Para facilitar a instalação futura de uma nova versão do TROPIX,
 recomendamos colocar seus arquivos particulares apenas no seu diretório
 "home" (nome de arquivos começando por "/home/...").
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 37
 
      *********************************************************
      *                                                       *
@@ -1746,9 +1633,7 @@ Para verificar se o controlador USB está sendo reconhecido corretamente,
 acompanhe as mensagens durante a carga do sistema (ou então use o
 comando "dmesg" posteriormente).
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 38
 
      *********************************************************
      *                                                       *
@@ -1805,10 +1690,6 @@ Aprenda a usar o "histórico" do "sh". Ele permite reexecutar comandos,
 inclusive com modificações (cada linha do histórico pode ser editada com
 os mesmos comandos do "vi", antes de ser reexecutada).
 
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 39
-
 Esta versão do TROPIX já possui o utilitário "sbwave" para tocar músicas
 PCM através de placas "Sound Blaster" ISA, veja o manual.
 
@@ -1837,9 +1718,7 @@ de filosofia UNIX, como na utilização de mais um sistema operacional. Em
 caso de dúvidas ou relatos de erros, utilize o endereço eletrônico do
 capítulo 1.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 40
 
      *********************************************************
      *                                                       *
@@ -1895,9 +1774,7 @@ deste tipo. A seguir são dadas algumas destas originalidades:
     computador remoto, através de protocolo próprio TCP/IP (veja o
     manual).
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 41
 
      *********************************************************
      *                                                       *
@@ -1922,9 +1799,7 @@ NÓS NÃO NOS RESPONSABILIZAMOS POR ESTES POSSÍVEIS DANOS AO SEU MONITOR.
 VOCÊ ESTÁ INSTALANDO/UTILIZANDO A INTERFACE GRÁFICA DO TROPIX SOB SUA
 PRÓPRIA RESPONSABILIDADE E RISCO!
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 42
 
      *********************************************************
      *                                                       *
@@ -1966,9 +1841,7 @@ comando
 e siga as suas instruções. O sistema necessita de cerca de 10 MB no
 disco.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 43
 
      *********************************************************
      *                                                       *
@@ -2024,14 +1897,8 @@ superusuário.
 4.  Determinação da placa gráfica: Uma vez funcionando no modo de 16
     cores, podemos verificar se existe a possibilidade de utilizar um
     servidor específico para a sua placa gráfica. Isto proporcionará a
-    possibilidade de usar uma gama maior de
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 44
-
-      cores,  e  outras  resoluções  (800x600, 1024x768, 1280x1024,
-      ...).
+    possibilidade de usar uma gama maior de cores,  e  outras  
+    resoluções  (800x600, 1024x768, 1280x1024, ...).
 
       Dependendo da sua placa gráfica, podemos editar o arquivo  de
       configuração  "/usr/xwin/conf/xconfig". Se for uma placa ATI,
@@ -2080,9 +1947,7 @@ Uma vez funcionando, você poderá tentar alterar o número de cores e o
 tamanho do seu "desktop". Em caso de não conseguir, envie-nos os dois
 arquivos do diretório "/var/log/xwin", conforme acima.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 45
 
      *********************************************************
      *                                                       *
@@ -2123,9 +1988,7 @@ um outro selecionador de "desktop" (no canto inferior direito), você
 terá um novo espaço independente para a criação de janelas. Você dispõe
 (na presente configuração), de 6 "desktops".
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 46
 
      *********************************************************
      *                                                       *
@@ -2168,9 +2031,7 @@ descomprimi-la. Isto pode ser feito de diversos modos:
     utilitário "Winzip" e ler cada um dos programas através dos
     utilitários "Notepad", "Wordpad" ou "Word", entre outros.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 47
 
      *********************************************************
      *                                                       *
@@ -2203,9 +2064,7 @@ distribuição do código fonte do TROPIX:
     todos os utilitários. Se for desejado, pode ser compilado cada um
     deles separadamente (indo para o diretório correspondente).
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 48
 
      *********************************************************
      *                                                       *
@@ -2263,9 +2122,7 @@ quando for dado o comando ":w". Se foi feita acidentalmente alguma
 modificação indesejada, podemos sair do "vi" com o comando ":q!",
 conservando o arquivo em sua forma original.
 
-Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 49
 
      *********************************************************
      *                                                       *
@@ -2322,11 +2179,6 @@ obter mais informações sobre um comando "x" (por exemplo), use "man x".
                  TROPIX
      edusr     - gerencia as contas/senhas
      eject     - ejeta o meio removível de um dispositivo
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 50
-
      ex        - editor visual de textos
      exportfs  - lista/atualiza a tabela "exports" do NFS
      fdc       - calculador de mesa com aritmética flutuante
@@ -2391,11 +2243,6 @@ INSTALL (ref) TROPIX: Guia de Instalação Pag. 50
      rm        - Remove arquivos
      rmdir     - remove diretórios
      rmtree    - remove árvores
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 51
-
      sbvol     - controla o volume da placa de som SB-16
      sbwave    - Toca música PCM através da placa de som SB-16
      semafree  - libera o semáforo pelo qual o processo está
@@ -2460,15 +2307,9 @@ INSTALL (ref) TROPIX: Guia de Instalação Pag. 51
      xfm       - gerenciador gráfico de arquivos
      xmandel   - desenha as imagens fractais de Mandelbrot
      xpop3     - acessa uma caixa postal remota através do
-
-Atualizado em 10.12.08 Versão 4.9.0
-
-INSTALL (ref) TROPIX: Guia de Instalação Pag. 52
-
                  protocolo POP3
      xpaint    - mostra uma imagem (gif, jpeg, bmp ou xpm) em uma
                  janela (programa gráfico)
      xterm     - Emulador de terminal ANSI para X-Window
      ziptool   - ferramenta para dispositivos Iomega ZIP
 
-Atualizado em 10.12.08 Versão 4.9.0
