@@ -20,10 +20,10 @@
 
 
 
-                    TROPIX - Guia de INSTALAÃÃO
+                    TROPIX - Guia de INSTALAÇÃO
 
 
-                           VersÃ£o 4.9.0
+                           Versão 4.9.0
 
 
 
@@ -47,200 +47,198 @@
 
                          Dezembro de 2008
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 2
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 2
 
-                             CONTEÃDO
-
-
+                             CONTEÚDO
 
 
 
-        Cap.  1 - IntroduÃ§Ã£o ...........................  4
 
-        Cap.  2 - Novidades das VersÃµes ................  6
 
-        Cap.  3 - CaracterÃ­sticas ...................... 11
+        Cap.  1 - Introdução ...........................  4
 
-        Cap.  4 - ConfiguraÃ§Ã£o do PC ................... 12
+        Cap.  2 - Novidades das Versões ................  6
 
-        Cap.  5 - CriaÃ§Ã£o do CDROM ..................... 13
+        Cap.  3 - Características ...................... 11
 
-        Cap.  6 - CriaÃ§Ã£o do disquete de BOOT .......... 14
+        Cap.  4 - Configuração do PC ................... 12
 
-        Cap.  7 - Algumas  ConvenÃ§Ãµes/caracterÃ­sticas do
+        Cap.  5 - Criação do CDROM ..................... 13
+
+        Cap.  6 - Criação do disquete de BOOT .......... 14
+
+        Cap.  7 - Algumas  Convenções/características do
                   TROPIX ............................... 16
 
         Cap.  8 - Executando  o  TROPIX  diretamente  do
                   CDROM ou disquete .................... 18
 
-        Cap.  9 - PreparaÃ§Ã£o dos disquetes/arquivos
+        Cap.  9 - Preparação dos disquetes/arquivos
                   restantes ............................ 22
 
-        Cap. 10 - Modos de instalaÃ§Ã£o do TROPIX no disco
-                  rÃ­gido ............................... 23
+        Cap. 10 - Modos de instalação do TROPIX no disco
+                  rígido ............................... 23
 
-        Cap. 11 - InstalaÃ§Ã£o  do  TROPIX  em arquivos do
+        Cap. 11 - Instalação  do  TROPIX  em arquivos do
                   MS-DOS/Windows ....................... 24
 
-        Cap. 12 - Discos e partiÃ§Ãµes ................... 26
+        Cap. 12 - Discos e partições ................... 26
 
-        Cap. 13 - O editor de partiÃ§Ãµes "fdisk" ........ 28
+        Cap. 13 - O editor de partições "fdisk" ........ 28
 
-        Cap. 14 - Reduzindo  o  tamanho  de uma partiÃ§Ã£o
+        Cap. 14 - Reduzindo  o  tamanho  de uma partição
                   MS-DOS/Windows ....................... 32
 
-        Cap. 15 - InstalaÃ§Ã£o   do  TROPIX  em  partiÃ§Ãµes
-                  prÃ³prias ............................. 35
+        Cap. 15 - Instalação   do  TROPIX  em  partições
+                  próprias ............................. 35
 
-        Cap. 16 - ConfiguraÃ§Ã£o dos controladores USB.... 37
+        Cap. 16 - Configuração dos controladores USB.... 37
 
         Cap. 17 - E agora? ............................. 38
 
-        Cap. 18 - CaracterÃ­sticas e UtilitÃ¡rios originais
+        Cap. 18 - Características e Utilitários originais
                   do TROPIX ............................ 40
 
-        Cap. 19 - IntroduÃ§Ã£o    Ã     Interface   GrÃ¡fica
+        Cap. 19 - Introdução    à    Interface   Gráfica
                   X-Window ............................. 41
 
-        Cap. 20 - CriaÃ§Ã£o e instalaÃ§Ã£o dos  disquetes/
-                  arquivos da Interface GrÃ¡fica ........ 42
+        Cap. 20 - Criação e instalação dos  disquetes/
+                  arquivos da Interface Gráfica ........ 42
 
-        Cap. 21 - ConfiguraÃ§Ã£o da interface GrÃ¡fica .... 43
+        Cap. 21 - Configuração da interface Gráfica .... 43
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 3
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 3
 
-        Cap. 22 - UtilizaÃ§Ã£o bÃ¡sica da interface GrÃ¡fica 45
+        Cap. 22 - Utilização básica da interface Gráfica 45
 
-        Cap. 23 - ObtenÃ§Ã£o e instalaÃ§Ã£o do  cÃ³digo fonte
+        Cap. 23 - Obtenção e instalação do  código fonte
                   do TROPIX ............................ 46
 
-        Cap. 24 - CompilaÃ§Ã£o  do  nÃºcleo, bibliotecas  e
-                  utilitÃ¡rios do TROPIX ................ 47
+        Cap. 24 - Compilação  do  núcleo, bibliotecas  e
+                  utilitários do TROPIX ................ 47
 
         Cap. 25 - O uso do editor de textos "vi" ....... 48
 
         Cap. 26 - Uma  lista  dos principais comandos do
                   TROPIX ............................... 49
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 4
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 4
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 1                       *
+     *                      Capítulo 1                       *
      *                                                       *
-     *                      INTRODUÃÃO                       *
+     *                      INTRODUÇÃO                       *
      *                                                       *
      *********************************************************
 
-O TROPIX (pronuncia-se "trÃ³pix") Ã© um Sistema Operacional de 32 bits,
-multiusuÃ¡rio e multitarefa, de filosofia UNIX Â®, desenvolvido no
-NÃºcleo de ComputaÃ§Ã£o EletrÃ´nica da Universidade Federal do Rio de
-Janeiro (NCE/UFRJ).
+O TROPIX (pronuncia-se "trópix") é um Sistema Operacional de 32 bits,
+multiusuário e multitarefa, de filosofia UNIX ®, desenvolvido no Núcleo
+de Computação Eletrônica da Universidade Federal do Rio de Janeiro
+(NCE/UFRJ).
 
 O TROPIX foi inicialmente concebido durantes os anos de 1982 a 1986 (na
-Ã©poca com o nome PLURIX) para o computador PEGASUS. Este computador foi
-construÃ­do tambÃ©m no NCE, e era baseado nos processadores MOTOROLA
-68010/20. Desde seu inÃ­cio, o sistema foi concebido com
-multiprocessamento simÃ©trico, funcionando em um PEGASUS que possuÃ­a 2
+época com o nome PLURIX) para o computador PEGASUS. Este computador foi
+construído também no NCE, e era baseado nos processadores MOTOROLA
+68010/20. Desde seu início, o sistema foi concebido com
+multiprocessamento simétrico, funcionando em um PEGASUS que possuía 2
 CPUs 68020.
 
 O sistema foi transportado em 1987 para o computador ICARUS, baseado
 nestes mesmos processadores, e acrescentada parte do suporte para tempo
 real. Em 1994 foi iniciado o transporte para a linha INTEL de
-processadores (386, 486, Pentium), e desde 1996 o TROPIX jÃ¡ estÃ¡
+processadores (386, 486, Pentium), e desde 1996 o TROPIX já está
 operacional em PCs, sendo utilizado em diversos computadores.
 
-Nesta versÃ£o para PCs, ainda nÃ£o estÃ¡ concluÃ­da a deteÃ§Ã£o de
-placas-mÃ£e com mais de uma CPU, o que Ã© necessÃ¡rio para o
-multiprocessamento.
+Nesta versão para PCs, ainda não está concluída a deteção de placas-mãe
+com mais de uma CPU, o que é necessário para o multiprocessamento.
 
-Em relaÃ§Ã£o ao tempo real, foi recentemente concluÃ­da uma tese de
-mestrado na qual foi desenvolvida uma versÃ£o do nÃºcleo do TROPIX para
+Em relação ao tempo real, foi recentemente concluída uma tese de
+mestrado na qual foi desenvolvida uma versão do núcleo do TROPIX para
 tempo real.
 
 O TROPIX tem diversas utilidades, tais como o
-estudo/aprendizado/utilizaÃ§Ã£o de um sistema operacional de filosofia
-UNIX, o desenvolvimento de programas ("software") e a implementaÃ§Ã£o de
-servidores para a INTERNET. AlÃ©m disto, Ã© ideal para a utilizaÃ§Ã£o em
-cursos de sistemas operacionais, pois contÃ©m primitivas para processos
-"leves" ("threads"), memÃ³ria compartilhada, semÃ¡foros a nÃ­vel de
-usuÃ¡rio, dentre outros.
+estudo/aprendizado/utilização de um sistema operacional de filosofia
+UNIX, o desenvolvimento de programas ("software") e a implementação de
+servidores para a INTERNET. Além disto, é ideal para a utilização em
+cursos de sistemas operacionais, pois contém primitivas para processos
+"leves" ("threads"), memória compartilhada, semáforos a nível de
+usuário, dentre outros.
 
-Este texto (que vocÃª estÃ¡ lendo) contÃ©m informaÃ§Ãµes introdutÃ³rias
-sobre a distribuiÃ§Ã£o e instalaÃ§Ã£o do sistema TROPIX. Durante a
-instalaÃ§Ã£o, ele pode ser consultado/impresso no seu PC (veja o final
-do capÃ­tulo 8). AlÃ©m disto, contÃ©m as informaÃ§Ãµes para a
-instalaÃ§Ã£o da Interface GrÃ¡fica X-Window (capÃ­tulos 19 a 22), e as
-informaÃ§Ãµes para a instalaÃ§Ã£o/compilaÃ§Ã£o do cÃ³digo fonte do
-TROPIX (capÃ­tulos 23 e 24).
+Este texto (que você está lendo) contém informações introdutórias sobre
+a distribuição e instalação do sistema TROPIX. Durante a instalação, ele
+pode ser consultado/impresso no seu PC (veja o final do capítulo 8).
+Além disto, contém as informações para a instalação da Interface Gráfica
+X-Window (capítulos 19 a 22), e as informações para a
+instalação/compilação do código fonte do TROPIX (capítulos 23 e 24).
 
-O sistema operacional TROPIX Ã© um "software" livre, e vocÃª Ã©
-bem-vindo para redistribuÃ­-lo sob certas condiÃ§Ãµes; para detalhes,
-tecle "man licenÃ§a" (apÃ³s a sua instalaÃ§Ã£o).
+O sistema operacional TROPIX é um "software" livre, e você é bem-vindo
+para redistribuí-lo sob certas condições; para detalhes, tecle "man
+licença" (após a sua instalação).
 
-Atualmente, o desenvolvimento e manutenÃ§Ã£o do TROPIX estÃ£o sendo
-feitos por Pedro Salenbauch e Oswaldo Vernet. Para maiores
+Atualmente, o desenvolvimento e manutenção do TROPIX estão sendo feitos
+por Pedro Salenbauch e Oswaldo Vernet. Para maiores
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 5
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 5
 
-informaÃ§Ãµes, sugestÃµes, comunicaÃ§Ã£o de erros, ou em caso de
-quaisquer dÃºvidas sobre a sua instalaÃ§Ã£o e utilizaÃ§Ã£o, use o
-endereÃ§o eletrÃ´nico "tropix\@tropix.nce.ufrj.br".
+informações, sugestões, comunicação de erros, ou em caso de quaisquer
+dúvidas sobre a sua instalação e utilização, use o endereço eletrônico
+"tropix\@tropix.nce.ufrj.br".
 
-Visite periodicamente a pÃ¡gina eletrÃ´nica do TROPIX, no endereÃ§o
-"http://www.tropix.nce.ufrj.br" para informar-se sobre novas versÃµes do
+Visite periodicamente a página eletrônica do TROPIX, no endereço
+"http://www.tropix.nce.ufrj.br" para informar-se sobre novas versões do
 sistema.
 
-A continuaÃ§Ã£o deste trabalho Ã© uma homenagem pÃ³stuma a Newton
-Faller, o grande idealizador dos projetos PEGASUS, PLURIX, TROPIX e de
-tantos outros.
+A continuação deste trabalho é uma homenagem póstuma a Newton Faller, o
+grande idealizador dos projetos PEGASUS, PLURIX, TROPIX e de tantos
+outros.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 6
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 6
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 2                       *
+     *                      Capítulo 2                       *
      *                                                       *
-     *                 NOVIDADES DAS VERSÃES                 *
+     *                 NOVIDADES DAS VERSÕES                 *
      *                                                       *
      *********************************************************
 
-Novidades desta versÃ£o "4.9.0":
+Novidades desta versão "4.9.0":
 
     1: Implementado o protocolo USB 2.0.
 
     2: Suporta a discos SATA.
 
-    3: Nova versÃ£o da interface grÃ¡fica (baseada  na  versÃ£o  4.7.0
-       distribuÃ­da pelo ConsÃ³rcio XFree86).
+    3: Nova versão da interface gráfica (baseada  na  versão  4.7.0
+       distribuída pelo Consórcio XFree86).
 
-Para acompanhar a evoluÃ§Ã£o do TROPIX, incluÃ­mos as novidades das
-versÃµes anteriores.
+Para acompanhar a evolução do TROPIX, incluímos as novidades das versões
+anteriores.
 
-Novidades da versÃ£o "4.8.0":
+Novidades da versão "4.8.0":
 
-    1: Sistema de Arquivos NFS (Network  File  System,  VersÃ£o  2),
+    1: Sistema de Arquivos NFS (Network  File  System,  Versão  2),
        para a montagem de sistemas de arquivos remotos.
 
-Novidades da versÃ£o "4.7.0":
+Novidades da versão "4.7.0":
 
-    1: DistribuiÃ§Ã£o do cÃ³digo objeto em CDROM.
+    1: Distribuição do código objeto em CDROM.
 
-    2: Novo utilitÃ¡rio grÃ¡fico "xcpu", que desenha o grÃ¡fico de uso
+    2: Novo utilitário gráfico "xcpu", que desenha o gráfico de uso
        da CPU.
 
-Novidades da versÃ£o "4.6.0":
+Novidades da versão "4.6.0":
 
-    1: Suporte  a  discos  USB (simulados em memÃ³ria, "pen drive"),
-       com anexaÃ§Ã£o/desanexaÃ§Ã£o dinÃ¢mica.
+    1: Suporte  a  discos  USB (simulados em memória, "pen drive"),
+       com anexação/desanexação dinâmica.
 
     2: Montagem (somente para  leituras)  do  sistema  de  arquivos
        NTFS.
@@ -248,96 +246,96 @@ Novidades da versÃ£o "4.6.0":
     3: Montagem  de  imagens  de  sistemas de arquivos (em arquivos
        regulares).
 
-    4: Nova versÃ£o da interface grÃ¡fica (baseada  na  versÃ£o  4.4.0
-       distribuÃ­da pelo ConsÃ³rcio XFree86).
+    4: Nova versão da interface gráfica (baseada  na  versão  4.4.0
+       distribuída pelo Consórcio XFree86).
 
-Novidades da versÃ£o "4.5.0":
+Novidades da versão "4.5.0":
 
     1: Reconhecimento de "mouse" USB.
 
-    2: Novos utilitÃ¡rios grÃ¡ficos: o gerenciador de arquivos "xfm",
+    2: Novos utilitários gráficos: o gerenciador de arquivos "xfm",
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 7
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 7
 
        o  programa  para acessar caixas postais remotas "xpop3" e o
        gerador de imagens fractais de Mandelbrot "xmandel".
 
-    3: ExtensÃ£o do nÃºcleo  para  permitir  o  compartilhamento  das
-       interrupÃ§Ãµes (IRQ) entre dispositivos.
+    3: Extensão do núcleo  para  permitir  o  compartilhamento  das
+       interrupções (IRQ) entre dispositivos.
 
     4: Acesso a sistemas de arquivos FAT-32 de mais de 4 GB.
 
-Novidades da versÃ£o "4.4.0":
+Novidades da versão "4.4.0":
 
     1: Montagem de Sistemas de Arquivos EXT2 do Linux.
 
     2: Suporte ao "mouse" PS/2.
 
-    3: Nova  versÃ£o  (XFree86  Version  4.3.0)  do  Sistema GrÃ¡fico
+    3: Nova  versão  (XFree86  Version  4.3.0)  do  Sistema Gráfico
        X-Window, suportando os modelos  mais  recentes  das  placas
-       grÃ¡ficas ATI, TRIDENT e S3.
+       gráficas ATI, TRIDENT e S3.
 
-    4: Novas  funÃ§Ãµes da biblioteca "stdio" com Ã¡reas de 4 KB, para
-       compatibilizÃ¡-la com o novo sistema de arquivos T1.
+    4: Novas  funções da biblioteca "stdio" com áreas de 4 KB, para
+       compatibilizá-la com o novo sistema de arquivos T1.
 
-    5: FunÃ§Ãµes aritmÃ©ticas de 64 bits para os valores  "long  long"
-       da linguagem "C". Isto Ã© importante para o acesso a arquivos
+    5: Funções aritméticas de 64 bits para os valores  "long  long"
+       da linguagem "C". Isto é importante para o acesso a arquivos
        com mais de 4 GB.
 
-    6: Acesso  ao  histÃ³rico  da  "sh"  atravÃ©s das teclas de setas
-       tambÃ©m em modo texto.
+    6: Acesso  ao  histórico  da  "sh"  através das teclas de setas
+       também em modo texto.
 
     7: Novos  comandos:  O  desfragmentador   "xdefrag"   (programa
-       grÃ¡fico)  permite melhorar a alocaÃ§Ã£o dos blocos de sistemas
+       gráfico)  permite melhorar a alocação dos blocos de sistemas
        de arquivos T1; o  programa  conversor  "a2ps"  converte  um
        texto  ISO para PostScript, para ser impresso em impressoras
        que aceitam esta linguagem.
 
-Novidades da versÃ£o "4.3.0":
+Novidades da versão "4.3.0":
 
     1: O novo sistema  de  arquivos  T1,  com  blocos  de  4  KB  e
-       identificadores de atÃ© 255 caracteres, que tem um desempenho
+       identificadores de até 255 caracteres, que tem um desempenho
        muito  superior  ao  sistema  de  arquivos  anterior (V7) de
-       blocos de 512 bytes. A presente versÃ£o continua suportando o
+       blocos de 512 bytes. A presente versão continua suportando o
        sistema de arquivos V7.
 
-    2: CriaÃ§Ã£o do arquivo "/etc/fstab" para o  melhor  controle  da
+    2: Criação do arquivo "/etc/fstab" para o  melhor  controle  da
        montagem de dispositivos.
 
     3: Nova   interface   para   reconhecimento   de   dispositivos
        IDE/ATA/ATAPI.
 
-    4: Disquete de BOOT da distribuiÃ§Ã£o contendo  a  imagem  de  um
-       sistema  de  arquivos  que  Ã©  descompactada  em  um RAMD (a
-       simulaÃ§Ã£o de um disco na memÃ³ria principal). Isto facilita a
-       instalaÃ§Ã£o do TROPIX.
+    4: Disquete de BOOT da distribuição contendo  a  imagem  de  um
+       sistema  de  arquivos  que  é  descompactada  em  um RAMD (a
+       simulação de um disco na memória principal). Isto facilita a
+       instalação do TROPIX.
 
-Novidades da versÃ£o "4.2.0":
+Novidades da versão "4.2.0":
 
-    1: Aumento do tamanho das Ã¡reas de entrada/saÃ­da do "cache"  de
+    1: Aumento do tamanho das áreas de entrada/saída do "cache"  de
        dispositivos  estruturadas de 512 para 4096 bytes. Com isto,
        possibilitamos a leitura/escrita de dispositivos que possuem
        blocos maiores do que 512 bytes (por exemplo o  CDROM,  cujo
-       bloco  Ã©  de  2  KB)  alÃ©m  de  aumentarmos  a velocidade de
-       processamento dos dispositivos jÃ¡ suportados.
+       bloco  é  de  2  KB)  além  de  aumentarmos  a velocidade de
+       processamento dos dispositivos já suportados.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 8
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 8
 
-    2: CriaÃ§Ã£o da camada abstrata de "nÃ³s-Ã­ndice" para possibilitar
-       a montagem de vÃ¡rios sistemas de arquivos.
+    2: Criação da camada abstrata de "nós-índice" para possibilitar
+       a montagem de vários sistemas de arquivos.
 
     3: Montagem de sistemas de arquivos FAT12/16/32.
 
-    4: Montagem de sistemas de arquivos de CDROM original, alÃ©m das
-       extensÃµes "Rock Ridge" e "Joliet".
+    4: Montagem de sistemas de arquivos de CDROM original, além das
+       extensões "Rock Ridge" e "Joliet".
 
-    5: ImplementaÃ§Ã£o dos elos simbÃ³licos.
+    5: Implementação dos elos simbólicos.
 
-Novidades da versÃ£o "4.1.0":
+Novidades da versão "4.1.0":
 
     1: Novo "driver" para  controladores  SCSI  da  Adaptec:  Agora
        suportando os novos controladores 29160, para 160 MB/s.
@@ -345,69 +343,69 @@ Novidades da versÃ£o "4.1.0":
     2: Adicionados  os "chip"s da VIA e INTEL para o uso de DMA com
        o acesso a discos IDE.
 
-    3: Estendido o sistema de  compilaÃ§Ã£o  da  linguagem  "C"  para
-       aceitar identificadores sem limitaÃ§Ã£o de tamanho.
+    3: Estendido o sistema de  compilação  da  linguagem  "C"  para
+       aceitar identificadores sem limitação de tamanho.
 
-    4: Introduzidas  as  funÃ§Ãµes  da biblioteca "C" para leitura de
-       diretÃ³rios  em  um  formato  independente  do   sistema   de
+    4: Introduzidas  as  funções  da biblioteca "C" para leitura de
+       diretórios  em  um  formato  independente  do   sistema   de
        arquivos: "opendir", "readdir", ...
 
-    5: O  "boot"  do  TROPIX  foi  estendido, e jÃ¡ aceita os discos
+    5: O  "boot"  do  TROPIX  foi  estendido, e já aceita os discos
        Iomega ZIP (100 MB) para carregar o  sistema,  em  todas  as
        suas etapas.
 
-Novidades da versÃ£o "4.0.0":
+Novidades da versão "4.0.0":
 
-    1: Melhorado  o  reconhecimento  e a avaliaÃ§Ã£o da velocidade do
-       processador do computador durante o estÃ¡gio 2  da  carga  do
+    1: Melhorado  o  reconhecimento  e a avaliação da velocidade do
+       processador do computador durante o estágio 2  da  carga  do
        sistema ("boot2").
 
     2: Suporte para discos IDE com mais de 8 GB.
 
     3: Reconhecimento de dispositivos PnP ("Plug and Play").
 
-    4: UtilizaÃ§Ã£o  de  DMA  para  o acesso a discos IDE (no momento
+    4: Utilização  de  DMA  para  o acesso a discos IDE (no momento
        somente para o "chip" "Acer Aladdin").
 
     5: Comando "mail" inteiramente reescrito, agora podendo receber
        e enviar anexos.
 
-Novidades da versÃ£o "3.2.3":
+Novidades da versão "3.2.3":
 
-     Esta versÃ£o "continha como novidade principal  as  bibliotecas
-     compartilhadas  (semelhantes  Ã s  DLLs  do  Windows). Todas as
-     bibliotecas das versÃµes antigas ("libc", "libm", "libcurses" e
-     "libxti")  estÃ£o  agora  reunidas  em  apenas  uma  biblioteca
+     Esta versão "continha como novidade principal  as  bibliotecas
+     compartilhadas  (semelhantes  às  DLLs  do  Windows). Todas as
+     bibliotecas das versões antigas ("libc", "libm", "libcurses" e
+     "libxti")  estão  agora  reunidas  em  apenas  uma  biblioteca
      compartilhada "/lib/libt.o".
 
-     O  mesmo ocorre tambÃ©m com as bibliotecas da interface grÃ¡fica
-     X-Window:  todas  elas  estÃ£o  agora   integradas   nas   duas
+     O  mesmo ocorre também com as bibliotecas da interface gráfica
+     X-Window:  todas  elas  estão  agora   integradas   nas   duas
      bibliotecas     compartilhadas     "/usr/xwin/lib/libx.o"    e
      "/usr/xwin/lib/liby.o".
 
-     Com a utilizaÃ§Ã£o das bibliotecas compartilhadas, o tamanho dos
-     mÃ³dulos   executÃ¡veis   diminuiu   drasticamente.   Com   isto
+     Com a utilização das bibliotecas compartilhadas, o tamanho dos
+     módulos   executáveis   diminuiu   drasticamente.   Com   isto
      reduziu-se  simultaneamente o tempo de carga e a quantidade de
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 9
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 9
 
-     espaÃ§o ocupados (tanto no disco como  na  memÃ³ria  principal).
-     Como  exemplo,  um utilitÃ¡rio tÃ­pico, o "cp" que ocupava 13704
-     bytes, passou a ocupar apenas 4032, isto Ã©, caiu  a  menos  do
-     terÃ§o  do  tamanho.  No  caso  dos  utilitÃ¡rios grÃ¡ficos, esta
-     reduÃ§Ã£o  Ã©  muito  maior;  como  exemplo  citamos  o  programa
+     espaço ocupados (tanto no disco como  na  memória  principal).
+     Como  exemplo,  um utilitário típico, o "cp" que ocupava 13704
+     bytes, passou a ocupar apenas 4032, isto é, caiu  a  menos  do
+     terço  do  tamanho.  No  caso  dos  utilitários gráficos, esta
+     redução  é  muito  maior;  como  exemplo  citamos  o  programa
      "xedit", que passou de 612 KB para menos de 4KB!
 
 
-     Esta  versÃ£o  inclui  tambÃ©m  alguns programas novos, entre os
+     Esta  versão  inclui  também  alguns programas novos, entre os
      quais:
 
-         1: "cdplay": toca CDs de Ã¡udio  em  unidades  IDE/ATAPI  e
+         1: "cdplay": toca CDs de áudio  em  unidades  IDE/ATAPI  e
             SCSI.
 
-         2: "cdtowave":  extrai  faixas de Ã¡udio de CDs em unidades
+         2: "cdtowave":  extrai  faixas de áudio de CDs em unidades
             IDE/ATAPI e SCSI.
 
          3: "sbvol": controla o volume (mestre) das placas SB-16.
@@ -417,514 +415,509 @@ INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 9
 
          5: "nohup": executa comandos imunes ao sinal SIGHUP.
 
-         6: "paste": une linhas de vÃ¡rios arquivos.
+         6: "paste": une linhas de vários arquivos.
 
-         7: "fdc": pequeno calculador de mesa para nÃºmeros de ponto
+         7: "fdc": pequeno calculador de mesa para números de ponto
             flutuante.
 
-         8: "xcoremap":  programa  grÃ¡fico para desenhar um mapa de
-            alocaÃ§Ã£o da memÃ³ria principal do computador.
+         8: "xcoremap":  programa  gráfico para desenhar um mapa de
+            alocação da memória principal do computador.
 
-         9: "xedit": programa grÃ¡fico para editar  textos  (similar
+         9: "xedit": programa gráfico para editar  textos  (similar
             ao "notepad" do Windows).
 
-        10: "xpaint": agora jÃ¡ aceita o formato JPEG.
+        10: "xpaint": agora já aceita o formato JPEG.
 
 
-     Outros modificaÃ§Ãµes/aprimoramentos:
+     Outros modificações/aprimoramentos:
 
          1: "Drivers"  para dispositivos IDE-ATAPI: Estes "drivers"
-            irÃ£o permitir ao TROPIX acessar dispositivos IDE-ATAPI,
+            irão permitir ao TROPIX acessar dispositivos IDE-ATAPI,
             tais como CD-ROMs e acionadores de discos ZIP internos.
             No entanto, os sistemas de arquivos dos  CD-ROMs  ainda
-            nÃ£o estÃ£o sendo reconhecidos.
+            não estão sendo reconhecidos.
 
          2: "Driver" para o controlador "Realtek RTL 8129/8139 Fast
             Ethernet" (10/100 Mbs).
 
-         3: A  partiÃ§Ã£o  de  SWAP  nÃ£o  Ã©  mais  necessÃ¡ria  para a
-            instalaÃ§Ã£o,  tanto  em  partiÃ§Ãµes  prÃ³prias,  como   em
+         3: A  partição  de  SWAP  não  é  mais  necessária  para a
+            instalação,  tanto  em  partições  próprias,  como   em
             arquivos do MS-DOS/Windows.
 
-         4: JÃ¡ Ã© reconhecido o Fax-modem U.S. Robotics 56K PCI.
+         4: Já é reconhecido o Fax-modem U.S. Robotics 56K PCI.
 
-         5: InauguraÃ§Ã£o   da   distribuiÃ§Ã£o  do  cÃ³digo  fonte  das
-            bibliotecas e utilitÃ¡rios do TROPIX.
+         5: Inauguração   da   distribuição  do  código  fonte  das
+            bibliotecas e utilitários do TROPIX.
 
-         6: O servidor WWW do TROPIX  jÃ¡  permite  a  retomada  das
-            transferÃªncias   a   partir   do  ponto  em  que  foram
+         6: O servidor WWW do TROPIX  já  permite  a  retomada  das
+            transferências   a   partir   do  ponto  em  que  foram
             interrompidas.
 
-Novidades da versÃ£o "3.2.1":
+Novidades da versão "3.2.1":
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 10
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 10
 
-     Inclui a primeira distribuiÃ§Ã£o do cÃ³digo fonte  do  nÃºcleo  do
+     Inclui a primeira distribuição do código fonte  do  núcleo  do
      sistema,  recomendando-o  mais ainda para um curso de sistemas
      operacionais.
 
-Novidades da versÃ£o "3.2.0":
+Novidades da versão "3.2.0":
 
      Continha como novidade principal o suporte  (parcial)  para  a
      placa de som "Sound Blaster".
 
-Novidades da versÃ£o "3.1.8":
+Novidades da versão "3.1.8":
 
-     Continha  como  novidades  a  Interface  GrÃ¡fica  X-Window e o
+     Continha  como  novidades  a  Interface  Gráfica  X-Window e o
      suporte para sistemas de arquivos MS-DOS/Windows com FAT32.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 11
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 11
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 3                       *
+     *                      Capítulo 3                       *
      *                                                       *
-     *                    CARACTERÃSTICAS                    *
+     *                    CARACTERÍSTICAS                    *
      *                                                       *
      *********************************************************
 
-A distribuiÃ§Ã£o do TROPIX Ã© gratuita, e ele pode ser instalado
-atravÃ©s de um CDROM ou de disquetes.
+A distribuição do TROPIX é gratuita, e ele pode ser instalado através de
+um CDROM ou de disquetes.
 
-1.  O CDROM Ã© distribuÃ­do atravÃ©s de uma imagem, e contÃ©m o TROPIX
-    objeto completo (incluindo o Sistema GrÃ¡fico X-Window). Esta imagem
-    deverÃ¡ ser usada para gravar um CDROM atravÃ©s de um programa
-    apropriado: veja o capÃ­tulo 5.
+1.  O CDROM é distribuído através de uma imagem, e contém o TROPIX
+    objeto completo (incluindo o Sistema Gráfico X-Window). Esta imagem
+    deverá ser usada para gravar um CDROM através de um programa
+    apropriado: veja o capítulo 5.
 
-2.  A distribuiÃ§Ã£o atravÃ©s de disquetes consiste da parte bÃ¡sica com
-    2 disquetes de 3Â½\" e o Sistema GrÃ¡fico X-Window em 2 disquetes
-    adicionais: veja os capÃ­tulos 19 a 22.
+2.  A distribuição através de disquetes consiste da parte básica com 2
+    disquetes de 3½\" e o Sistema Gráfico X-Window em 2 disquetes
+    adicionais: veja os capítulos 19 a 22.
 
-A instalaÃ§Ã£o em PCs pode ser realizada de dois modos: em partiÃ§Ãµes
-prÃ³prias ou em arquivos de uma partiÃ§Ã£o FAT16 ou FAT32 do
-MS-DOS/Windows (neste caso sem a necessidade de alterar as partiÃ§Ãµes
-dos discos). Ã incluÃ­do um gerenciador de carga de sistemas
-operacionais ("boot0"), para a convivÃªncia amigÃ¡vel com outros
-sistemas operacionais.
+A instalação em PCs pode ser realizada de dois modos: em partições
+próprias ou em arquivos de uma partição FAT16 ou FAT32 do MS-DOS/Windows
+(neste caso sem a necessidade de alterar as partições dos discos). É
+incluído um gerenciador de carga de sistemas operacionais ("boot0"),
+para a convivência amigável com outros sistemas operacionais.
 
-Atualmente o TROPIX possui os comandos bÃ¡sicos do UNIX (alÃ©m de mais
-alguns comandos prÃ³prios), um sistema de desenvolvimento para a
+Atualmente o TROPIX possui os comandos básicos do UNIX (além de mais
+alguns comandos próprios), um sistema de desenvolvimento para a
 linguagem ANSI "C", o suporte para a rede de computadores INTERNET com
 protocolos TCP/IP, SLIP, PPP (para linha discada) e os
 clientes/servidores "telnet", "rlogin", "ftp", "mail", "pop3" e outros.
 
-Todo o TROPIX Ã© baseado no cÃ³digo de caracteres ISO-8859-1 (Latim-1, o
-mesmo do Windows 95/98/NT/2000/XP), tendo toda a acentuaÃ§Ã£o
-disponÃ­vel em todos os modos (texto, grÃ¡fico) e comandos. AlÃ©m disto,
-todos os manuais podem ser consultados na tela ("on-line"), e sÃ£o em
-portuguÃªs.
+Todo o TROPIX é baseado no código de caracteres ISO-8859-1 (Latim-1, o
+mesmo do Windows 95/98/NT/2000/XP), tendo toda a acentuação disponível
+em todos os modos (texto, gráfico) e comandos. Além disto, todos os
+manuais podem ser consultados na tela ("on-line"), e são em português.
 
 Os sistemas de arquivos MS-DOS/Windows FAT-12/16/32/NTFS (tanto em
-disquetes como em partiÃ§Ãµes dos discos rÃ­gidos) podem ser montados
-(este Ãºltimo somente para leituras).
+disquetes como em partições dos discos rígidos) podem ser montados (este
+último somente para leituras).
 
-Para a montagem de sistemas de arquivos remotos temos disponÃ­vel o
-protocolo NFS, versÃ£o 2.
+Para a montagem de sistemas de arquivos remotos temos disponível o
+protocolo NFS, versão 2.
 
-TambÃ©m CD-ROMs podem ser montados em todas as suas variantes (ISO-9660,
+Também CD-ROMs podem ser montados em todas as suas variantes (ISO-9660,
 Rock-Ridge e Joliet).
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 12
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 12
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 4                       *
+     *                      Capítulo 4                       *
      *                                                       *
-     *                   CONFIGURAÃÃO DO PC                  *
+     *                   CONFIGURAÇÃO DO PC                  *
      *                                                       *
      *********************************************************
 
 O PC deve possuir um processador Intel 486/PENTIUM ou equivalente. O
-mÃ­nimo razoÃ¡vel de memÃ³ria principal Ã© 8 MB. Com 4 MB Ã© possÃ­vel
+mínimo razoável de memória principal é 8 MB. Com 4 MB é possível
 utilizar o sistema, mas pode haver dificuldades em simultaneamente usar
-a rede INTERNET e compilar programas. Para a Interface GrÃ¡fica X-Window
-sÃ£o necessÃ¡rios pelo menos 16 MB.
+a rede INTERNET e compilar programas. Para a Interface Gráfica X-Window
+são necessários pelo menos 16 MB.
 
-SÃ£o aceitos os controladores USB, mas apenas dos padrÃµes UHCI e OHCI.
+São aceitos os controladores USB, mas apenas dos padrões UHCI e OHCI.
 
-SÃ£o suportados disquetes de 3Â½\" e 5Â¼\" e discos rÃ­gidos IDE/EIDE.
-TambÃ©m sÃ£o suportados discos rÃ­gidos SCSI conectados atravÃ©s dos
+São suportados disquetes de 3½\" e 5¼\" e discos rígidos IDE/EIDE.
+Também são suportados discos rígidos SCSI conectados através dos
 controladores SCSI Adaptec 1542 (ISA) e 2940/29160 (PCI).
 
-A partir da versÃ£o 4.9.0 sÃ£o suportados dispositivos USB com protocolo
-1.1 e 2.0 com anexaÃ§Ã£o/desanexaÃ§Ã£o dinÃ¢mica.
+A partir da versão 4.9.0 são suportados dispositivos USB com protocolo
+1.1 e 2.0 com anexação/desanexação dinâmica.
 
-Os disquetes Iomega ZIP (100 MB) tambÃ©m sÃ£o suportados nas versÃµes de
+Os disquetes Iomega ZIP (100 MB) também são suportados nas versões de
 porta paralela, IDE/ATAPI e SCSI (desde que conectados a um dos
 controladores SCSI indicados acima).
 
-Para a rede INTERNET, sÃ£o suportados os controladores "ethernet" Novell
+Para a rede INTERNET, são suportados os controladores "ethernet" Novell
 (NE1000, NE2000 ISA/PCI), 3Com 3c503 e Realtek RTL 8129/8139 Fast
-Ethernet (10/100 Mbs), alÃ©m de linhas seriais com protocolos SLIP ou
+Ethernet (10/100 Mbs), além de linhas seriais com protocolos SLIP ou
 PPP.
 
-SÃ£o suportadas tambÃ©m as portas paralelas para o uso de impressoras.
+São suportadas também as portas paralelas para o uso de impressoras.
 
-SÃ£o aceitos os Fax-modems ISA e o Fax-modem U.S. Robotics 56K PCI.
+São aceitos os Fax-modems ISA e o Fax-modem U.S. Robotics 56K PCI.
 
-A partir da versÃ£o 3.2.0 Ã© tambÃ©m suportada a saÃ­da de som digital
-PCM atravÃ©s das placas de som "Sound Blaster 16" (ou sucessoras). Com
-isto, Ã© possÃ­vel tocar arquivos de som \"\*.wav\" no TROPIX.
+A partir da versão 3.2.0 é também suportada a saída de som digital PCM
+através das placas de som "Sound Blaster 16" (ou sucessoras). Com isto,
+é possível tocar arquivos de som \"\*.wav\" no TROPIX.
 
-JÃ¡ sÃ£o suportados "mouse"s USB.
+Já são suportados "mouse"s USB.
 
-Como jÃ¡ foi mencionado, hÃ¡ dois modos de instalaÃ§Ã£o do TROPIX nos
-discos rÃ­gidos do PC (veja o capÃ­tulo 10). Em qualquer um destes modos
-Ã© necessÃ¡rio alocar um certo espaÃ§o dos discos rÃ­gidos (tipicamente
-128 MB).
+Como já foi mencionado, há dois modos de instalação do TROPIX nos discos
+rígidos do PC (veja o capítulo 10). Em qualquer um destes modos é
+necessário alocar um certo espaço dos discos rígidos (tipicamente 128
+MB).
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 13
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 13
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 5                       *
+     *                      Capítulo 5                       *
      *                                                       *
-     *                  CRIAÃÃO DO CDROM                     *
+     *                  CRIAÇÃO DO CDROM                     *
      *                                                       *
      *********************************************************
 
-Tendo obtido a coleÃ§Ã£o "cdrom.tgz" da distribuiÃ§Ã£o do CDROM do
-TROPIX, Ã© necessÃ¡rio gravÃ¡-lo.
+Tendo obtido a coleção "cdrom.tgz" da distribuição do CDROM do TROPIX, é
+necessário gravá-lo.
 
-1.  Se vocÃª utiliza um sistema UNIX, deve descomprimir "cdrom.tgz"
-    atravÃ©s de "gunzip" (gerando uma coleÃ§Ã£o "tar"), e em seguida
-    usar o comando "tar" para obter os arquivos:
+1.  Se você utiliza um sistema UNIX, deve descomprimir "cdrom.tgz"
+    através de "gunzip" (gerando uma coleção "tar"), e em seguida usar o
+    comando "tar" para obter os arquivos:
 
               install.txt
               tropix.iso
 
-    O arquivo "install.txt" Ã© o guia de instalaÃ§Ã£o (que vocÃª estÃ¡
-    lendo) e o arquivo "tropix.iso" Ã© a imagem do CDROM.
+    O arquivo "install.txt" é o guia de instalação (que você está lendo)
+    e o arquivo "tropix.iso" é a imagem do CDROM.
 
-    O CDROM deve ser gravado atravÃ©s de um utilitÃ¡rio adequado (tal
-    como o "cdrecorder").
+    O CDROM deve ser gravado através de um utilitário adequado (tal como
+    o "cdrecorder").
 
-2.  Se vocÃª utiliza WinXP/Win2000/WinNT/Win98/Win95/Win3.x, deve
-    descomprimir a coleÃ§Ã£o "cdrom.tgz" atravÃ©s de "Winzip", obtendo
-    os arquivos:
+2.  Se você utiliza WinXP/Win2000/WinNT/Win98/Win95/Win3.x, deve
+    descomprimir a coleção "cdrom.tgz" através de "Winzip", obtendo os
+    arquivos:
 
               install.txt
               tropix.iso
 
-    O arquivo "install.txt" Ã© o guia de instalaÃ§Ã£o (que vocÃª estÃ¡
-    lendo) e o arquivo "tropix.iso" Ã© a imagem do CDROM.
+    O arquivo "install.txt" é o guia de instalação (que você está lendo)
+    e o arquivo "tropix.iso" é a imagem do CDROM.
 
-    O CDROM deve ser gravado atravÃ©s de um utilitÃ¡rio adequado (tal
-    como o "Easy CD Creator" ou o "Nero").
+    O CDROM deve ser gravado através de um utilitário adequado (tal como
+    o "Easy CD Creator" ou o "Nero").
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 14
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 14
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 6                       *
+     *                      Capítulo 6                       *
      *                                                       *
-     *            CRIAÃÃO DO DISQUETE DE "BOOT"              *
+     *            CRIAÇÃO DO DISQUETE DE "BOOT"              *
      *                                                       *
      *********************************************************
 
-Tendo obtido a coleÃ§Ã£o "tropix.tgz" da distribuiÃ§Ã£o do TROPIX
-bÃ¡sico, Ã© necessÃ¡rio (pelo menos) criar o disquete de 3Â½\" chamado
-de BOOT.
+Tendo obtido a coleção "tropix.tgz" da distribuição do TROPIX básico, é
+necessário (pelo menos) criar o disquete de 3½\" chamado de BOOT.
 
-1.  Se vocÃª utiliza um sistema UNIX, deve descomprimir "tropix.tgz"
-    atravÃ©s de "gunzip" (gerando uma coleÃ§Ã£o "tar"), e em seguida
-    usar o comando "tar" para obter os arquivos:
+1.  Se você utiliza um sistema UNIX, deve descomprimir "tropix.tgz"
+    através de "gunzip" (gerando uma coleção "tar"), e em seguida usar o
+    comando "tar" para obter os arquivos:
 
               install.txt
               fdimage.exe
               boot.dsk
               gar1.dsk
 
-    O arquivo "install.txt" Ã© o guia de instalaÃ§Ã£o (que vocÃª estÃ¡
-    lendo), o arquivo "fdimage.exe" Ã© um utilitÃ¡rio de cÃ³pia para o
-    MS-DOS/Windows (que neste caso nÃ£o serÃ¡ usado), e os arquivos
-    restantes sÃ£o os conteÃºdos dos 2 disquetes chamados de BOOT e
-    GAR1.
+    O arquivo "install.txt" é o guia de instalação (que você está
+    lendo), o arquivo "fdimage.exe" é um utilitário de cópia para o
+    MS-DOS/Windows (que neste caso não será usado), e os arquivos
+    restantes são os conteúdos dos 2 disquetes chamados de BOOT e GAR1.
 
-    O disquete de BOOT pode ser criado atravÃ©s de um comando do tipo:
+    O disquete de BOOT pode ser criado através de um comando do tipo:
 
               cat boot.dsk >/dev/fd0
 
     (o nome exato do dispositivo do disquete depende do sistema sendo
     usado).
 
-    Pode tambÃ©m ser usado o comando "dd" na forma:
+    Pode também ser usado o comando "dd" na forma:
 
               dd if=boot.dsk of=/dev/fd0
 
-2.  Se vocÃª utiliza WinXP/Win2000/WinNT/Win98/Win95/Win3.x, deve
-    descomprimir a coleÃ§Ã£o "tropix.tgz" atravÃ©s de "Winzip", obtendo
-    os arquivos:
+2.  Se você utiliza WinXP/Win2000/WinNT/Win98/Win95/Win3.x, deve
+    descomprimir a coleção "tropix.tgz" através de "Winzip", obtendo os
+    arquivos:
 
               install.txt
               fdimage.exe
               boot.dsk
               gar1.dsk
 
-    O arquivo "install.txt" Ã© o guia de instalaÃ§Ã£o (que vocÃª estÃ¡
-    lendo), o programa "fdimage.exe" Ã© um utilitÃ¡rio de cÃ³pia e os
-    arquivos restantes sÃ£o os conteÃºdos dos 2 disquetes. O disquete de
-    BOOT deve ser criado atravÃ©s de um comando do tipo
+    O arquivo "install.txt" é o guia de instalação (que você está
+    lendo), o programa "fdimage.exe" é um utilitário de cópia e os
+    arquivos restantes são os conteúdos dos 2 disquetes. O disquete de
+    BOOT deve ser criado através de um comando do tipo
 
               fdimage.exe -v boot.dsk A:
 
     No caso de WinXP/Win2000/WinNT, use a janela de comandos;
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 15
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 15
 
-      para Win98/Win95/Win3.x  use  o  modo  DOS;  neste  caso  nÃ£o
-      recomendamos  usar  a janela de comandos DOS, pois Ã s vezes a
-      escrita Ã© realizada incorretamente.
+      para Win98/Win95/Win3.x  use  o  modo  DOS;  neste  caso  não
+      recomendamos  usar  a janela de comandos DOS, pois às vezes a
+      escrita é realizada incorretamente.
 
 Utilize um disquete novo, de boa qualidade. Muitos dos erros relatados
-sÃ£o ocasionados por disquetes defeituosos.
+são ocasionados por disquetes defeituosos.
 
-ApÃ³s a geraÃ§Ã£o do disquete, recomendamos protegÃª-lo contra escritas.
+Após a geração do disquete, recomendamos protegê-lo contra escritas.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 16
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 16
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 7                       *
+     *                      Capítulo 7                       *
      *                                                       *
-     *      ALGUMAS CONVENÃÃES/CARACTERÃSTICAS DO TROPIX     *
+     *      ALGUMAS CONVENÇÕES/CARACTERÍSTICAS DO TROPIX     *
      *                                                       *
      *********************************************************
 
-Conceitualmente, o sistema operacional TROPIX Ã© semelhante aos sistemas
-tipo UNIX, embora existam algumas diferenÃ§as. Para descrever de forma
-nÃ£o ambÃ­gua o procedimento de instalaÃ§Ã£o e uso do TROPIX nos PCs,
-usaremos as convenÃ§Ãµes descritas abaixo. Repare bem nestas
-convenÃ§Ãµes, pois elas serÃ£o usadas no TROPIX como um todo, incluindo
-o sistema depois de instalado.
+Conceitualmente, o sistema operacional TROPIX é semelhante aos sistemas
+tipo UNIX, embora existam algumas diferenças. Para descrever de forma
+não ambígua o procedimento de instalação e uso do TROPIX nos PCs,
+usaremos as convenções descritas abaixo. Repare bem nestas convenções,
+pois elas serão usadas no TROPIX como um todo, incluindo o sistema
+depois de instalado.
 
 Teclar `<enter>`{=html} significa pressionar a tecla que tem este nome;
-teclar `<sp>`{=html} (espaÃ§o em branco) significa teclar a barra de
-espaÃ§o.
+teclar `<sp>`{=html} (espaço em branco) significa teclar a barra de
+espaço.
 
 Teclar \<\^D\> significa comprimir simultaneamente as teclas "ctl" e
 "D". Ao fazer isto, devemos comprimir inicialmente a tecla "ctl"
 (segurando-a comprimida) e em seguida comprimir a tecla "D".
 Analogamente, teclar \<\^A\>, \<\^B\>, ... significa comprimir a teclas
 "ctl" juntamente com "A", "B", ... Em alguns teclados, podemos ter
-"ctrl" ao invÃ©s de "ctl".
+"ctrl" ao invés de "ctl".
 
 Teclar `<ctl-alt-del>`{=html} significa comprimir simultaneamente as
-trÃªs teclas indicadas; teclar `<reset>`{=html} significa comprimir o
-botÃ£o de "reset" do PC que, em geral, fica no gabinete do PC (e nÃ£o no
+três teclas indicadas; teclar `<reset>`{=html} significa comprimir o
+botão de "reset" do PC que, em geral, fica no gabinete do PC (e não no
 teclado).
 
-Teclar "-fd0 tropix" significa teclar em sequÃªncia as teclas "-", "f",
+Teclar "-fd0 tropix" significa teclar em sequência as teclas "-", "f",
 "d", "0", `<sp>`{=html}, "t", "r", "o", "p", "i", "x" e
 `<enter>`{=html}. Quando especificamos uma cadeia de caracteres para ser
 teclada (como a dada acima) assumimos implicitamente que seja teclado um
-`<enter>`{=html} ao final da cadeia (a nÃ£o ser que seja explicitamente
-indicado o contrÃ¡rio).
+`<enter>`{=html} ao final da cadeia (a não ser que seja explicitamente
+indicado o contrário).
 
 Devemos nos lembrar que no TROPIX, assim como em todos os sistemas
-operacionais similares ao UNIX, letras maiÃºsculas sÃ£o caracteres
-DIFERENTES de letras minÃºsculas. No exemplo acima, portanto, nÃ£o
-devemos comprimir a tecla `<shift>`{=html} pois as letras a serem
-geradas sÃ£o todas minÃºsculas.
+operacionais similares ao UNIX, letras maiúsculas são caracteres
+DIFERENTES de letras minúsculas. No exemplo acima, portanto, não devemos
+comprimir a tecla `<shift>`{=html} pois as letras a serem geradas são
+todas minúsculas.
 
-Alguns dos comandos do TROPIX podem pedir uma informaÃ§Ã£o/confirmaÃ§Ã£o
-de aÃ§Ã£o. Este pedido Ã© identificado por um "prompt" que pode ser um
+Alguns dos comandos do TROPIX podem pedir uma informação/confirmação de
+ação. Este pedido é identificado por um "prompt" que pode ser um
 caracter ou uma cadeia de caracteres que o sistema escreve na tela.
 
-No TROPIX, alguns do "prompt"s contÃªm uma cadeia de caracteres entre
-parÃªnteses antes de um ":". Isto significa que teclar aquela cadeia ou
-simplesmente teclar `<enter>`{=html} terÃ¡ o mesmo efeito. Essa cadeia
-de caracteres Ã© chamada de "default", isto Ã©, aquilo que serÃ¡
-interpretado pela falta de uma cadeia de caracteres explicitamente
-teclada.
+No TROPIX, alguns do "prompt"s contêm uma cadeia de caracteres entre
+parênteses antes de um ":". Isto significa que teclar aquela cadeia ou
+simplesmente teclar `<enter>`{=html} terá o mesmo efeito. Essa cadeia de
+caracteres é chamada de "default", isto é, aquilo que será interpretado
+pela falta de uma cadeia de caracteres explicitamente teclada.
 
 Assim, para a pergunta
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 17
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 17
 
      Carrega (fd0, tropix)? (s):
 
-Ã© equivalente teclar "s" seguido de `<enter>`{=html} ou simplesmente
-`<enter>`{=html}, o que significa "sim". Se desejarmos responder "nÃ£o",
+é equivalente teclar "s" seguido de `<enter>`{=html} ou simplesmente
+`<enter>`{=html}, o que significa "sim". Se desejarmos responder "não",
 temos de teclar "n" seguido de `<enter>`{=html}.
 
-Em alguns comandos, uma resposta com letra maiÃºscula ("S" ou "N") faz
-com que esta e todas as perguntas subseqÃ¼entes sejam respondidas
+Em alguns comandos, uma resposta com letra maiúscula ("S" ou "N") faz
+com que esta e todas as perguntas subseqüentes sejam respondidas
 automaticamente (afirmativamente para "S" e negativamente para "N"). O
 manual de cada comando (veja abaixo) informa se ele segue esta
-convenÃ§Ã£o.
+convenção.
 
-No TROPIX, usualmente, o sistema pÃ¡ra de escrever na tela ao completar
-uma tela (24 linhas). Isto Ã© conveniente, pois o usuÃ¡rio tem tempo de
+No TROPIX, usualmente, o sistema pára de escrever na tela ao completar
+uma tela (24 linhas). Isto é conveniente, pois o usuário tem tempo de
 ler o texto sem que um novo texto substitua o texto atual que (talvez)
-ainda nÃ£o tenha sido lido. Para continuar a escrita do texto basta
-teclar \<\^Q\>. AlÃ©m disto, uma saÃ­da na tela pode ser parada a
-qualquer momento, teclando \<\^S\>. Isto pode ser alterado atrÃ¡ves do
-comando "stty" (ver adiante).
+ainda não tenha sido lido. Para continuar a escrita do texto basta
+teclar \<\^Q\>. Além disto, uma saída na tela pode ser parada a qualquer
+momento, teclando \<\^S\>. Isto pode ser alterado atráves do comando
+"stty" (ver adiante).
 
-Ao entrar no modo "multiusuÃ¡rio" (veja abaixo) o TROPIX oferece 8 telas
-virtuais independentes. O chaveamento entre as telas virtuais Ã© feito
-teclando \<\^S\> (para parar a saÃ­da na tela virtual corrente), seguido
-do nÃºmero da tela virtual para a qual desejamos ir (1 a 8), e
-finalmente, \<\^Q\> (para ativarmos a saÃ­da na nova tela virtual).
-Repare que o nÃºmero da tela virtual corrente Ã© mostrada no centro da
-Ãºltima linha.
+Ao entrar no modo "multiusuário" (veja abaixo) o TROPIX oferece 8 telas
+virtuais independentes. O chaveamento entre as telas virtuais é feito
+teclando \<\^S\> (para parar a saída na tela virtual corrente), seguido
+do número da tela virtual para a qual desejamos ir (1 a 8), e
+finalmente, \<\^Q\> (para ativarmos a saída na nova tela virtual).
+Repare que o número da tela virtual corrente é mostrada no centro da
+última linha.
 
-Com algumas combinaÃ§Ãµes de teclas, usadas seqÃ¼encialmente, podemos
-gerar caracteres especiais. Assim, teclando-se "\~a" obtemos "Ã£" e com
-",c" obtemos "Ã§". Com este mÃ©todo, podemos obter quase todas as vogais
-acentuadas das linguas ocidentais. Se nÃ£o desejarmos esta composiÃ§Ã£o,
+Com algumas combinações de teclas, usadas seqüencialmente, podemos gerar
+caracteres especiais. Assim, teclando-se "\~a" obtemos "ã" e com ",c"
+obtemos "ç". Com este método, podemos obter quase todas as vogais
+acentuadas das linguas ocidentais. Se não desejarmos esta composição,
 basta teclar "\" entre os caracteres. Assim, por exemplo, se
 teclarmos"\~`\a`{=tex}\" obteremos "\~a".
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 18
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 18
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 8                       *
+     *                      Capítulo 8                       *
      *                                                       *
      *  EXECUTANDO O TROPIX DIRETAMENTE DO CDROM OU DISQUETE *
      *                                                       *
      *********************************************************
 
-Tanto o CDROM do TROPIX (obtido no capÃ­tulo 5), como o disquete de BOOT
-(obtido no capÃ­tulo 6), contÃ©m a imagem comprimida de um sistema de
-arquivos TROPIX autÃ´nomo. Ambos podem ser executados inserindo-os na
+Tanto o CDROM do TROPIX (obtido no capítulo 5), como o disquete de BOOT
+(obtido no capítulo 6), contém a imagem comprimida de um sistema de
+arquivos TROPIX autônomo. Ambos podem ser executados inserindo-os na
 unidade correspondente e teclando `<ctl-alt-del>`{=html} ou
-`<reset>`{=html} (esta operaÃ§Ã£o, de carga do sistema operacional,
+`<reset>`{=html} (esta operação, de carga do sistema operacional,
 chamamos de "boot").
 
-NÃ£o esqueÃ§a de verificar se a ordem dos vÃ¡rios dispositivos na
-seqÃ¼Ãªncia de "boot" da BIOS do seu computador Ã© a desejada.
+Não esqueça de verificar se a ordem dos vários dispositivos na seqüência
+de "boot" da BIOS do seu computador é a desejada.
 
-Isto Ã© Ãºtil para:
+Isto é útil para:
 
      1. Testar a compatibilidade do TROPIX com o seu computador. Se
-        houver alguma incompatibilidade, comunique-nos (atravÃ©s  do
-        endereÃ§o eletrÃ´nico do capÃ­tulo 1).
+        houver alguma incompatibilidade, comunique-nos (através  do
+        endereço eletrônico do capítulo 1).
 
      2. Executar   o  TROPIX  experimentalmente,  para  conhecer  o
-        sistema sem alterar os discos rÃ­gidos do seu computador.
+        sistema sem alterar os discos rígidos do seu computador.
 
-     3. Ler este guia de instalaÃ§Ã£o  na  tela  do  computador  e/ou
-        imprimi-lo na sua impressora (veja o final deste capÃ­tulo).
+     3. Ler este guia de instalação  na  tela  do  computador  e/ou
+        imprimi-lo na sua impressora (veja o final deste capítulo).
 
-     4. Instalar  o  TROPIX  no  disco rÃ­gido do seu computador. HÃ¡
-        dois modos de instalaÃ§Ã£o: veja o capÃ­tulo 10.
+     4. Instalar  o  TROPIX  no  disco rígido do seu computador. Há
+        dois modos de instalação: veja o capítulo 10.
 
-     5. Consertar  o  TROPIX  residente  no  disco   rÃ­gido,   caso
+     5. Consertar  o  TROPIX  residente  no  disco   rígido,   caso
         apresente problemas.
 
-ApÃ³s o "reset", o "boot1" (o primeiro estÃ¡gio da operaÃ§Ã£o de "boot")
-serÃ¡ lido do CDROM ou disquete. Ã escrita a mensagem:
+Após o "reset", o "boot1" (o primeiro estágio da operação de "boot")
+será lido do CDROM ou disquete. É escrita a mensagem:
 
      TROPIX CD boot1, Versao: 4.9.0, de 17.06.06
 
      >
 
-Teclando `<enter>`{=html}, serÃ¡ lido o "boot2" (o segundo estÃ¡gio) do
-CDROM ou disquete; apÃ³s a leitura, teremos a mensagem
+Teclando `<enter>`{=html}, será lido o "boot2" (o segundo estágio) do
+CDROM ou disquete; após a leitura, teremos a mensagem
 
-     TROPIX boot2, VersÃ£o: 4.9.0, de 17.11.08
+     TROPIX boot2, Versão: 4.9.0, de 17.11.08
 
-     Copyright Â© 1988-2008 NCE/UFRJ
+     Copyright © 1988-2008 NCE/UFRJ
 
      Processador PENTIUM ................................
      ....................................................
      ........ (e outros dados do computador) ............
      ....................................................
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 19
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 19
 
      boot>
 
-Neste ponto, o "boot2" estÃ¡ aguardando um comando. Ele Ã© um programa
-versÃ¡til, que pode (entre outros) carregar e executar um programa,
-editar/imprimir a tabela de partiÃ§Ãµes e listar o conteÃºdo da memÃ³ria
-ou dispositivo. Se teclarmos "?", ele imprime a sua lista de comandos.
+Neste ponto, o "boot2" está aguardando um comando. Ele é um programa
+versátil, que pode (entre outros) carregar e executar um programa,
+editar/imprimir a tabela de partições e listar o conteúdo da memória ou
+dispositivo. Se teclarmos "?", ele imprime a sua lista de comandos.
 
 No nosso caso, devemos teclar "-i", para descomprimir a imagem do
-sistema de arquivos da RAIZ do CDROM ou disquete para uma Ã¡rea no final
-da memÃ³ria principal. Esta Ã¡rea serÃ¡ entÃ£o usado como um RAMD, ou
-seja, a simulaÃ§Ã£o de um disco na memÃ³ria.
+sistema de arquivos da RAIZ do CDROM ou disquete para uma área no final
+da memória principal. Esta área será então usado como um RAMD, ou seja,
+a simulação de um disco na memória.
 
-ApÃ³s a descompressÃ£o, Ã© escrita a mensagem
+Após a descompressão, é escrita a mensagem
 
-     TROPIX INTEL x86 - VersÃ£o 4.9.0 de 28.11.08 ...
+     TROPIX INTEL x86 - Versão 4.9.0 de 28.11.08 ...
 
-     Copyright Â© 1988-2008 NCE/UFRJ
+     Copyright © 1988-2008 NCE/UFRJ
 
-     O sistema operacional TROPIX Ã© distribuÃ­do ABSOLUTAMENTE
-     SEM GARANTIA. Este Ã© um "software" livre, e vocÃª Ã© bem-vindo
-     para redistribuÃ­-lo sob certas condiÃ§Ãµes; para detalhes,
-     tecle "man licenÃ§a".
+     O sistema operacional TROPIX é distribuído ABSOLUTAMENTE
+     SEM GARANTIA. Este é um "software" livre, e você é bem-vindo
+     para redistribuí-lo sob certas condições; para detalhes,
+     tecle "man licença".
 
-     Deseja modificar parÃ¢metros? (n):
+     Deseja modificar parâmetros? (n):
 
 Teclando `<enter>`{=html} mais uma vez, surje a mensagem
 
      TROPIX (meu_computador) mono [5]: 
 
-Uma vez atingido este ponto, o sistema operacional TROPIX jÃ¡ assumiu o
-controle em seu modo "monousuÃ¡rio", havendo apenas uma tela virtual
-ativa (a que vocÃª estÃ¡ usando).
+Uma vez atingido este ponto, o sistema operacional TROPIX já assumiu o
+controle em seu modo "monousuário", havendo apenas uma tela virtual
+ativa (a que você está usando).
 
-Tecle \<\^D\>, para entrar no modo "multiusuÃ¡rio", no qual vÃ¡rias
-telas virtuais estarÃ£o disponÃ­veis. SerÃ£o escritas diversas
-informaÃ§Ãµes na tela, atÃ© aparecer uma linha contendo:
+Tecle \<\^D\>, para entrar no modo "multiusuário", no qual várias telas
+virtuais estarão disponíveis. Serão escritas diversas informações na
+tela, até aparecer uma linha contendo:
 
      LOGIN:
 
-Tecle "root" e serÃ¡ impressa a linha:
+Tecle "root" e será impressa a linha:
 
      Senha:
 
-Tecle entÃ£o "tropix" (que nÃ£o serÃ¡ ecoado na tela) e finalmente serÃ¡
+Tecle então "tropix" (que não será ecoado na tela) e finalmente será
 impressa a linha:
 
      root@meu_computador:[/home/root]# 
 
-Pronto! Uma parte crÃ­tica foi vencida. O TROPIX jÃ¡ estÃ¡ rodando em
-modo multiusuÃ¡rio em seu computador.
+Pronto! Uma parte crítica foi vencida. O TROPIX já está rodando em modo
+multiusuário em seu computador.
 
-Durante a carga, o nÃºcleo do TROPIX escreve a mensagem
+Durante a carga, o núcleo do TROPIX escreve a mensagem
 
-        Deseja modificar parÃ¢metros? (n):
+        Deseja modificar parâmetros? (n):
 
-apÃ³s a qual normalmente teclamos `<enter>`{=html}. Com isto, aceitamos
+após a qual normalmente teclamos `<enter>`{=html}. Com isto, aceitamos
 os
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 20
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 20
 
-valores "default" dos parÃ¢metros, que em geral sÃ£o os desejados.
-Podemos, no entanto modificar vÃ¡rios parÃ¢metros, sendo o mais comum o
-"rootdev", isto Ã©, o dispositivo raiz do sistema. Este parÃ¢metro
-contÃ©m o valor NODEV (isto Ã©, indefinido), e na inicializaÃ§Ã£o do
-nÃºcleo, este procura uma raiz adequada. A ordem de busca Ã©:
+valores "default" dos parâmetros, que em geral são os desejados.
+Podemos, no entanto modificar vários parâmetros, sendo o mais comum o
+"rootdev", isto é, o dispositivo raiz do sistema. Este parâmetro contém
+o valor NODEV (isto é, indefinido), e na inicialização do núcleo, este
+procura uma raiz adequada. A ordem de busca é:
 
-1.  partiÃ§Ãµes TROPIX dos discos rÃ­gidos (por exemplo "hda2a");
+1.  partições TROPIX dos discos rígidos (por exemplo "hda2a");
 
 2.  dispositivos simulando discos a partir de arquivos MS-DOS/Windows
     (por exemplo "md1");
@@ -934,472 +927,465 @@ nÃºcleo, este procura uma raiz adequada. A ordem de busca Ã©:
 4.  disquetes (por exemplo "fd0").
 
 Podemos alterar o valor "default", atribuindo uma
-`<raiz  desejada>`{=html} atravÃ©s de
+`<raiz  desejada>`{=html} através de
 
         rootdev=<raiz desejada>
 
-e em seguida teclando \<\^D\>. Isto Ã© Ãºtil, por exemplo, quando jÃ¡
-temos uma partiÃ§Ã£o ROOT em um disco rÃ­gido ou arquivo MS-DOS/Windows
-e desejamos iniciar uma nova instalaÃ§Ã£o a partir do CDROM ou disquete.
+e em seguida teclando \<\^D\>. Isto é útil, por exemplo, quando já temos
+uma partição ROOT em um disco rígido ou arquivo MS-DOS/Windows e
+desejamos iniciar uma nova instalação a partir do CDROM ou disquete.
 
-Repare que o que foi teclado apÃ³s "LOGIN" Ã© o nome da conta ("root" no
-caso), e o que o que foi teclado apÃ³s "Senha" Ã© a sua respectiva senha
+Repare que o que foi teclado após "LOGIN" é o nome da conta ("root" no
+caso), e o que o que foi teclado após "Senha" é a sua respectiva senha
 ("tropix" no caso). Isto significa que estamos utilizando a conta
-"root", que Ã© a conta do superusuÃ¡rio, com poderes (quase) ilimitados.
-Isto Ã© necessÃ¡rio durante a instalaÃ§Ã£o, mas nÃ£o Ã© recomendÃ¡vel
-para o uso normal.
+"root", que é a conta do superusuário, com poderes (quase) ilimitados.
+Isto é necessário durante a instalação, mas não é recomendável para o
+uso normal.
 
-Para consultar este guia de distribuiÃ§Ã£o/instalaÃ§Ã£o na tela do
-computador, tecle "man install". Para avanÃ§ar/retroceder pelas vÃ¡rias
-pÃ¡ginas do guia, use os comandos \<\^D\>, \<\^U\>. Para ler o
-conteÃºdo, use "2p"; para ir diretamente para a pÃ¡gina `<n>`{=html}
-(obtida atravÃ©s do conteÃºdo), use "`<n>`{=html}p". Para encerrar a
-execuÃ§Ã£o de "man", tecle "q".
+Para consultar este guia de distribuição/instalação na tela do
+computador, tecle "man install". Para avançar/retroceder pelas várias
+páginas do guia, use os comandos \<\^D\>, \<\^U\>. Para ler o conteúdo,
+use "2p"; para ir diretamente para a página `<n>`{=html} (obtida através
+do conteúdo), use "`<n>`{=html}p". Para encerrar a execução de "man",
+tecle "q".
 
 Para imprimir este guia, use o comando
 
      cat /usr/man/ref/install >/dev/lp
 
-(isto sÃ³ Ã© possÃ­vel se o seu PC tiver a impressora na porta/IRQ
-padrÃ£o). Lembre-se de que o guia utiliza o cÃ³digo ISO-8859-1 (Latim-1)
-de caracteres; se a sua impressora nÃ£o aceita este cÃ³digo de
-caracteres, use o comando
+(isto só é possível se o seu PC tiver a impressora na porta/IRQ padrão).
+Lembre-se de que o guia utiliza o código ISO-8859-1 (Latim-1) de
+caracteres; se a sua impressora não aceita este código de caracteres,
+use o comando
 
      stty ascii 2>/dev/lp
 
 antes do "cat", para retirar os acentos dos caracteres.
 
-Se a sua impressora for uma HP, aceitando a linguagem PCL, vocÃª pode
+Se a sua impressora for uma HP, aceitando a linguagem PCL, você pode
 usar o comando "hpprint".
 
-Uma outra possibilidade Ã© a impressÃ£o deste guia atravÃ©s do
-MS-DOS/Windows, usando a seqÃ¼Ãªncia de comandos:
+Uma outra possibilidade é a impressão deste guia através do
+MS-DOS/Windows, usando a seqüência de comandos:
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 21
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 21
 
      mount /dev/hda1 /mnt
      cp /usr/man/ref/install /mnt
      umount /dev/hda1
 
-onde "/dev/hda1" deve ser substituÃ­do por uma partiÃ§Ã£o DOS/Windows
-FAT 16/32 adequada (em geral pode ser usado o prÃ³prio "/dev/hda1", pois
-provavelmente corresponde Ã  unidade "C:"). Para obter os nomes das
-partiÃ§Ãµes correspondentes Ã s partiÃ§Ãµes MS-DOS/Windows, use o
-comando "prdisktb".
+onde "/dev/hda1" deve ser substituído por uma partição DOS/Windows FAT
+16/32 adequada (em geral pode ser usado o próprio "/dev/hda1", pois
+provavelmente corresponde à unidade "C:"). Para obter os nomes das
+partições correspondentes às partições MS-DOS/Windows, use o comando
+"prdisktb".
 
-ApÃ³s estes comandos, imprima o arquivo "install" atravÃ©s do
-MS-DOS/Windows; Ã© melhor utilizar o Windows, em virtude do cÃ³digo de
+Após estes comandos, imprima o arquivo "install" através do
+MS-DOS/Windows; é melhor utilizar o Windows, em virtude do código de
 caracteres usado (ISO-8859-1 (Latim-1)).
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 22
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 22
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 9                       *
+     *                      Capítulo 9                       *
      *                                                       *
-     *     PREPARAÃÃO DOS DISQUETES/ARQUIVOS RESTANTES       *
+     *     PREPARAÇÃO DOS DISQUETES/ARQUIVOS RESTANTES       *
      *                                                       *
      *********************************************************
 
-Este capÃ­tulo contÃ©m informaÃ§Ãµes apenas para a instalaÃ§Ã£o atravÃ©s
-de disquetes. Se vocÃª estÃ¡ instalando atravÃ©s de um CDROM, pode
-pulÃ¡-lo.
+Este capítulo contém informações apenas para a instalação através de
+disquetes. Se você está instalando através de um CDROM, pode pulá-lo.
 
-Repare que a coleÃ§Ã£o "tropix.tgz" contÃ©m a imagem de 2 disquetes,
-BOOT e GAR1. O disquete de BOOT jÃ¡ foi criado no capÃ­tulo 6.
+Repare que a coleção "tropix.tgz" contém a imagem de 2 disquetes, BOOT e
+GAR1. O disquete de BOOT já foi criado no capítulo 6.
 
-Se vocÃª possui uma partiÃ§Ã£o DOS/Windows FAT16/32 ou NTFS em seu
-computador, a criaÃ§Ã£o do disquete GAR1 pode ser dispensada. A idÃ©ia
-consiste em copiar a imagem para um diretÃ³rio "`\TROPIX`{=tex}" da
-partiÃ§Ã£o DOS/Windows.
+Se você possui uma partição DOS/Windows FAT16/32 ou NTFS em seu
+computador, a criação do disquete GAR1 pode ser dispensada. A idéia
+consiste em copiar a imagem para um diretório "`\TROPIX`{=tex}" da
+partição DOS/Windows.
 
-1.  Se vocÃª utiliza um sistema UNIX, deve utilizar comandos do tipo:
+1.  Se você utiliza um sistema UNIX, deve utilizar comandos do tipo:
     mount /dev/hda1 /mnt mkdir /mnt/TROPIX cp gar1.dsk /mnt/TROPIX
     umount /dev/hda1
 
-    onde "/dev/hda1" pode ser substituÃ­do por uma outra partiÃ§Ã£o
+    onde "/dev/hda1" pode ser substituído por uma outra partição
     DOS/Windows desejada.
 
-    Se a sua partiÃ§Ã£o Ã© NTFS, informe-se se o seu sistema UNIX
-    suporta a escrita nestes sistemas de arquivos; muitos sistemas UNIX
-    (inclusive o LINUX) suportam em geral apenas a leitura).
+    Se a sua partição é NTFS, informe-se se o seu sistema UNIX suporta a
+    escrita nestes sistemas de arquivos; muitos sistemas UNIX (inclusive
+    o LINUX) suportam em geral apenas a leitura).
 
-2.  Se vocÃª utiliza WinXP/Win2000/WinNT/Win98/Win95/Win3.x, deve
-    utilizar o "Windows Explorer" para criar o diretÃ³rio
+2.  Se você utiliza WinXP/Win2000/WinNT/Win98/Win95/Win3.x, deve
+    utilizar o "Windows Explorer" para criar o diretório
     "C:`\TROPIX`{=tex}" e em seguida copiar o arquivo "gar1.dsk" para o
-    diretÃ³rio criado. Ao invÃ©s de "C:", pode ser usada uma outra
-    partiÃ§Ã£o desejada.
+    diretório criado. Ao invés de "C:", pode ser usada uma outra
+    partição desejada.
 
-Se vocÃª NÃO possui uma partiÃ§Ã£o DOS/Windows FAT16/32 ou NTFS em seu
-computador, ou estÃ¡ querendo instalar o TROPIX em outro computador, o
-disquete GAR1 terÃ¡ de ser criado.
+Se você NÃO possui uma partição DOS/Windows FAT16/32 ou NTFS em seu
+computador, ou está querendo instalar o TROPIX em outro computador, o
+disquete GAR1 terá de ser criado.
 
-Isto deverÃ¡ ser feito do modo jÃ¡ visto no capÃ­tulo 6, naturalmente
+Isto deverá ser feito do modo já visto no capítulo 6, naturalmente
 susbtituindo-se "boot.dsk" por "gar1.dsk".
 
 Utilize disquetes novos, de boa qualidade. Muitos dos erros relatados
-sÃ£o ocasionados por disquetes defeituosos.
+são ocasionados por disquetes defeituosos.
 
-ApÃ³s a criaÃ§Ã£o, recomendamos proteger o disquete contra escritas.
+Após a criação, recomendamos proteger o disquete contra escritas.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 23
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 23
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 10                      *
+     *                      Capítulo 10                      *
      *                                                       *
-     *     MODOS DE INSTALAÃÃO DO TROPIX NO DISCO RÃGIDO     *
+     *     MODOS DE INSTALAÇÃO DO TROPIX NO DISCO RÍGIDO     *
      *                                                       *
      *********************************************************
 
-HÃ¡ dois modos de instalar o TROPIX no disco rÃ­gido:
+Há dois modos de instalar o TROPIX no disco rígido:
 
-1.  Em particÃµes prÃ³prias do TROPIX. Este modo oferece o melhor
-    desempenho, mas a instalaÃ§Ã£o exige um certo cuidado. Opcionalmente
+1.  Em particões próprias do TROPIX. Este modo oferece o melhor
+    desempenho, mas a instalação exige um certo cuidado. Opcionalmente
     pode ser instalado um gerenciador de "boot", para permitir a escolha
-    do sistema operacional a carregar. Siga a seqÃ¼Ãªncia de capÃ­tulos
-    12, 13, 14, 15, 16 e 17.
+    do sistema operacional a carregar. Siga a seqüência de capítulos 12,
+    13, 14, 15, 16 e 17.
 
-2.  Em arquivos do MS-DOS/Windows. Este modo nÃ£o oferece um desempenho
-    tÃ£o bom e o "boot" do TROPIX terÃ¡ de ser sempre atravÃ©s de CDROM
-    ou disquete, mas a instalaÃ§Ã£o Ã© mais simples. Veja os capÃ­tulos
-    11, 16 e 17.
+2.  Em arquivos do MS-DOS/Windows. Este modo não oferece um desempenho
+    tão bom e o "boot" do TROPIX terá de ser sempre através de CDROM ou
+    disquete, mas a instalação é mais simples. Veja os capítulos 11, 16
+    e 17.
 
-Sugerimos que vocÃª leia este guia atÃ© o final, antes de iniciar a
-instalaÃ§Ã£o; assim vocÃª terÃ¡ uma visÃ£o geral melhor e poderÃ¡
-avaliar adequadamente as diversas opÃ§Ãµes.
+Sugerimos que você leia este guia até o final, antes de iniciar a
+instalação; assim você terá uma visão geral melhor e poderá avaliar
+adequadamente as diversas opções.
 
-Os procedimentos para a instalaÃ§Ã£o do TROPIX aqui descritos foram
-feitos para que a instalaÃ§Ã£o se processe sem contratempos. No entanto,
-Ã© possÃ­vel que (por descuido do usuÃ¡rio) haja a perda de arquivos
+Os procedimentos para a instalação do TROPIX aqui descritos foram feitos
+para que a instalação se processe sem contratempos. No entanto, é
+possível que (por descuido do usuário) haja a perda de arquivos
 existentes no computador e/ou o sistema operacional original (por
-exemplo MS-DOS/Windows) nÃ£o possa mais ser executado. Isto pode ocorrer
-principalmente em virtude do uso incorreto do editor de partiÃ§Ãµes
-"fdisk" (capÃ­tulo 13).
+exemplo MS-DOS/Windows) não possa mais ser executado. Isto pode ocorrer
+principalmente em virtude do uso incorreto do editor de partições
+"fdisk" (capítulo 13).
 
-Mesmo durante o uso normal do sistema (apÃ³s uma instalaÃ§Ã£o correta),
-Ã© possÃ­vel remover acidentalmente arquivos do MS-DOS/Windows durante o
-uso com partiÃ§Ãµes FAT montadas, ou usando o utilitÃ¡rio "dosmp".
+Mesmo durante o uso normal do sistema (após uma instalação correta), é
+possível remover acidentalmente arquivos do MS-DOS/Windows durante o uso
+com partições FAT montadas, ou usando o utilitário "dosmp".
 
 Embora tenhamos testado o funcionamento do sistema, acreditando que ele
-nÃ£o contenha nenhum erro grave, sempre existe teoricamente a
-possibilidade de que, atravÃ©s de algum erro ainda desconhecido, seja
+não contenha nenhum erro grave, sempre existe teoricamente a
+possibilidade de que, através de algum erro ainda desconhecido, seja
 afetado algum outro sistema operacional.
 
-NÃS NÃO NOS RESPONSABILIZAMOS POR ESTES POSSÃVEIS ACIDENTES! VOCÃ
-ESTÃ INSTALANDO/UTILIZANDO O TROPIX SOB SUA PRÃPRIA RESPONSABILIDADE E
-RISCO!
+NÓS NÃO NOS RESPONSABILIZAMOS POR ESTES POSSÍVEIS ACIDENTES! VOCÊ ESTÁ
+INSTALANDO/UTILIZANDO O TROPIX SOB SUA PRÓPRIA RESPONSABILIDADE E RISCO!
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 24
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 24
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 11                      *
+     *                      Capítulo 11                      *
      *                                                       *
-     *  INSTALAÃÃO DO TROPIX EM ARQUIVOS DO MS-DOS/Windows   *
+     *  INSTALAÇÃO DO TROPIX EM ARQUIVOS DO MS-DOS/Windows   *
      *                                                       *
      *********************************************************
 
-Este modo nÃ£o oferece um desempenho tÃ£o bom quanto a instalaÃ§Ã£o do
-TROPIX em partiÃ§Ãµes prÃ³prias; em compensaÃ§Ã£o, a instalaÃ§Ã£o Ã©
-mais simples, pois nÃ£o Ã© necessÃ¡rio reorganizar as partiÃ§Ãµes do
-disco. Este mÃ©todo sÃ³ Ã© possÃ­vel com sistemas de arquivos FAT-16 ou
-FAT-32; ainda NÃO Ã© possÃ­vel com NTFS.
+Este modo não oferece um desempenho tão bom quanto a instalação do
+TROPIX em partições próprias; em compensação, a instalação é mais
+simples, pois não é necessário reorganizar as partições do disco. Este
+método só é possível com sistemas de arquivos FAT-16 ou FAT-32; ainda
+NÃO é possível com NTFS.
 
-A idÃ©ia consiste em utilizar uma partiÃ§Ã£o jÃ¡ existente do
-MS-DOS/Windows e nela criar o diretÃ³rio "`\TROPIX`{=tex}" contendo 2
-arquivos: "ROOT" e "HOME". Estes arquivos irÃ£o conter os sistemas de
-arquivos TROPIX e a carga do sistema serÃ¡ feita atravÃ©s de CDROM ou
-disquete.
+A idéia consiste em utilizar uma partição já existente do MS-DOS/Windows
+e nela criar o diretório "`\TROPIX`{=tex}" contendo 2 arquivos: "ROOT" e
+"HOME". Estes arquivos irão conter os sistemas de arquivos TROPIX e a
+carga do sistema será feita através de CDROM ou disquete.
 
-As etapas da instalaÃ§Ã£o sÃ£o as seguintes:
+As etapas da instalação são as seguintes:
 
-1.  Inicialmente Ã© interessante verificar a integridade da partiÃ§Ã£o
-    MS-DOS/Windows escolhida. Para isto use os utilitÃ¡rios CHKDSK ou
+1.  Inicialmente é interessante verificar a integridade da partição
+    MS-DOS/Windows escolhida. Para isto use os utilitários CHKDSK ou
     SCANDISK (do MS-DOS ou do Windows).
 
-    Uma outra opÃ§Ã£o Ã© usar o NDD (Norton Disk Doctor) dos "NORTON
-    Utilities". Repare o tamanho do espaÃ§o livre disponÃ­vel da
-    partiÃ§Ã£o escolhida: para uma instalaÃ§Ã£o normal sÃ£o necessÃ¡rios
-    128 MB.
+    Uma outra opção é usar o NDD (Norton Disk Doctor) dos "NORTON
+    Utilities". Repare o tamanho do espaço livre disponível da partição
+    escolhida: para uma instalação normal são necessários 128 MB.
 
-2.  Como segundo passo, recomendamos desfragmentar a partiÃ§Ã£o
-    escolhida. Isto significa compactar todos os arquivos MS-DOS/Windows
-    no inÃ­cio da partiÃ§Ã£o, de tal modo que fique apenas uma Ã¡rea
-    livre ao seu final, onde serÃ£o criados os 2 arquivos do diretÃ³rio
-    "`\TROPIX`{=tex}". Isto pode ser feito pelo utilitÃ¡rio DEFRAG (do
+2.  Como segundo passo, recomendamos desfragmentar a partição escolhida.
+    Isto significa compactar todos os arquivos MS-DOS/Windows no início
+    da partição, de tal modo que fique apenas uma área livre ao seu
+    final, onde serão criados os 2 arquivos do diretório
+    "`\TROPIX`{=tex}". Isto pode ser feito pelo utilitário DEFRAG (do
     MS-DOS ou do Windows), ou o SPEED DISK dos "NORTON Utilities".
 
 3.  Insira o CDROM ou disquete de BOOT do TROPIX e carregue o sistema
-    (conforme o capÃ­tulo 8). Entre no modo multiusuÃ¡rio.
+    (conforme o capítulo 8). Entre no modo multiusuário.
 
-4.  VÃ¡ para o diretÃ³rio "/usr/etc/install" (use o comando "cd
-    /usr/etc/install"). A instalaÃ§Ã£o normal irÃ¡ ocupar 128 MB da sua
-    partiÃ§Ã£o MS-DOS/Windows (64 MB para o ROOT, 64 MB para HOME), o
-    que jÃ¡ Ã© suficiente para a interface grÃ¡fica X-Window. Se vocÃª
-    tem este espaÃ§o disponÃ­vel e estÃ¡ satisfeito com ele, vÃ¡ para a
-    etapa 5.
+4.  Vá para o diretório "/usr/etc/install" (use o comando "cd
+    /usr/etc/install"). A instalação normal irá ocupar 128 MB da sua
+    partição MS-DOS/Windows (64 MB para o ROOT, 64 MB para HOME), o que
+    já é suficiente para a interface gráfica X-Window. Se você tem este
+    espaço disponível e está satisfeito com ele, vá para a etapa 5.
 
-    Para mudar o tamanho da instalaÃ§Ã£o, basta editar o arquivo
-    "install.dos" (veja o capÃ­tulo 25, para uma introduÃ§Ã£o ao uso do
+    Para mudar o tamanho da instalação, basta editar o arquivo
+    "install.dos" (veja o capítulo 25, para uma introdução ao uso do
     editor de texto "vi"). Para alterar o tamanho de um arquivo, basta
-    mudar o nÃºmero apÃ³s a respectiva linha que comeÃ§a por "mkfile".
+    mudar o número após a respectiva linha que começa por "mkfile".
 
-5.  Inicie a instalaÃ§Ã£o, teclando o comando "install.dos".
+5.  Inicie a instalação, teclando o comando "install.dos".
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 25
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 25
 
-      Repare que com "C:" estamos nos referindo Ã  primeira partiÃ§Ã£o
+      Repare que com "C:" estamos nos referindo à primeira partição
       regular do primeiro disco;  idem  com  "D:"  para  o  segundo
       disco.
 
-      Esta  etapa  cria  os  2  arquivos na partiÃ§Ã£o MS-DOS/Windows
+      Esta  etapa  cria  os  2  arquivos na partição MS-DOS/Windows
       escolhida, gera  sistemas  de  arquivos  TROPIX  e  copia  os
-      arquivos  do TROPIX para o disco rÃ­gido. Durante a instalaÃ§Ã£o
-      (se  vocÃª  estÃ¡  instalando  a  partir  de  disquetes),  serÃ¡
-      necessÃ¡rio um disquete adicional (cujo conteÃºdo serÃ¡ perdido)
-      para ser usado para a carga do TROPIX. Siga as instruÃ§Ãµes.
+      arquivos  do TROPIX para o disco rígido. Durante a instalação
+      (se  você  está  instalando  a  partir  de  disquetes),  será
+      necessário um disquete adicional (cujo conteúdo será perdido)
+      para ser usado para a carga do TROPIX. Siga as instruções.
 
-      Se  vocÃª  deseja  conservar  uma  versÃ£o antiga do sistema de
-      arquivos HOME,  NÃO  apague  o  arquivo  MS-DOS/Windows  HOME
-      (desconsidere  a  mensagem  "O  arquivo  "home" jÃ¡ existe") e
-      responda  afirmativamente  Ã   pergunta  "Deseja  conservar  a
-      versÃ£o antiga de HOME?".
+      Se  você  deseja  conservar  uma  versão antiga do sistema de
+      arquivos HOME,  NÃO  apague  o  arquivo  MS-DOS/Windows  HOME
+      (desconsidere  a  mensagem  "O  arquivo  "home" já existe") e
+      responda  afirmativamente  à  pergunta  "Deseja  conservar  a
+      versão antiga de HOME?".
 
-6.  ParabÃ©ns! O TROPIX jÃ¡ estÃ¡ instalado e operacional em seu disco
-    rÃ­gido.
+6.  Parabéns! O TROPIX já está instalado e operacional em seu disco
+    rígido.
 
     Sempre que quiser executar o TROPIX, basta recarregar o sistema
     (teclando `<ctl-alt-del>`{=html} ou `<reset>`{=html}) com o CDROM ou
-    o disquete DOS inserido. No caso do CDROM, Ã© necessÃ¡rio modificar
-    a raiz do sistema para "md1" durante a carga do nÃºcleo (isto Ã©,
-    tecle "rootdev=md1").
+    o disquete DOS inserido. No caso do CDROM, é necessário modificar a
+    raiz do sistema para "md1" durante a carga do núcleo (isto é, tecle
+    "rootdev=md1").
 
-    Se o CDROM e o disquete nÃ£o estiverem inseridos, serÃ¡ carregado o
+    Se o CDROM e o disquete não estiverem inseridos, será carregado o
     sistema operacional normal (por exemplo MS-DOS/Windows). Para sair
     do TROPIX, use o comando "shutdown".
 
-7.  Para desinstalar o TROPIX da sua partiÃ§Ã£o MS-DOS/Windows, basta
-    remover o diretÃ³rio "`\TROPIX`{=tex}" (juntamente com os seus 2
+7.  Para desinstalar o TROPIX da sua partição MS-DOS/Windows, basta
+    remover o diretório "`\TROPIX`{=tex}" (juntamente com os seus 2
     arquivos).
 
-Para facilitar a instalaÃ§Ã£o futura de uma nova versÃ£o do TROPIX,
-recomendamos colocar seus arquivos particulares apenas no seu diretÃ³rio
-"home" (nome de arquivos comeÃ§ando por "/home/...").
+Para facilitar a instalação futura de uma nova versão do TROPIX,
+recomendamos colocar seus arquivos particulares apenas no seu diretório
+"home" (nome de arquivos começando por "/home/...").
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 26
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 26
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 12                      *
+     *                      Capítulo 12                      *
      *                                                       *
-     *                  DISCOS E PARTIÃÃES                   *
+     *                  DISCOS E PARTIÇÕES                   *
      *                                                       *
      *********************************************************
 
-Para instalar o TROPIX em partiÃ§Ãµes prÃ³prias (que possibilita o
-melhor desempenho), Ã© necessÃ¡rio possuir uma noÃ§Ã£o bÃ¡sica de como
-sÃ£o organizados os discos rÃ­gidos no PC.
+Para instalar o TROPIX em partições próprias (que possibilita o melhor
+desempenho), é necessário possuir uma noção básica de como são
+organizados os discos rígidos no PC.
 
-Cada disco Ã© dividido em uma ou mais seÃ§Ãµes denominadas
-"partiÃ§Ãµes". Cada uma destas partiÃ§Ãµes Ã© criada para ser usada por
-um sistema operacional (em certos casos algumas das partiÃ§Ãµes podem
-ser compartilhadas por dois ou mais sistemas operacionais).
+Cada disco é dividido em uma ou mais seções denominadas "partições".
+Cada uma destas partições é criada para ser usada por um sistema
+operacional (em certos casos algumas das partições podem ser
+compartilhadas por dois ou mais sistemas operacionais).
 
-Podemos ter atÃ© 4 partiÃ§Ãµes "regulares" (ou "primÃ¡rias") em cada
-disco. Se este nÃºmero nÃ£o for suficiente, podemos definir uma das
-partiÃ§Ãµes como sendo do tipo "estendida", que pode conter vÃ¡rias
-outras (sub-)partiÃ§Ãµes chamadas de partiÃ§Ãµes "lÃ³gicas".
+Podemos ter até 4 partições "regulares" (ou "primárias") em cada disco.
+Se este número não for suficiente, podemos definir uma das partições
+como sendo do tipo "estendida", que pode conter várias outras
+(sub-)partições chamadas de partições "lógicas".
 
-Os usuÃ¡rios dos MS-DOS/Windows certamente jÃ¡ tiveram contato com
-partiÃ§Ãµes, pois nestes sistemas cada partiÃ§Ã£o recebe uma letra,
-comeÃ§ando de "C". Assim, temos as partiÃ§Ãµes "C:", "D:", "E:", ...
+Os usuários dos MS-DOS/Windows certamente já tiveram contato com
+partições, pois nestes sistemas cada partição recebe uma letra,
+começando de "C". Assim, temos as partições "C:", "D:", "E:", ...
 
-A nomenclatura usada no TROPIX Ã© bem distinta das letras indicadas
+A nomenclatura usada no TROPIX é bem distinta das letras indicadas
 acima. Vamos considerar um computador com apenas um disco IDE. As quatro
-partiÃ§Ãµes sÃ£o denominadas de "hda1", "hda2", "hda3" e "hda4". Se uma
-delas for "estendida", por exemplo "hda3", ela conterÃ¡ as
-(sub-)partiÃ§Ãµes "lÃ³gicas" "hda3a", "hda3b", ... AlÃ©m disto, temos
-"hda" para representar o disco como um todo.
+partições são denominadas de "hda1", "hda2", "hda3" e "hda4". Se uma
+delas for "estendida", por exemplo "hda3", ela conterá as
+(sub-)partições "lógicas" "hda3a", "hda3b", ... Além disto, temos "hda"
+para representar o disco como um todo.
 
-Se o computador tiver mais de um disco IDE, o segundo serÃ¡ o "hdb..."
-ao invÃ©s de "hda..." (bastando trocar o "a" por "b" no exemplo acima).
-Se o computador tiver discos SCSI, os nomes serÃ£o "sda...", "sdb...",
-... (bastando trocar o "h" por "s" no exemplo acima).
+Se o computador tiver mais de um disco IDE, o segundo será o "hdb..." ao
+invés de "hda..." (bastando trocar o "a" por "b" no exemplo acima). Se o
+computador tiver discos SCSI, os nomes serão "sda...", "sdb...", ...
+(bastando trocar o "h" por "s" no exemplo acima).
 
-Como jÃ¡ foi dito, podemos ter apenas uma partiÃ§Ã£o estendida. Por este
-motivo, no TROPIX foi criado um novo tipo de partiÃ§Ã£o estendida (a
-partiÃ§Ã£o estendida de tipo TROPIX), estruturalmente idÃªntica Ã 
-original, mas com um outro cÃ³digo de identificaÃ§Ã£o. O objetivo Ã©
-possibilitar o agrupamento de todas as (sub-)partiÃ§Ãµes TROPIX
-desejadas em apenas uma partiÃ§Ã£o (estendida) isolada, mesmo que jÃ¡
-exista uma partiÃ§Ã£o estendida tradicional (que chamaremos de tipo
-DOS).
+Como já foi dito, podemos ter apenas uma partição estendida. Por este
+motivo, no TROPIX foi criado um novo tipo de partição estendida (a
+partição estendida de tipo TROPIX), estruturalmente idêntica à original,
+mas com um outro código de identificação. O objetivo é possibilitar o
+agrupamento de todas as (sub-)partições TROPIX desejadas em apenas uma
+partição (estendida) isolada, mesmo que já exista uma partição estendida
+tradicional (que chamaremos de tipo DOS).
 
-Ao escolher a distribuiÃ§Ã£o das vÃ¡rias partiÃ§Ãµes pelos seus (um ou
-mais) discos rÃ­gidos, deve ser levado em conta quantos discos estÃ£o
-presentes, quantas partiÃ§Ãµes sÃ£o necessÃ¡rias/jÃ¡ estÃ£o alocadas,
-...
+Ao escolher a distribuição das várias partições pelos seus (um ou mais)
+discos rígidos, deve ser levado em conta quantos discos estão presentes,
+quantas partições são necessárias/já estão alocadas, ...
 
-No exemplo do capÃ­tulo seguinte, criamos uma (nova) partiÃ§Ã£o
-estendida (de tipo TROPIX) para conter todas as partiÃ§Ãµes TROPIX. Isto
-Ã© uma soluÃ§Ã£o simples e elegante, pois somente necessitamos de uma
-partiÃ§Ã£o vaga.
+No exemplo do capítulo seguinte, criamos uma (nova) partição estendida
+(de tipo TROPIX) para conter todas as partições TROPIX. Isto é uma
+solução simples e elegante, pois somente necessitamos de uma partição
+vaga.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 27
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 27
 
-Naturalmente, podemos tambÃ©m criar uma partiÃ§Ã£o regular para cada
-partiÃ§Ã£o TROPIX desejada, ou ainda acrescentar novas partiÃ§Ãµes
-lÃ³gicas TROPIX a uma partiÃ§Ã£o estendida DOS jÃ¡ existente.
+Naturalmente, podemos também criar uma partição regular para cada
+partição TROPIX desejada, ou ainda acrescentar novas partições lógicas
+TROPIX a uma partição estendida DOS já existente.
 
 Para efeito de "boot", o sistema de arquivos ROOT do TROPIX pode ser
-alocado em qualquer tipo de partiÃ§Ã£o de qualquer disco.
+alocado em qualquer tipo de partição de qualquer disco.
 
-Se houver espaÃ§o disponÃ­vel em mais de um disco rÃ­gido, aconselhamos
-fortemente a distribuir as partiÃ§Ãµes entre os vÃ¡rios discos.
+Se houver espaço disponível em mais de um disco rígido, aconselhamos
+fortemente a distribuir as partições entre os vários discos.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 28
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 28
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 13                      *
+     *                      Capítulo 13                      *
      *                                                       *
-     *             O EDITOR DE PARTIÃÃES "fdisk"             *
+     *             O EDITOR DE PARTIÇÕES "fdisk"             *
      *                                                       *
      *********************************************************
 
-Assim como os outros sistemas operacionais, o TROPIX tambÃ©m possui o
-seu editor de partiÃ§Ãµes, que (como Ã© usual) tambÃ©m Ã© chamado de
-"fdisk". No entanto, no TROPIX o "fdisk" estÃ¡ incorporado ao "boot2", e
-sÃ³ pode ser executado durante a carga do sistema (e nÃ£o com o sistema
-jÃ¡ executando). A idÃ©ia Ã© ressaltar a impossibilidade de alterar as
-partiÃ§Ãµes com o sistema em funcionamento.
+Assim como os outros sistemas operacionais, o TROPIX também possui o seu
+editor de partições, que (como é usual) também é chamado de "fdisk". No
+entanto, no TROPIX o "fdisk" está incorporado ao "boot2", e só pode ser
+executado durante a carga do sistema (e não com o sistema já
+executando). A idéia é ressaltar a impossibilidade de alterar as
+partições com o sistema em funcionamento.
 
 Para executar o "fdisk", insira o CDROM ou o disquete de BOOT do TROPIX,
-e recarregue o sistema (conforme o capÃ­tulo 8). Quando surgir o
-"prompt" "boot\>" do "boot2", tecle "-f":
+e recarregue o sistema (conforme o capítulo 8). Quando surgir o "prompt"
+"boot\>" do "boot2", tecle "-f":
 
 boot\> -f
 
-Entrando no editor de tabelas de partiÃ§Ãµes "fdisk"
+Entrando no editor de tabelas de partições "fdisk"
 
 Tecle "?" para uma lista de comandos
 
 Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÃCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
 
-A geometria do disco ("geo") Ã© dada atravÃ©s do nÃºmero de cilindros
-(784), nÃºmero de cabeÃ§as (255) e o nÃºmero de setores por trilha (63).
-A letra "L" ao final indica que para este disco, as extensÃµes da INT 13
-da BIOS estÃ£o ativas (em caso contrÃ¡rio, a letra indicada seria "G").
+A geometria do disco ("geo") é dada através do número de cilindros
+(784), número de cabeças (255) e o número de setores por trilha (63). A
+letra "L" ao final indica que para este disco, as extensões da INT 13 da
+BIOS estão ativas (em caso contrário, a letra indicada seria "G").
 
 Uma vez com o "prompt" do "fdisk", teclando "?" obtemos uma lista dos
 comandos disponiveis:
 
 fdisk\> ?
 
-Editor de tabelas de partiÃ§Ãµes
+Editor de tabelas de partições
 
-comandos: -: Imprime a tabela de partiÃ§Ãµes p: Idem, com Ã¡reas vagas
-c: Troca o dispositivo (disco) n: Cria uma partiÃ§Ã£o nova d: Remove uma
-partiÃ§Ã£o m: Altera o tamanho de uma partiÃ§Ã£o a: Troca o estado
-(ativo/nÃ£o ativo) da partiÃ§Ã£o l: Imprime os tipos das partiÃ§Ãµes
+comandos: -: Imprime a tabela de partições p: Idem, com áreas vagas c:
+Troca o dispositivo (disco) n: Cria uma partição nova d: Remove uma
+partição m: Altera o tamanho de uma partição a: Troca o estado
+(ativo/não ativo) da partição l: Imprime os tipos das partições
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 29
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 29
 
-         t: Troca o tipo da partiÃ§Ã£o
-         s: Imprime as Ã¡reas vagas do disco
-         u: Liga/desliga o alinhamento (comeÃ§a ligado)
-         w: Reescreve (atualiza) a tabela de partiÃ§Ãµes no disco
-         q: Termina a execuÃ§Ã£o do editor de partiÃ§Ãµes
+         t: Troca o tipo da partição
+         s: Imprime as áreas vagas do disco
+         u: Liga/desliga o alinhamento (começa ligado)
+         w: Reescreve (atualiza) a tabela de partições no disco
+         q: Termina a execução do editor de partições
 
 Obs.: Para qualquer dado pedido, "n" cancela o comando
 
-Inicialmente vamos criar uma partiÃ§Ã£o estendida para conter os 2
+Inicialmente vamos criar uma partição estendida para conter os 2
 sistemas de arquivos (tradicionais) do TROPIX. Tecle "n", e siga o
-seguinte diÃ¡logo (repare na opÃ§Ã£o do tipo da partiÃ§Ã£o estendida):
+seguinte diálogo (repare na opção do tipo da partição estendida):
 
 fdisk\> n
 
-DÃª o tipo desejado: regular (r), estendida (e) ou lÃ³gica (l): e
+Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): e
 
-NÃºmero da partiÃ§Ã£o = 2? (s):
+Número da partição = 2? (s):
 
-DÃª o tipo de partiÃ§Ã£o estendida: DOS (d) ou TROPIX (x): x
+Dê o tipo de partição estendida: DOS (d) ou TROPIX (x): x
 
 Bloco inicial = 4209030? (s):
 
 Bloco final = 12402179 (4000.56 MB)? (s): n
 
-DÃª o tamanho desejado (MB): 128
+Dê o tamanho desejado (MB): 128
 
 Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÃCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
 
-Neste ponto podemos (opcionalmente) usar o comando "u" para nÃ£o alinhar
-as partiÃ§Ãµes seguintes (veja abaixo). O exemplo continua supondo que
-NÃO demos o comando "u".
+Neste ponto podemos (opcionalmente) usar o comando "u" para não alinhar
+as partições seguintes (veja abaixo). O exemplo continua supondo que NÃO
+demos o comando "u".
 
-Em seguida, vamos criar a partiÃ§Ã£o lÃ³gica para o ROOT. Tecle "n", e
-siga o seguinte diÃ¡logo:
+Em seguida, vamos criar a partição lógica para o ROOT. Tecle "n", e siga
+o seguinte diálogo:
 
 fdisk\> n
 
-DÃª o tipo desejado: regular (r), estendida (e) ou lÃ³gica (l): l
+Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): l
 
-PartiÃ§Ã£o estendida "hda2":
+Partição estendida "hda2":
 
 Bloco inicial = 4209093? (s):
 
 Bloco final = 4482134 (133.32 MB)? (s): n
 
-DÃª o tamanho desejado (MB): 64
+Dê o tamanho desejado (MB): 64
 
 Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÃCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
      3  hda2a       4209093  4353614   144522    70.57  A9 TROPIX T1
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 30
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 30
 
-Em seguida, vamos criar a partiÃ§Ã£o lÃ³gica para o HOME. Tecle "n", e
-siga o seguinte diÃ¡logo:
+Em seguida, vamos criar a partição lógica para o HOME. Tecle "n", e siga
+o seguinte diálogo:
 
 fdisk\> n
 
-DÃª o tipo desejado: regular (r), estendida (e) ou lÃ³gica (l): l
+Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): l
 
-PartiÃ§Ã£o estendida "hda2":
+Partição estendida "hda2":
 
 Bloco inicial = 4353678? (s):
 
@@ -1407,129 +1393,129 @@ Bloco final = 4482134 (62.72 MB)? (s):
 
 Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÃCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
      3  hda2a       4209093  4353614   144522    70.57  A9 TROPIX T1
      4  hda2b       4353678  4482134   128457    62.72  A9 TROPIX T1
 
-Finalmente, vamos ativar a partiÃ§Ã£o ROOT, para possibilitar a carga do
-sistema ("boot") atravÃ©s do gerenciador de carga (o "boot0"). Tecle
-"a", e siga o seguinte diÃ¡logo:
+Finalmente, vamos ativar a partição ROOT, para possibilitar a carga do
+sistema ("boot") através do gerenciador de carga (o "boot0"). Tecle "a",
+e siga o seguinte diálogo:
 
 fdisk\> a
 
-Ãndice da partiÃ§Ã£o: 3
+Índice da partição: 3
 
 Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÃCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
      3  hda2a  *    4209093  4353614   144522    70.57  A9 TROPIX T1
      4  hda2b       4353678  4482134   128457    62.72  A9 TROPIX T1
 
-Uma vez conferida a tabela de partiÃ§Ãµes, podemos escrevÃª-la no disco
-rÃ­gido atravÃ©s dos seguintes comandos:
+Uma vez conferida a tabela de partições, podemos escrevê-la no disco
+rígido através dos seguintes comandos:
 
 fdisk\> w
 
-Reescreve a tabela de partiÃ§Ãµes? (n): s
+Reescreve a tabela de partições? (n): s
 
 fdisk\> q
 
-Saindo do editor de tabelas de partiÃ§Ãµes
+Saindo do editor de tabelas de partições
 
 boot\>
 
-O Ãºnico comando "perigoso" Ã© o "w" (com a respectiva confirmaÃ§Ã£o),
-pois todos os outros comandos apenas modificam a tabela de partiÃ§Ãµes
-na memÃ³ria principal, sem atualizÃ¡-la no disco rÃ­gido.
+O único comando "perigoso" é o "w" (com a respectiva confirmação), pois
+todos os outros comandos apenas modificam a tabela de partições na
+memória principal, sem atualizá-la no disco rígido.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 31
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 31
 
-Portanto, vocÃª pode "brincar" Ã  vontade, criando e removendo
-partiÃ§Ãµes, atÃ© que esteja satisfeito com a sua configuraÃ§Ã£o, dando
-entÃ£o o "w" final.
+Portanto, você pode "brincar" à vontade, criando e removendo partições,
+até que esteja satisfeito com a sua configuração, dando então o "w"
+final.
 
-Repare que os tamanhos dados (128 MB, 64 MB e 64 MB) nÃ£o foram
+Repare que os tamanhos dados (128 MB, 64 MB e 64 MB) não foram
 obedecidos exatamente; na realidade eles foram arredondados para
-mÃºltiplos do tamanho do cilindro do disco. Como este disco tem um
+múltiplos do tamanho do cilindro do disco. Como este disco tem um
 cilindro razoavelmente grande (255 \* 63 = 16065 blocos \~= 7.8 MB), as
-diferenÃ§as sÃ£o significativas. Um modo de evitar isto, Ã© usar o
-comando "u", que impede o arredondamento.
+diferenças são significativas. Um modo de evitar isto, é usar o comando
+"u", que impede o arredondamento.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 32
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 32
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 14                      *
+     *                      Capítulo 14                      *
      *                                                       *
-     *  REDUZINDO O TAMANHO DE UMA PARTIÃÃO MS-DOS/Windows   *
+     *  REDUZINDO O TAMANHO DE UMA PARTIÇÃO MS-DOS/Windows   *
      *                                                       *
      *********************************************************
 
-Um dos casos mais freqÃ¼entes Ã© o de PCs que possuem apenas um disco
-rÃ­gido totalmente ocupado com apenas uma partiÃ§Ã£o MS-DOS/Windows,
+Um dos casos mais freqüentes é o de PCs que possuem apenas um disco
+rígido totalmente ocupado com apenas uma partição MS-DOS/Windows,
 correspondente a "C:".
 
-Neste caso, Ã  primeira vista, existem apenas 2 possibilidades para
-obter espaÃ§o para partiÃ§Ãµes TROPIX: instalar um novo disco rÃ­gido,
-ou entÃ£o salvar os seus arquivos MS-DOS/Windows e reinstalar o
-MS-DOS/Windows em uma partiÃ§Ã£o de tamanho menor.
+Neste caso, à primeira vista, existem apenas 2 possibilidades para obter
+espaço para partições TROPIX: instalar um novo disco rígido, ou então
+salvar os seus arquivos MS-DOS/Windows e reinstalar o MS-DOS/Windows em
+uma partição de tamanho menor.
 
-Uma terceira possibilidade consiste na reduÃ§Ã£o da partiÃ§Ã£o
-MS-DOS/Windows em sua prÃ³pria localizaÃ§Ã£o (isto Ã©, sem destruir o
-seu conteÃºdo). Isto pode ser realizado pelo comando "chsize" do
-utilitÃ¡rio "dosmp". TambÃ©m Ã© possÃ­vel usar o programa "fips" do
-LINUX, ou ainda o programa PARTITION MAGIC, da firma PowerQuest, se
-vocÃª por acaso o possui.
+Uma terceira possibilidade consiste na redução da partição
+MS-DOS/Windows em sua própria localização (isto é, sem destruir o seu
+conteúdo). Isto pode ser realizado pelo comando "chsize" do utilitário
+"dosmp". Também é possível usar o programa "fips" do LINUX, ou ainda o
+programa PARTITION MAGIC, da firma PowerQuest, se você por acaso o
+possui.
 
-Antes do uso do comando "chsize", para a reduÃ§Ã£o do tamanho da
-partiÃ§Ã£o MS-DOS/Windows, Ã© essencial verificar a sua integridade e
-desfragmentÃ¡-la. A verificaÃ§Ã£o da integridade pode ser feita pelos
-utilitÃ¡rios CHKDSK ou SCANDISK (do MS-DOS/Windows) ou ainda NDD (Norton
-Disk Doctor) dos "NORTON Utilities". A defragmentaÃ§Ã£o pode ser feita
-pelo utilitÃ¡rio DEFRAG (do MS-DOS/Windows), ou o SPEED DISK dos "NORTON
+Antes do uso do comando "chsize", para a redução do tamanho da partição
+MS-DOS/Windows, é essencial verificar a sua integridade e
+desfragmentá-la. A verificação da integridade pode ser feita pelos
+utilitários CHKDSK ou SCANDISK (do MS-DOS/Windows) ou ainda NDD (Norton
+Disk Doctor) dos "NORTON Utilities". A defragmentação pode ser feita
+pelo utilitário DEFRAG (do MS-DOS/Windows), ou o SPEED DISK dos "NORTON
 Utilities".
 
-Lembre-se de que os programas de desfragmentaÃ§Ã£o possivelmente NÃO
-movem o arquivo de "swap" do MS-DOS/Windows. VocÃª deve removÃª-lo
-(usando o "Control Panel") e posteriormente reinstalÃ¡-lo.
+Lembre-se de que os programas de desfragmentação possivelmente NÃO movem
+o arquivo de "swap" do MS-DOS/Windows. Você deve removê-lo (usando o
+"Control Panel") e posteriormente reinstalá-lo.
 
-Se vocÃª usa IMAGE ou MIRROR, o Ãºltimo setor da partiÃ§Ã£o contÃ©m um
+Se você usa IMAGE ou MIRROR, o último setor da partição contém um
 arquivo "oculto" de nome "`\image`{=tex}.idx" ou
-"`\mirorsav`{=tex}.fil". VocÃª deve remover este arquivo (usando
-"attrib" e "del"). Ele serÃ¡ recriado na prÃ³xima vez que vocÃª executar
-IMAGE ou MIRROR (assim esperamos, nÃ£o testamos).
+"`\mirorsav`{=tex}.fil". Você deve remover este arquivo (usando "attrib"
+e "del"). Ele será recriado na próxima vez que você executar IMAGE ou
+MIRROR (assim esperamos, não testamos).
 
-Outra fonte de problemas sÃ£o arquivos de nome "*`\desktop`{=tex}.*", os
-quais o Windows nÃ£o move: eles devem ser salvos e posteriormente
+Outra fonte de problemas são arquivos de nome "*`\desktop`{=tex}.*", os
+quais o Windows não move: eles devem ser salvos e posteriormente
 restaurados.
 
-Se vocÃª usa um sistema de arquivos comprimido com "Stacker",
-"SuperStor", "Doublespace", ..., possivelmente (?) "chsize" nÃ£o irÃ¡
-funcionar. NÃ£o testamos "chsize" nestes casos (nem sabemos se PARTITION
+Se você usa um sistema de arquivos comprimido com "Stacker",
+"SuperStor", "Doublespace", ..., possivelmente (?) "chsize" não irá
+funcionar. Não testamos "chsize" nestes casos (nem sabemos se PARTITION
 MAGIC os suporta).
 
-ApÃ³s a desfragmentaÃ§Ã£o, insira o CDROM ou o disquete de BOOT do
-TROPIX e carregue o sistema (conforme o capÃ­tulo 8), entrando no modo
-multiusuÃ¡rio.
+Após a desfragmentação, insira o CDROM ou o disquete de BOOT do TROPIX e
+carregue o sistema (conforme o capítulo 8), entrando no modo
+multiusuário.
 
-Retire o disquete de BOOT (se vocÃª estÃ¡ instalando atravÃ©s de
-disquete) e insira um disquete (por exemplo MS-DOS/Windows), e
+Retire o disquete de BOOT (se você está instalando através de disquete)
+e insira um disquete (por exemplo MS-DOS/Windows), e
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 33
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 33
 
-monte-o atravÃ©s de
+monte-o através de
 
      mount /dev/fd0 /fd0
 
@@ -1541,9 +1527,9 @@ Em seguida, tecle
      cd /fd0
      dosmp /dev/hda1
 
-onde "/dev/hda1" deve ser substituÃ­do pela partiÃ§Ã£o correspondente ao
-sistema de arquivos MS-DOS/Windows em questÃ£o (em geral serÃ¡ o
-prÃ³prio "/dev/hda1", que corresponde Ã  unidade "C:").
+onde "/dev/hda1" deve ser substituído pela partição correspondente ao
+sistema de arquivos MS-DOS/Windows em questão (em geral será o próprio
+"/dev/hda1", que corresponde à unidade "C:").
 
 Teclando
 
@@ -1551,16 +1537,16 @@ Teclando
 
 obtemos (por exemplo):
 
-     Tamanho atual da partiÃ§Ã£o DOS            = 511.84 MB
+     Tamanho atual da partição DOS            = 511.84 MB
      Tamanho atual do sistema de arquivos DOS = 511.84 MB
-     EspaÃ§o livre disponÃ­vel ao final         = 427.26 MB
+     Espaço livre disponível ao final         = 427.26 MB
 
-Verifique se o espaÃ§o livre disponÃ­vel Ã© suficiente para a nova
-partiÃ§Ã£o desejada. No nosso exemplo, temos espaÃ§o suficiente para o
-caso tÃ­pico de 128 MB (427.26 \> 128). Lembre-se naturalmente de deixar
-algum espaÃ§o para futuros (novos) arquivos DOS.
+Verifique se o espaço livre disponível é suficiente para a nova partição
+desejada. No nosso exemplo, temos espaço suficiente para o caso típico
+de 128 MB (427.26 \> 128). Lembre-se naturalmente de deixar algum espaço
+para futuros (novos) arquivos DOS.
 
-Para liberarmos 128 MB (que serÃ£o usados para a nova partiÃ§Ã£o a ser
+Para liberarmos 128 MB (que serão usados para a nova partição a ser
 criada para o TROPIX), devemos teclar
 
      rw
@@ -1568,39 +1554,39 @@ criada para o TROPIX), devemos teclar
 
 e obteremos (por exemplo):
 
-     Tamanho atual da partiÃ§Ã£o DOS            = 511.84 MB
+     Tamanho atual da partição DOS            = 511.84 MB
      Tamanho atual do sistema de arquivos DOS = 511.84 MB
-     EspaÃ§o livre disponÃ­vel ao final         = 427.26 MB
+     Espaço livre disponível ao final         = 427.26 MB
 
-     Tamanho novo da partiÃ§Ã£o DOS             = 382.03 MB
+     Tamanho novo da partição DOS             = 382.03 MB
                                                 (782401 blocos)
      Tamanho novo do sistema de arquivos DOS  = 382.03 MB
-     Tamanho da nova partiÃ§Ã£o (a ser criada)  = 129.81 MB
+     Tamanho da nova partição (a ser criada)  = 129.81 MB
                                                 (265856 blocos)
 
      Continua? (n):
 
-Repare que os valores nÃ£o sÃ£o exatamentos os pedidos, em virtude de
+Repare que os valores não são exatamentos os pedidos, em virtude de
 arredondamentos para cilindros inteiros.
 
 Se concordarmos com os valores dados, devemos teclar "s" e anotar os
-valores dados: tamanho novo da partiÃ§Ã£o DOS = 382.03 MB, 782401 blocos
-e tamanho da nova partiÃ§Ã£o (a ser criada) = 129.81 MB, 265856 blocos.
+valores dados: tamanho novo da partição DOS = 382.03 MB, 782401 blocos e
+tamanho da nova partição (a ser criada) = 129.81 MB, 265856 blocos.
 
 O comando "dosmp" guarda o superbloco original do sistema de arquivos
-DOS no arquivo "dos\_sb" do diretÃ³rio corrente (no caso, no disquete
+DOS no arquivo "dos\_sb" do diretório corrente (no caso, no disquete
 montado), para o caso de eventuais problemas.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 34
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 34
 
-Em seguida, saÃ­mos do "dosmp" (com "q") e do TROPIX (com "reboot").
+Em seguida, saímos do "dosmp" (com "q") e do TROPIX (com "reboot").
 
 Entre novamente no sistema MS-DOS/Windows, e assegure-se de que ele
 continua funcionando corretamente. Verifique a integridade do sistema de
 arquivos (normalmente "C:") e se todos os seus arquivos continuam
-acessÃ­veis.
+acessíveis.
 
 Se surgir ALGUM PROBLEMA com o sistema MS-DOS/Windows, restaure o
 sistema de arquivos original, recarregando o TROPIX e executando os
@@ -1611,464 +1597,456 @@ comandos
      dd if=dos_sb of=/dev/hda1
 
 com o disquete no qual foi armazenado o superbloco original do sistema
-DOS. Neste caso, comunique-nos (atravÃ©s do endereÃ§o eletrÃ´nico do
-capÃ­tulo 1) a falha do "chsize".
+DOS. Neste caso, comunique-nos (através do endereço eletrônico do
+capítulo 1) a falha do "chsize".
 
-Uma vez constatado que o sistema MS-DOS/Windows estÃ¡ funcionando
-corretamente, utilize o utilitÃ¡rio "fdisk" do TROPIX (conforme o
-capÃ­tulo 13), para alterar a tabela de partiÃ§Ãµes.
+Uma vez constatado que o sistema MS-DOS/Windows está funcionando
+corretamente, utilize o utilitário "fdisk" do TROPIX (conforme o
+capítulo 13), para alterar a tabela de partições.
 
-Inicialmente, altere o tamanho da partiÃ§Ã£o DOS (utilizando o comando
+Inicialmente, altere o tamanho da partição DOS (utilizando o comando
 "m"). O novo tamanho (valor em blocos) deve corresponder exatamente ao
 tamanho anotado acima (no caso, 382.03 MB, 782401 blocos).
 
-Finalmente, crie a partiÃ§Ã£o TROPIX no espaÃ§o liberado, conforme o
-exemplo do capÃ­tulo 13 (no caso, 129.81 MB, 265856 blocos).
+Finalmente, crie a partição TROPIX no espaço liberado, conforme o
+exemplo do capítulo 13 (no caso, 129.81 MB, 265856 blocos).
 
-Pronto! JÃ¡ Ã© hora de instalar o TROPIX nas novas partiÃ§Ãµes, conforme
-o capÃ­tulo 15.
+Pronto! Já é hora de instalar o TROPIX nas novas partições, conforme o
+capítulo 15.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 35
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 35
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 15                      *
+     *                      Capítulo 15                      *
      *                                                       *
-     *     INSTALAÃÃO DO TROPIX EM PARTIÃÃES PRÃPRIAS        *
+     *     INSTALAÇÃO DO TROPIX EM PARTIÇÕES PRÓPRIAS        *
      *                                                       *
      *********************************************************
 
-Este Ã© o melhor modo, pois oferece o melhor desempenho e possibilita a
-instalaÃ§Ã£o do "boot0", um gerenciador de "boot". Este gerenciador
+Este é o melhor modo, pois oferece o melhor desempenho e possibilita a
+instalação do "boot0", um gerenciador de "boot". Este gerenciador
 permite a escolha do sistema operacional a carregar (de modo que TROPIX
-possa ser carregado sem a utilizaÃ§Ã£o de CDROM ou disquete). Ele jÃ¡
-foi testado com LINUX, FreeBSD e
-DOS/WinXP/Win2000/WinNT/Win98/Win95/Win3.x.
+possa ser carregado sem a utilização de CDROM ou disquete). Ele já foi
+testado com LINUX, FreeBSD e DOS/WinXP/Win2000/WinNT/Win98/Win95/Win3.x.
 
-Se vocÃª estÃ¡ lendo este capÃ­tulo, supomos que jÃ¡ possua espaÃ§o em
-disco para partiÃ§Ãµes TROPIX e jÃ¡ saiba como utilizar o editor de
-partiÃ§Ãµes "fdisk".
+Se você está lendo este capítulo, supomos que já possua espaço em disco
+para partições TROPIX e já saiba como utilizar o editor de partições
+"fdisk".
 
-A idÃ©ia consiste em criar duas ou mais partiÃ§Ãµes para o TROPIX. O
-mÃ­nimo Ã© a criaÃ§Ã£o de uma partiÃ§Ã£o ROOT. Recomendamos, no entanto,
-criar pelo menos mais uma, HOME, para conter os arquivos particulares
-dos usuÃ¡rios.
+A idéia consiste em criar duas ou mais partições para o TROPIX. O mínimo
+é a criação de uma partição ROOT. Recomendamos, no entanto, criar pelo
+menos mais uma, HOME, para conter os arquivos particulares dos usuários.
 
-Se vocÃª tiver 128 MB disponÃ­veis, sugerimos 64 MB para ROOT e 64 MB
-para HOME; estes tamanhos serÃ£o suficientes inclusive para a interface
-grÃ¡fica X-Window. Caso tenha mais espaÃ§o disponÃ­vel, pode aumentar os
-tamanhos das partiÃ§Ãµes, ou atÃ© criar partiÃ§Ãµes adicionais.
+Se você tiver 128 MB disponíveis, sugerimos 64 MB para ROOT e 64 MB para
+HOME; estes tamanhos serão suficientes inclusive para a interface
+gráfica X-Window. Caso tenha mais espaço disponível, pode aumentar os
+tamanhos das partições, ou até criar partições adicionais.
 
-As etapas da instalaÃ§Ã£o sÃ£o as seguintes:
+As etapas da instalação são as seguintes:
 
-1.  Crie as partiÃ§Ãµes para o TROPIX atravÃ©s do editor de partiÃ§Ãµes
-    "fdisk" (veja o capÃ­tulo 13). NÃO esqueÃ§a de "ativar" a
-    partiÃ§Ã£o ROOT. NÃO Ã© necessÃ¡rio que a partiÃ§Ã£o ROOT (na qual
-    serÃ¡ dado o "boot") fique no primeiro disco.
+1.  Crie as partições para o TROPIX através do editor de partições
+    "fdisk" (veja o capítulo 13). NÃO esqueça de "ativar" a partição
+    ROOT. NÃO é necessário que a partição ROOT (na qual será dado o
+    "boot") fique no primeiro disco.
 
-    Sugerimos criar uma partiÃ§Ã£o estendida do tipo TROPIX para conter
-    as diversas partiÃ§Ãµes necessÃ¡rias/desejadas; isto no entanto nÃ£o
-    Ã© necessÃ¡rio: se for mais conveniente para o seu caso, as
-    partiÃ§Ãµes TROPIX podem tambÃ©m ser do tipo "regular"
-    ("primÃ¡ria"), ou entÃ£o partiÃ§Ãµes lÃ³gicas dentro de uma
-    partiÃ§Ã£o estendida do tipo DOS. Se vocÃª tiver mais de um disco,
-    Ã© interessante distribuir as vÃ¡rias partiÃ§Ãµes pelos vÃ¡rios
-    discos.
+    Sugerimos criar uma partição estendida do tipo TROPIX para conter as
+    diversas partições necessárias/desejadas; isto no entanto não é
+    necessário: se for mais conveniente para o seu caso, as partições
+    TROPIX podem também ser do tipo "regular" ("primária"), ou então
+    partições lógicas dentro de uma partição estendida do tipo DOS. Se
+    você tiver mais de um disco, é interessante distribuir as várias
+    partições pelos vários discos.
 
 2.  Insira o CDROM ou disquete de BOOT do TROPIX e carregue o sistema
-    (conforme o capÃ­tulo 8). Entre no modo multiusuÃ¡rio.
+    (conforme o capítulo 8). Entre no modo multiusuário.
 
-3.  VÃ¡ para o diretÃ³rio "/usr/etc/install" (use o comando "cd
-    /usr/etc/install"). Inicie a instalaÃ§Ã£o, atravÃ©s do comando
-    "install". Esta etapa gera sistemas de arquivos TROPIX nas
-    partiÃ§Ãµes escolhidas e copia os arquivos fundamentais do TROPIX
-    para o disco rÃ­gido. Siga as instruÃ§Ãµes.
+3.  Vá para o diretório "/usr/etc/install" (use o comando "cd
+    /usr/etc/install"). Inicie a instalação, através do comando
+    "install". Esta etapa gera sistemas de arquivos TROPIX nas partições
+    escolhidas e copia os arquivos fundamentais do TROPIX para o disco
+    rígido. Siga as instruções.
 
-    Se vocÃª deseja conservar uma versÃ£o antiga do sistema de arquivos
+    Se você deseja conservar uma versão antiga do sistema de arquivos
     HOME, responda afirmativamente a pergunta \"Deseja
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 36
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 36
 
-      conservar a versÃ£o antiga de HOME?", e durante  a  cÃ³pia  dos
-      arquivos nÃ£o permita a reescrita dos arquivos ".profile".
+      conservar a versão antiga de HOME?", e durante  a  cópia  dos
+      arquivos não permita a reescrita dos arquivos ".profile".
 
-ParabÃ©ns! O TROPIX jÃ¡ estÃ¡ instalado e operacional em seu disco
-rÃ­gido.
+Parabéns! O TROPIX já está instalado e operacional em seu disco rígido.
 
-Se vocÃª NÃO instalou o gerenciador de "boot": para executar o TROPIX,
+Se você NÃO instalou o gerenciador de "boot": para executar o TROPIX,
 recarregue o sistema com o CDROM ou disquete BOOT inserido, e no
 "prompt"
 
      boot>
 
 tecle `<enter>`{=html}. Se o sistema for recarregado sem o CDROM nem
-disquete serÃ¡ carregado o sistema operacional "normal" (por exemplo
+disquete será carregado o sistema operacional "normal" (por exemplo
 Windows 95/98).
 
-Se vocÃª INSTALOU o gerenciador: apÃ³s a recarga do sistema o
-gerenciador imprime uma lista de partiÃ§Ãµes "ativas" dos seus diversos
-discos rÃ­gidos, e espera vocÃª teclar o Ã­ndice da partiÃ§Ã£o desejada.
-A partiÃ§Ã£o "default" pode ser modificada atravÃ©s do comando "edboot".
+Se você INSTALOU o gerenciador: após a recarga do sistema o gerenciador
+imprime uma lista de partições "ativas" dos seus diversos discos
+rígidos, e espera você teclar o índice da partição desejada. A partição
+"default" pode ser modificada através do comando "edboot".
 
 Para sair do sistema TROPIX, use "shutdown".
 
-Se o gerenciador de "boot" NÃO funcionar, recarregue o TROPIX atravÃ©s
-do CDROM ou disquete BOOT (entrando no modo multiusuÃ¡rio) e restaure o
+Se o gerenciador de "boot" NÃO funcionar, recarregue o TROPIX através do
+CDROM ou disquete BOOT (entrando no modo multiusuário) e restaure o
 gerenciador original, executando o comando do tipo
 
              cat /etc/boot/mbr >/dev/hda
 
-e comunique-nos (atravÃ©s do endereÃ§o eletrÃ´nico do capÃ­tulo 1) a
-falha do "boot0".
+e comunique-nos (através do endereço eletrônico do capítulo 1) a falha
+do "boot0".
 
-Para facilitar a instalaÃ§Ã£o futura de uma nova versÃ£o do TROPIX,
-recomendamos colocar seus arquivos particulares apenas no seu diretÃ³rio
-"home" (nome de arquivos comeÃ§ando por "/home/...").
+Para facilitar a instalação futura de uma nova versão do TROPIX,
+recomendamos colocar seus arquivos particulares apenas no seu diretório
+"home" (nome de arquivos começando por "/home/...").
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 37
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 37
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 16                      *
+     *                      Capítulo 16                      *
      *                                                       *
-     *          CONFIGURAÃÃO DOS CONTROLADORES USB           *
+     *          CONFIGURAÇÃO DOS CONTROLADORES USB           *
      *                                                       *
      *********************************************************
 
-O TROPIX (na versÃ£o atual) suporta controladores USB dos padrÃµes UHCI,
+O TROPIX (na versão atual) suporta controladores USB dos padrões UHCI,
 OHCI e EHCI.
 
-HÃ¡ previsÃ£o de atÃ© 8 controladores ("usb0" a "usb7"); o sistema vem
+Há previsão de até 8 controladores ("usb0" a "usb7"); o sistema vem
 configurado com os controladores "usb0" a "usb3" habilitados e os demais
 desabilitados.
 
-Isto pode ser alterado (somente para esta execuÃ§Ã£o do sistema)
-atravÃ©s da modificaÃ§Ã£o de parÃ¢metros durante a carga do sistema;
-responda afirmativamente Ã  pergunta
+Isto pode ser alterado (somente para esta execução do sistema) através
+da modificação de parâmetros durante a carga do sistema; responda
+afirmativamente à pergunta
 
-        Deseja modificar parÃ¢metros? (n):
+        Deseja modificar parâmetros? (n):
 
-tal como mencionado no capÃ­tulo 8, e altere os valores de "usb0" a
+tal como mencionado no capítulo 8, e altere os valores de "usb0" a
 "usb7" para 0 ou 1.
 
-Para a habilitaÃ§Ã£o/desabilitaÃ§Ã£o dos controladores (de modo
-permamente) use o comando "edscb" (Use "man scb" e "man edscb").
+Para a habilitação/desabilitação dos controladores (de modo permamente)
+use o comando "edscb" (Use "man scb" e "man edscb").
 
-Para verificar se o controlador USB estÃ¡ sendo reconhecido
-corretamente, acompanhe as mensagens durante a carga do sistema (ou
-entÃ£o use o comando "dmesg" posteriormente).
+Para verificar se o controlador USB está sendo reconhecido corretamente,
+acompanhe as mensagens durante a carga do sistema (ou então use o
+comando "dmesg" posteriormente).
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 38
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 38
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 17                      *
+     *                      Capítulo 17                      *
      *                                                       *
      *                      E AGORA ...?                     *
      *                                                       *
      *********************************************************
 
 Uma vez com o sistema implantado e em funcionamento, temos todos os
-manuais do TROPIX (em portuguÃªs) Ã  disposiÃ§Ã£o atravÃ©s do
-utilitÃ¡rio "man". AlÃ©m disto, todos os comandos fornecem um pequeno
-resumo de sua utilizaÃ§Ã£o atravÃ©s da opÃ§Ã£o "-H" (por exemplo "passwd
--H").
+manuais do TROPIX (em português) à disposição através do utilitário
+"man". Além disto, todos os comandos fornecem um pequeno resumo de sua
+utilização através da opção "-H" (por exemplo "passwd -H").
 
-Para consultar o manual do utilitÃ¡rio "passwd" (por exemplo), tecle
-"man passwd". Para avanÃ§ar/retroceder pelas vÃ¡rias pÃ¡ginas dos
-manuais, temos os comandos \<\^D\>, \<\^U\>. Para encerrar a execuÃ§Ã£o
-de "man", use "q". Experimente "man man".
+Para consultar o manual do utilitário "passwd" (por exemplo), tecle "man
+passwd". Para avançar/retroceder pelas várias páginas dos manuais, temos
+os comandos \<\^D\>, \<\^U\>. Para encerrar a execução de "man", use
+"q". Experimente "man man".
 
-Recomendamos inicialmente a modificaÃ§Ã£o da senha da conta "root" e a
-criaÃ§Ã£o de contas regulares (isto Ã©, NÃO superusuÃ¡rios). Para a
-modificaÃ§Ã£o de senhas, utilize o comando "passwd"; para a
-criaÃ§Ã£o/gerÃªncia de contas, use o comando "edusr".
+Recomendamos inicialmente a modificação da senha da conta "root" e a
+criação de contas regulares (isto é, NÃO superusuários). Para a
+modificação de senhas, utilize o comando "passwd"; para a
+criação/gerência de contas, use o comando "edusr".
 
-TambÃ©m uma tarefa importante Ã© a atualizaÃ§Ã£o do arquivo
-"/etc/fstab", que contÃ©m informaÃ§Ãµes dos sistemas de arquivos a
-montar. Leia o manual de "fstab" (fmt), "getmntent" (libc) e "mount"
-(cmd). Em particular, se vocÃª nÃ£o tiver a partiÃ§Ã£o HOME, remova a
-linha correspondente de "/etc/fstab".
+Também uma tarefa importante é a atualização do arquivo "/etc/fstab",
+que contém informações dos sistemas de arquivos a montar. Leia o manual
+de "fstab" (fmt), "getmntent" (libc) e "mount" (cmd). Em particular, se
+você não tiver a partição HOME, remova a linha correspondente de
+"/etc/fstab".
 
-De vez em quando (digamos, uma vez por semana) Ã© interessante verificar
-a integridade dos sistemas de arquivos. Para tanto, apÃ³s a carga do
-sistema (ainda em modo "monousuÃ¡rio"), utilize o comando "fsck". Repare
-que o arquivo "/etc/fstab" tambÃ©m controla os sistemas de arquivos
-examinados por "fsck" (convÃ©m colocar o "/dev/root" como o Ãºltimo da
-lista). Para obter uma lista de todas as partiÃ§Ãµes presentes nos
+De vez em quando (digamos, uma vez por semana) é interessante verificar
+a integridade dos sistemas de arquivos. Para tanto, após a carga do
+sistema (ainda em modo "monousuário"), utilize o comando "fsck". Repare
+que o arquivo "/etc/fstab" também controla os sistemas de arquivos
+examinados por "fsck" (convém colocar o "/dev/root" como o último da
+lista). Para obter uma lista de todas as partições presentes nos
 diversos discos do seu computador, use "prdisktb".
 
-AtravÃ©s do comando "edscb" vocÃª pode alterar o nome do computador
+Através do comando "edscb" você pode alterar o nome do computador
 ("nodename") e acertar as portas/IRQs dos seus dispositivos (portas
 seriais, paralelas, "ethernet", ...). Use "man scb" e "man edscb".
 
-O TROPIX Ã© distribuÃ­do com o DMA dos controladores IDE desligados,
-pois com certos controladores podem surgir problemas. Experimente
-ligÃ¡-lo atravÃ©s de "dmaenable=1", inicialmente durante o "boot" para
-testar, e se funcionar adequadamente, no arquivo "/tropix" atravÃ©s do
-utilitÃ¡rio "edscb". Com isto, vocÃª aumentarÃ¡ a performance dos seus
-discos rÃ­gidos IDE.
+O TROPIX é distribuído com o DMA dos controladores IDE desligados, pois
+com certos controladores podem surgir problemas. Experimente ligá-lo
+através de "dmaenable=1", inicialmente durante o "boot" para testar, e
+se funcionar adequadamente, no arquivo "/tropix" através do utilitário
+"edscb". Com isto, você aumentará a performance dos seus discos rígidos
+IDE.
 
-Leia o capÃ­tulo 26, onde Ã© dada uma lista dos principais comandos do
+Leia o capítulo 26, onde é dada uma lista dos principais comandos do
 TROPIX.
 
-Aprenda a usar o "histÃ³rico" do "sh". Ele permite reexecutar comandos,
-inclusive com modificaÃ§Ãµes (cada linha do histÃ³rico pode ser editada
-com os mesmos comandos do "vi", antes de ser reexecutada).
+Aprenda a usar o "histórico" do "sh". Ele permite reexecutar comandos,
+inclusive com modificações (cada linha do histórico pode ser editada com
+os mesmos comandos do "vi", antes de ser reexecutada).
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 39
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 39
 
-Esta versÃ£o do TROPIX jÃ¡ possui o utilitÃ¡rio "sbwave" para tocar
-mÃºsicas PCM atravÃ©s de placas "Sound Blaster" ISA, veja o manual.
+Esta versão do TROPIX já possui o utilitário "sbwave" para tocar músicas
+PCM através de placas "Sound Blaster" ISA, veja o manual.
 
-Durante a instalaÃ§Ã£o, a INTERNET jÃ¡ Ã© configurada para funcionar no
-modo interno ("loopback"), o que Ã© necessÃ¡rio pela Interface GrÃ¡fica
+Durante a instalação, a INTERNET já é configurada para funcionar no modo
+interno ("loopback"), o que é necessário pela Interface Gráfica
 X-Window. Para configurar a INTERNET para o uso com outros dispositivos,
 use "man internet".
 
-Para a montagem de sistemas de arquivos remotos atravÃ©s do Sistema de
+Para a montagem de sistemas de arquivos remotos através do Sistema de
 Arquivos NFS (Network File System), use "man nfs".
 
-Leia o capÃ­tulo 18: ele menciona caracterÃ­sticas nÃ£o convencionais do
-TROPIX, as quais incluÃ­mos no sistema por considerÃ¡-las Ãºteis.
+Leia o capítulo 18: ele menciona características não convencionais do
+TROPIX, as quais incluímos no sistema por considerá-las úteis.
 
-Para instalar a Interface GrÃ¡fica X-Window, consulte os capÃ­tulos 19 a
+Para instalar a Interface Gráfica X-Window, consulte os capítulos 19 a
 22.
 
-Para obter/compilar o cÃ³digo fonte do TROPIX, consulte os capÃ­tulos 23
-e 24.
+Para obter/compilar o código fonte do TROPIX, consulte os capítulos 23 e
+24.
 
-Naturalmente, este capÃ­tulo dÃ¡ apenas o resumo de uma direÃ§Ã£o geral
-a tomar. O ideal Ã© consultar um livro de introduÃ§Ã£o ao UNIX.
+Naturalmente, este capítulo dá apenas o resumo de uma direção geral a
+tomar. O ideal é consultar um livro de introdução ao UNIX.
 
-Esperamos que o TROPIX lhe seja Ãºtil, tanto no aprendizado de sistemas
-de filosofia UNIX, como na utilizaÃ§Ã£o de mais um sistema operacional.
-Em caso de dÃºvidas ou relatos de erros, utilize o endereÃ§o eletrÃ´nico
-do capÃ­tulo 1.
+Esperamos que o TROPIX lhe seja útil, tanto no aprendizado de sistemas
+de filosofia UNIX, como na utilização de mais um sistema operacional. Em
+caso de dúvidas ou relatos de erros, utilize o endereço eletrônico do
+capítulo 1.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 40
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 40
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 18                      *
+     *                      Capítulo 18                      *
      *                                                       *
-     *  CARACTERÃSTICAS E UTILITÃRIOS ORIGINAIS DO TROPIX    *
+     *  CARACTERÍSTICAS E UTILITÁRIOS ORIGINAIS DO TROPIX    *
      *                                                       *
      *********************************************************
 
-Embora o TROPIX seja um sistema de filosofia UNIX, hÃ¡ algumas
-caracterÃ­sticas originais que nÃ£o sÃ£o encontradas em outros sistemas
-deste tipo. A seguir sÃ£o dadas algumas destas originalidades:
+Embora o TROPIX seja um sistema de filosofia UNIX, há algumas
+características originais que não são encontradas em outros sistemas
+deste tipo. A seguir são dadas algumas destas originalidades:
 
-1.  Na maioria dos sistemas UNIX, quando listamos um arquivo de vÃ¡rias
-    pÃ¡ginas no vÃ­deo, ele "rola" fora da tela antes que possamos
-    le-lo. Temos entÃ£o de usar o comando "more" na forma
+1.  Na maioria dos sistemas UNIX, quando listamos um arquivo de várias
+    páginas no vídeo, ele "rola" fora da tela antes que possamos le-lo.
+    Temos então de usar o comando "more" na forma
 
               cat texto.txt | more
 
-    ou entÃ£o,
+    ou então,
 
               more texto.txt
 
-    Isto Ã© o caso, tambÃ©m, se usamos o comando "ls -l" com diretÃ³rios
+    Isto é o caso, também, se usamos o comando "ls -l" com diretórios
     contendo muitos arquivos.
 
-    No TROPIX, isto nÃ£o Ã© necessÃ¡rio; a saÃ­da do vÃ­deo Ã© pausada
-    quando ela completa o nÃºmero de linhas visÃ­veis. Para continuar a
-    saÃ­da no vÃ­deo, basta teclar \<\^Q\>.
+    No TROPIX, isto não é necessário; a saída do vídeo é pausada quando
+    ela completa o número de linhas visíveis. Para continuar a saída no
+    vídeo, basta teclar \<\^Q\>.
 
-    Isto pode ser alterado atravÃ©s do comando "stty" (veja o respectivo
+    Isto pode ser alterado através do comando "stty" (veja o respectivo
     manual).
 
-2.  O utilitÃ¡rio "show": permite visualizar um arquivo de texto de
-    forma conveniente no vÃ­deo, podendo avanÃ§ar/retroceder sobre o
-    texto com comandos semelhantes ao do editor de textos "vi". Ã
-    especialmente Ãºtil para examinar a saÃ­da de um programa, usando um
-    "pipe" (veja o manual).
+2.  O utilitário "show": permite visualizar um arquivo de texto de forma
+    conveniente no vídeo, podendo avançar/retroceder sobre o texto com
+    comandos semelhantes ao do editor de textos "vi". É especialmente
+    útil para examinar a saída de um programa, usando um "pipe" (veja o
+    manual).
 
-3.  O comando "gar": este utilitÃ¡rio Ã© uma extensÃ£o do "tar", padrÃ£o
-    do mundo UNIX. O "gar", alÃ©m de criar/extrair coleÃ§Ãµes do formato
-    "tar", extrair coleÃ§Ãµes do formato "cpio", ele
-    cria/extrai/compara/adiciona coleÃ§Ãµes do formato prÃ³prio ("gar")
-    com/sem compactaÃ§Ã£o. VocÃª certamente jÃ¡ utilizou o "gar" ao
-    instalar o TROPIX (veja o manual).
+3.  O comando "gar": este utilitário é uma extensão do "tar", padrão do
+    mundo UNIX. O "gar", além de criar/extrair coleções do formato
+    "tar", extrair coleções do formato "cpio", ele
+    cria/extrai/compara/adiciona coleções do formato próprio ("gar")
+    com/sem compactação. Você certamente já utilizou o "gar" ao instalar
+    o TROPIX (veja o manual).
 
-4.  Os utilitÃ¡rios "cmptree/cptree"; permitem copiar/comparar/atualizar
-    Ã¡rvores do sistema de arquivos locais ao prÃ³prio computadores
-    (veja o manual).
+4.  Os utilitários "cmptree/cptree"; permitem copiar/comparar/atualizar
+    árvores do sistema de arquivos locais ao próprio computadores (veja
+    o manual).
 
-5.  A famÃ­lia de utilitÃ¡rios "tcmpto": permite
-    copiar/comparar/atualizar Ã¡rvores do sistema de arquivos de/entre o
-    computador local e um computador remoto, atravÃ©s de protocolo
-    prÃ³prio TCP/IP (veja o manual).
+5.  A família de utilitários "tcmpto": permite copiar/comparar/atualizar
+    árvores do sistema de arquivos de/entre o computador local e um
+    computador remoto, através de protocolo próprio TCP/IP (veja o
+    manual).
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 41
-
-     *********************************************************
-     *                                                       *
-     *                      CapÃ­tulo 19                      *
-     *                                                       *
-     *       INTRODUÃÃO Ã INTERFACE GRÃFICA X-WINDOW         *
-     *                                                       *
-     *********************************************************
-
-O sistema X-Window para o TROPIX Ã© uma interface grÃ¡fica baseada na
-versÃ£o 4.7.0 distribuÃ­da pelo ConsÃ³rcio XFree86.
-
-A presente versÃ£o inclui servidores especÃ­ficos para algumas das
-placas grÃ¡ficas mais usuais. AlÃ©m disto, sÃ£o distribuÃ­dos os
-clientes indispensÃ¡veis para o funcionamento mÃ­nimo do sistema.
-
-Apesar de os monitores modernos possuÃ­rem circuitos de proteÃ§Ã£o
-contra o uso com freqÃ¼Ãªncias horizontal e/ou vertical indevidas,
-sempre existe teoricamente a possibilidade de danificar o seu monitor.
-
-NÃS NÃO NOS RESPONSABILIZAMOS POR ESTES POSSÃVEIS DANOS AO SEU
-MONITOR. VOCÃ ESTÃ INSTALANDO/UTILIZANDO A INTERFACE GRÃFICA DO
-TROPIX SOB SUA PRÃPRIA RESPONSABILIDADE E RISCO!
-
-Atualizado em 10.12.08 VersÃ£o 4.9.0
-
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 42
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 41
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 20                      *
+     *                      Capítulo 19                      *
      *                                                       *
-     *       CRIAÃÃO E INSTALAÃÃO DOS DISQUETES/ARQUIVOS     *
-     *                 DA INTERFACE GRÃFICA                  *
+     *       INTRODUÇÃO À INTERFACE GRÁFICA X-WINDOW         *
      *                                                       *
      *********************************************************
 
-Este capÃ­tulo contÃ©m informaÃ§Ãµes apenas para a instalaÃ§Ã£o atravÃ©s
-de disquetes. Se vocÃª estÃ¡ instalando atravÃ©s de um CDROM, pode
-pulÃ¡-lo.
+O sistema X-Window para o TROPIX é uma interface gráfica baseada na
+versão 4.7.0 distribuída pelo Consórcio XFree86.
 
-A distribuiÃ§Ã£o da Interface GrÃ¡fica X-Window Ã© feita atravÃ©s da
-coleÃ§Ã£o "xwin.tgz": obtenha-a na pÃ¡gina do TROPIX
-("http://tropix.nce.ufrj.br").
+A presente versão inclui servidores específicos para algumas das placas
+gráficas mais usuais. Além disto, são distribuídos os clientes
+indispensáveis para o funcionamento mínimo do sistema.
 
-Uma vez tendo obtida esta coleÃ§Ã£o, Ã© necessÃ¡rio preparar os 2
-arquivos ou criar os 2 disquetes de 3Â½\". Ela contÃ©m os seguintes
-arquivos:
+Apesar de os monitores modernos possuírem circuitos de proteção contra o
+uso com freqüências horizontal e/ou vertical indevidas, sempre existe
+teoricamente a possibilidade de danificar o seu monitor.
+
+NÓS NÃO NOS RESPONSABILIZAMOS POR ESTES POSSÍVEIS DANOS AO SEU MONITOR.
+VOCÊ ESTÁ INSTALANDO/UTILIZANDO A INTERFACE GRÁFICA DO TROPIX SOB SUA
+PRÓPRIA RESPONSABILIDADE E RISCO!
+
+Atualizado em 10.12.08 Versão 4.9.0
+
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 42
+
+     *********************************************************
+     *                                                       *
+     *                      Capítulo 20                      *
+     *                                                       *
+     *       CRIAÇÃO E INSTALAÇÃO DOS DISQUETES/ARQUIVOS     *
+     *                 DA INTERFACE GRÁFICA                  *
+     *                                                       *
+     *********************************************************
+
+Este capítulo contém informações apenas para a instalação através de
+disquetes. Se você está instalando através de um CDROM, pode pulá-lo.
+
+A distribuição da Interface Gráfica X-Window é feita através da coleção
+"xwin.tgz": obtenha-a na página do TROPIX ("http://tropix.nce.ufrj.br").
+
+Uma vez tendo obtida esta coleção, é necessário preparar os 2 arquivos
+ou criar os 2 disquetes de 3½\". Ela contém os seguintes arquivos:
 
                 fdimage.exe
                 xwin1.dsk
                 xwin2.dsk
 
-O arquivo "fdimage.exe" Ã© um utilitÃ¡rio de cÃ³pia para os Windows
-(vocÃª provavelmente jÃ¡ o tem, obtido durante a instalaÃ§Ã£o do TROPIX
-bÃ¡sico), e os arquivos restantes sÃ£o os conteÃºdos dos 2 disquetes.
+O arquivo "fdimage.exe" é um utilitário de cópia para os Windows (você
+provavelmente já o tem, obtido durante a instalação do TROPIX básico), e
+os arquivos restantes são os conteúdos dos 2 disquetes.
 
-Assim como no caso do TROPIX bÃ¡sico, se vocÃª possui uma partiÃ§Ã£o
-DOS/Windows FAT16/32 ou NTFS em seu computador, a criaÃ§Ã£o dos
-disquetes XWIN1 e XWIN2 pode ser dispensada. Siga o roteiro do capÃ­tulo
-9 (substituindo "gar1" por "xwin1" e "xwin2").
+Assim como no caso do TROPIX básico, se você possui uma partição
+DOS/Windows FAT16/32 ou NTFS em seu computador, a criação dos disquetes
+XWIN1 e XWIN2 pode ser dispensada. Siga o roteiro do capítulo 9
+(substituindo "gar1" por "xwin1" e "xwin2").
 
 Uma vez com os disquetes ou arquivos preparados, entre no sistema TROPIX
-(como superusuÃ¡rio), vÃ¡ para o diretÃ³rio "/usr/etc/install", e
-execute o comando
+(como superusuário), vá para o diretório "/usr/etc/install", e execute o
+comando
 
                 install.xwin
 
-e siga as suas instruÃ§Ãµes. O sistema necessita de cerca de 10 MB no
+e siga as suas instruções. O sistema necessita de cerca de 10 MB no
 disco.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 43
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 43
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 21                      *
+     *                      Capítulo 21                      *
      *                                                       *
-     *            CONFIGURAÃÃO DA INTERFACE GRÃFICA          *
+     *            CONFIGURAÇÃO DA INTERFACE GRÁFICA          *
      *                                                       *
      *********************************************************
 
-Uma vez instalados todos os arquivos da Interface GrÃ¡fica X-Window (se
-vocÃª estÃ¡ instalando atravÃ©s do CDROM isto Ã© automÃ¡tico, para o
-caso de disquetes veja o capÃ­tulo anterior), vamos dar a seguir o
-mÃ©todo passo a passo para a configuraÃ§Ã£o do sistema. Isto deve ser
-feito como superusuÃ¡rio.
+Uma vez instalados todos os arquivos da Interface Gráfica X-Window (se
+você está instalando através do CDROM isto é automático, para o caso de
+disquetes veja o capítulo anterior), vamos dar a seguir o método passo a
+passo para a configuração do sistema. Isto deve ser feito como
+superusuário.
 
-1.  ConfiguraÃ§Ã£o da "internet": Ela deverÃ¡ estÃ¡ ativa, pelo menos
-    para acessos internos ("loopback"); isto normalmente, a instalaÃ§Ã£o
-    do TROPIX jÃ¡ realiza. Para maiores detalhes, veja o manual
-    "internet" (atravÃ©s do comando "man").
+1.  Configuração da "internet": Ela deverá está ativa, pelo menos para
+    acessos internos ("loopback"); isto normalmente, a instalação do
+    TROPIX já realiza. Para maiores detalhes, veja o manual "internet"
+    (através do comando "man").
 
-2.  EspecificaÃ§Ã£o do "mouse": O sistema vem configurado para o "mouse"
+2.  Especificação do "mouse": O sistema vem configurado para o "mouse"
     PS/2.
 
     Para outros tipos de "mouse, o arquivo"/usr/xwin/conf/xconfig\"
-    deverÃ¡ ser editado. Se o seu "mouse" for serial (COM1, COM2) ou
-    USB, mova os dois caracteres "\#" das linhas do seu tipo de "mouse"
-    para as duas linhas do "mouse" PS/2.
+    deverá ser editado. Se o seu "mouse" for serial (COM1, COM2) ou USB,
+    mova os dois caracteres "\#" das linhas do seu tipo de "mouse" para
+    as duas linhas do "mouse" PS/2.
 
-    Use o utilitÃ¡rio "dmesg" para verificar se, durante a carga do
-    sistema, o seu "mouse" estÃ¡ sendo reconhecido.
+    Use o utilitário "dmesg" para verificar se, durante a carga do
+    sistema, o seu "mouse" está sendo reconhecido.
 
-3.  ExecuÃ§Ã£o do servidor no modo de 16 cores (4 bits). Inicialmente o
-    arquivo de configuraÃ§Ã£o "/usr/xwin/conf/xconfig" estÃ¡ preparado
-    para executar o servidor no modo grÃ¡fico do padrÃ£o VGA, de 16
-    cores e resoluÃ§Ã£o de 640x480 e 800x600. Este modo deve funcionar
-    com qualquer placa grÃ¡fica, e serÃ¡ sua (Ãºnica) opÃ§Ã£o caso a sua
-    placa nÃ£o tenha sucesso nas tentativas abaixo.
+3.  Execução do servidor no modo de 16 cores (4 bits). Inicialmente o
+    arquivo de configuração "/usr/xwin/conf/xconfig" está preparado para
+    executar o servidor no modo gráfico do padrão VGA, de 16 cores e
+    resolução de 640x480 e 800x600. Este modo deve funcionar com
+    qualquer placa gráfica, e será sua (única) opção caso a sua placa
+    não tenha sucesso nas tentativas abaixo.
 
     Para tanto, basta teclar o comando "startx" (sem ter alterado o
-    arquivo de configuraÃ§Ã£o). O sistema iniciarÃ¡ com o fundo padrÃ£o
-    do TROPIX, duas janelas "xterm", um relÃ³gio e um selecionador de
-    "desktops". Em cada janela "xterm" Ã© executado o interpretador de
-    comandos padrÃ£o "sh".
+    arquivo de configuração). O sistema iniciará com o fundo padrão do
+    TROPIX, duas janelas "xterm", um relógio e um selecionador de
+    "desktops". Em cada janela "xterm" é executado o interpretador de
+    comandos padrão "sh".
 
-    Para voltar ao modo texto, a maneira mais simples Ã© teclar
+    Para voltar ao modo texto, a maneira mais simples é teclar
     simultaneamente `<ctl-alt-bs>`{=html}.
 
-    Este Ã© o modo mais bÃ¡sico de funcionamento do sistema X-Window; se
-    ele nÃ£o funcionar envie-nos os arquivos "/var/log/xwin/xserver.log"
-    e "/var/log/xwin/xclients.log" para o endereÃ§o eletrÃ´nico do
-    capÃ­tulo 1.
+    Este é o modo mais básico de funcionamento do sistema X-Window; se
+    ele não funcionar envie-nos os arquivos "/var/log/xwin/xserver.log"
+    e "/var/log/xwin/xclients.log" para o endereço eletrônico do
+    capítulo 1.
 
-4.  DeterminaÃ§Ã£o da placa grÃ¡fica: Uma vez funcionando no modo de 16
+4.  Determinação da placa gráfica: Uma vez funcionando no modo de 16
     cores, podemos verificar se existe a possibilidade de utilizar um
-    servidor especÃ­fico para a sua placa grÃ¡fica. Isto proporcionarÃ¡
-    a possibilidade de usar uma gama maior de
+    servidor específico para a sua placa gráfica. Isto proporcionará a
+    possibilidade de usar uma gama maior de
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 44
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 44
 
-      cores,  e  outras  resoluÃ§Ãµes  (800x600, 1024x768, 1280x1024,
+      cores,  e  outras  resoluções  (800x600, 1024x768, 1280x1024,
       ...).
 
-      Dependendo da sua placa grÃ¡fica, podemos editar o arquivo  de
-      configuraÃ§Ã£o  "/usr/xwin/conf/xconfig". Se for uma placa ATI,
-      coloque em comentÃ¡rio as linhas:
+      Dependendo da sua placa gráfica, podemos editar o arquivo  de
+      configuração  "/usr/xwin/conf/xconfig". Se for uma placa ATI,
+      coloque em comentário as linhas:
 
                 Driver          "svga"
                 Device          "Generic VGA"
 
-      colocando um "#" no inÃ­cio da linha, e tire o comentÃ¡rio  das
+      colocando um "#" no início da linha, e tire o comentário  das
       linhas:
 
                 Driver          "accel"
                 Device          "ati"
 
-      AlÃ©m  disto,  altere  o  nÃºmero  de bits por cor comentando a
+      Além  disto,  altere  o  número  de bits por cor comentando a
       linha:
 
                 DefaultColorDepth       4
@@ -2079,262 +2057,259 @@ INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 44
                 DefaultColorDepth       16
                 DefaultColorDepth       24
 
-      Para cada tentativa, entre no modo grÃ¡fico teclando "startx",
+      Para cada tentativa, entre no modo gráfico teclando "startx",
       e  para  voltar  ao  modo  de  texto,  tecle  simultaneamente
-      <ctl-alt-bs>.  Obtenha  infomaÃ§Ãµes  de  sucesso/insucesso  no
+      <ctl-alt-bs>.  Obtenha  infomações  de  sucesso/insucesso  no
       arquivo "/var/log/xwin/xserver.log".
 
-      As instruÃ§Ãµes sÃ£o semelhantes, se a sua placa for uma  NVIDIA
+      As instruções são semelhantes, se a sua placa for uma  NVIDIA
       ou TRIDENT, usando-se
 
                 Device          "nv"
       ou
                 Device          "trident"
 
-5.  Se a sua placa grÃ¡fica nÃ£o for uma das acima, ou as tentativas
-    acima nÃ£o tiveram sucesso, vocÃª poderÃ¡ apenas (na presente
-    versÃ£o) usar o modo de 16 cores (4 bits).
+5.  Se a sua placa gráfica não for uma das acima, ou as tentativas acima
+    não tiveram sucesso, você poderá apenas (na presente versão) usar o
+    modo de 16 cores (4 bits).
 
-6.  Para alterar de resoluÃ§Ã£o, tecle \<ctl-alt-+\> ou
-    `<ctl-alt-->`{=html} ("+" e "-" do teclado numÃ©rico).
+6.  Para alterar de resolução, tecle \<ctl-alt-+\> ou
+    `<ctl-alt-->`{=html} ("+" e "-" do teclado numérico).
 
-Uma vez funcionando, vocÃª poderÃ¡ tentar alterar o nÃºmero de cores e o
-tamanho do seu "desktop". Em caso de nÃ£o conseguir, envie-nos os dois
-arquivos do diretÃ³rio "/var/log/xwin", conforme acima.
+Uma vez funcionando, você poderá tentar alterar o número de cores e o
+tamanho do seu "desktop". Em caso de não conseguir, envie-nos os dois
+arquivos do diretório "/var/log/xwin", conforme acima.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 45
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 45
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 22                      *
+     *                      Capítulo 22                      *
      *                                                       *
-     *          UTILIZAÃÃO BÃSICA DA INTERFACE GRÃFICA       *
+     *          UTILIZAÇÃO BÁSICA DA INTERFACE GRÁFICA       *
      *                                                       *
      *********************************************************
 
-Uma vez com o sistema em funcionamento, teremos (com jÃ¡ foi citado
-acima), duas janelas "xterm", um relÃ³gio e um selecionador de
+Uma vez com o sistema em funcionamento, teremos (com já foi citado
+acima), duas janelas "xterm", um relógio e um selecionador de
 "desktops".
 
-A pequena janela "xterm" superior Ã© a da "console", e nÃ£o deve ser
-usada normalmente, pois nela serÃ£o escritas as mensagens de erro do
-sistema operacional.
+A pequena janela "xterm" superior é a da "console", e não deve ser usada
+normalmente, pois nela serão escritas as mensagens de erro do sistema
+operacional.
 
-Para movimentar uma janela, clique e arraste o botÃ£o da esquerda do
+Para movimentar uma janela, clique e arraste o botão da esquerda do
 "mouse" na moldura da janela.
 
-Para alterar o tamanho de uma janela, clique e arraste o botÃ£o da
+Para alterar o tamanho de uma janela, clique e arraste o botão da
 esquerda do "mouse" em um dos 4 cantos da janela (nem todas as janelas
 admitem isto).
 
-Para promover uma janela (isto Ã©, colocÃ¡-la na frente das demais),
-clique o botÃ£o da esquerda na moldura da janela. Para rebaixÃ¡-la (isto
-Ã©, colocÃ¡-la atrÃ¡s das demais), clique o botÃ£o da direita na moldura
-da janela. Se vocÃª tiver um "mouse" de 3 botÃµes, pode tambÃ©m promover
-uma janela com o botÃ£o do meio.
+Para promover uma janela (isto é, colocá-la na frente das demais),
+clique o botão da esquerda na moldura da janela. Para rebaixá-la (isto
+é, colocá-la atrás das demais), clique o botão da direita na moldura da
+janela. Se você tiver um "mouse" de 3 botões, pode também promover uma
+janela com o botão do meio.
 
-O botÃ£o da esquerda, clicado fora de qualquer janela, apresenta um
-"menu" de utilitÃ¡rios, alÃ©m da opÃ§Ã£o para sair do modo grÃ¡fico
-(retornando ao modo de texto). O botÃ£o da direita, clicado fora de
+O botão da esquerda, clicado fora de qualquer janela, apresenta um
+"menu" de utilitários, além da opção para sair do modo gráfico
+(retornando ao modo de texto). O botão da direita, clicado fora de
 qualquer janela, apresenta uma lista das janelas ativas.
 
-Tudo o que foi descrito atÃ© agora refere-se ao "desktop" 0. Clicando em
-um outro selecionador de "desktop" (no canto inferior direito), vocÃª
-terÃ¡ um novo espaÃ§o independente para a criaÃ§Ã£o de janelas. VocÃª
-dispÃµe (na presente configuraÃ§Ã£o), de 6 "desktops".
+Tudo o que foi descrito até agora refere-se ao "desktop" 0. Clicando em
+um outro selecionador de "desktop" (no canto inferior direito), você
+terá um novo espaço independente para a criação de janelas. Você dispõe
+(na presente configuração), de 6 "desktops".
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 46
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 46
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 23                      *
+     *                      Capítulo 23                      *
      *                                                       *
-     *   OBTENÃÃO E INSTALAÃÃO DO CÃDIGO FONTE DO TROPIX     *
+     *   OBTENÇÃO E INSTALAÇÃO DO CÓDIGO FONTE DO TROPIX     *
      *                                                       *
      *********************************************************
 
-O cÃ³digo fonte do TROPIX Ã© distribuÃ­do atravÃ©s dos 3 arquivos
-"kernel.tgz" (o nÃºcleo do sistema), "lib.tgz" (as bibliotecas) e
-"cmd.tgz" (os utilitÃ¡rios). Tratam-se de coleÃ§Ãµes TAR comprimidas
-atravÃ©s do utilitÃ¡rio "gzip".
+O código fonte do TROPIX é distribuído através dos 3 arquivos
+"kernel.tgz" (o núcleo do sistema), "lib.tgz" (as bibliotecas) e
+"cmd.tgz" (os utilitários). Tratam-se de coleções TAR comprimidas
+através do utilitário "gzip".
 
-Uma vez obtida uma coleÃ§Ã£o \"\*.tgz\" atravÃ©s de um navegador,
-devemos descomprimi-la. Isto pode ser feito de diversos modos:
+Uma vez obtida uma coleção \"\*.tgz\" através de um navegador, devemos
+descomprimi-la. Isto pode ser feito de diversos modos:
 
-1.  Se vocÃª armazenou a coleÃ§Ã£o \"\*.tgz\" em um sistema de arquivos
-    DOS/Windows FAT16/32, e estÃ¡ com o TROPIX instalado, pode
-    acessÃ¡-la diretamente atravÃ©s do TROPIX, montando a partiÃ§Ã£o com
-    um comando da forma
+1.  Se você armazenou a coleção \"\*.tgz\" em um sistema de arquivos
+    DOS/Windows FAT16/32, e está com o TROPIX instalado, pode acessá-la
+    diretamente através do TROPIX, montando a partição com um comando da
+    forma
 
          mount /dev/hda1 /mnt
 
     Em seguida, descomprima-a com:
 
-         cd /mnt/...                  (DiretÃ³rio do TROPIX)
-         gunzip *.tgz                 (Nome da coleÃ§Ã£o)
-         gar -ixv <*.tar              (Nome da coleÃ§Ã£o TAR obtida)
-         rm *.tar                     (Remove a coleÃ§Ã£o TAR)
+         cd /mnt/...                  (Diretório do TROPIX)
+         gunzip *.tgz                 (Nome da coleção)
+         gar -ixv <*.tar              (Nome da coleção TAR obtida)
+         rm *.tar                     (Remove a coleção TAR)
 
-2.  Se a sua partiÃ§Ã£o DOS/Windows for NTFS (como ela Ã© somente de
-    leitura), o procedimento acima deverÃ¡ ser efetuado apÃ³s a cÃ³pia
-    do arquivo \"\*.tgz\" para uma partiÃ§Ã£o TROPIX.
+2.  Se a sua partição DOS/Windows for NTFS (como ela é somente de
+    leitura), o procedimento acima deverá ser efetuado após a cópia do
+    arquivo \"\*.tgz\" para uma partição TROPIX.
 
-3.  Se vocÃª estÃ¡ usando um sistema UNIX, deverÃ¡ usar os utilitÃ¡rios
+3.  Se você está usando um sistema UNIX, deverá usar os utilitários
     "gunzip" e "tar". Verifique os detalhes no seu sistema UNIX.
 
-4.  Se vocÃª estÃ¡ apenas com Windows, pode descomprimir a coleÃ§Ã£o com
-    o utilitÃ¡rio "Winzip" e ler cada um dos programas atravÃ©s dos
-    utilitÃ¡rios "Notepad", "Wordpad" ou "Word", entre outros.
+4.  Se você está apenas com Windows, pode descomprimir a coleção com o
+    utilitário "Winzip" e ler cada um dos programas através dos
+    utilitários "Notepad", "Wordpad" ou "Word", entre outros.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 47
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 47
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 24                      *
+     *                      Capítulo 24                      *
      *                                                       *
-     *           COMPILAÃÃO DO NÃCLEO, BIBLIOTECAS           *
-     *                E UTILITÃRIOS DO TROPIX                *
+     *           COMPILAÇÃO DO NÚCLEO, BIBLIOTECAS           *
+     *                E UTILITÁRIOS DO TROPIX                *
      *                                                       *
      *********************************************************
 
-Abaixo damos orientaÃ§Ãµes para compilar os diversos componentes da
-distribuiÃ§Ã£o do cÃ³digo fonte do TROPIX:
+Abaixo damos orientações para compilar os diversos componentes da
+distribuição do código fonte do TROPIX:
 
-1.  NÃCLEO DO SISTEMA: Uma vez com a Ã¡rvore do nÃºcleo instalada no
-    TROPIX, vocÃª poderÃ¡ compilar os diversos mÃ³dulos que a integram:
+1.  NÚCLEO DO SISTEMA: Uma vez com a árvore do núcleo instalada no
+    TROPIX, você poderá compilar os diversos módulos que a integram:
     "boot/boot0", "boot/boot1", "boot/boot2" e "kernel".
 
-    Em cada um dos diretÃ³rios hÃ¡ o "Makefile" para controlar a
-    respectiva compilaÃ§Ã£o.
+    Em cada um dos diretórios há o "Makefile" para controlar a
+    respectiva compilação.
 
-    Repare que no diretÃ³rio "kernel" hÃ¡ o arquivo "scbfile.v" que
-    contÃ©m parÃ¢metros para configurar o seu nÃºcleo em particular
-    (veja "edscb" (cmd)).
+    Repare que no diretório "kernel" há o arquivo "scbfile.v" que contém
+    parâmetros para configurar o seu núcleo em particular (veja "edscb"
+    (cmd)).
 
-2.  BIBLIOTECAS: Na raiz da Ã¡rvore hÃ¡ um "Makefile" para a
-    compilaÃ§Ã£o de todas as 4 bibliotecas. Se for desejado, pode ser
-    compilada cada uma delas separadamente (indo para o diretÃ³rio
-    correspondente).
+2.  BIBLIOTECAS: Na raiz da árvore há um "Makefile" para a compilação de
+    todas as 4 bibliotecas. Se for desejado, pode ser compilada cada uma
+    delas separadamente (indo para o diretório correspondente).
 
-3.  UTILITÃRIOS: Na raiz da Ã¡rvore hÃ¡ um "Makefile" para a
-    compilaÃ§Ã£o de todos os utilitÃ¡rios. Se for desejado, pode ser
-    compilado cada um deles separadamente (indo para o diretÃ³rio
-    correspondente).
+3.  UTILITÁRIOS: Na raiz da árvore há um "Makefile" para a compilação de
+    todos os utilitários. Se for desejado, pode ser compilado cada um
+    deles separadamente (indo para o diretório correspondente).
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 48
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 48
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 25                      *
+     *                      Capítulo 25                      *
      *                                                       *
      *              O USO DO EDITOR DE TEXTOS "VI"           *
      *                                                       *
      *********************************************************
 
-O utilitÃ¡rio "vi" Ã© o editor de textos "padrÃ£o" dos sistemas
-operacionais de filosofia UNIX. Neste capÃ­tulo serÃ¡ dada uma pequena
-introduÃ§Ã£o ao seu uso, suficiente para realizar alteraÃ§Ãµes nos
-arquivos de configuraÃ§Ã£o (que eventualmente sejam necessÃ¡rias),
-durante a instalaÃ§Ã£o do TROPIX.
+O utilitário "vi" é o editor de textos "padrão" dos sistemas
+operacionais de filosofia UNIX. Neste capítulo será dada uma pequena
+introdução ao seu uso, suficiente para realizar alterações nos arquivos
+de configuração (que eventualmente sejam necessárias), durante a
+instalação do TROPIX.
 
-Maiores detalhes poderÃ£o ser vistos (posteriormente com o sistema em
-funcionamento regular), atrÃ¡ves de "man vi" ou ainda "man -g vi".
+Maiores detalhes poderão ser vistos (posteriormente com o sistema em
+funcionamento regular), atráves de "man vi" ou ainda "man -g vi".
 
 Para editar um arquivo (por exemplo, de nome "abc"), teclamos "vi abc",
-e o "vi" inicia o seu funcionamento mostrando a primeira pÃ¡gina do
+e o "vi" inicia o seu funcionamento mostrando a primeira página do
 arquivo "abc", com o cursor no primeiro caractere da primeira linha.
 
-Podemos entÃ£o utilizar os seguintes comandos (repare que o cursor
-indica onde o comando serÃ¡ executado):
+Podemos então utilizar os seguintes comandos (repare que o cursor indica
+onde o comando será executado):
 
-     <sp>       AvanÃ§a (o cursor de) um caractere na linha.
+     <sp>       Avança (o cursor de) um caractere na linha.
      <bs>       Retrocede um caractere na linha.
      "-"        Retrocede uma linha no arquivo.
-     <enter>    AvanÃ§a uma linha no arquivo.
-     <^D>       AvanÃ§a meia pÃ¡gina no arquivo.
-     <^U>       Retrocede meia pÃ¡gina no arquivo.
-     "1g"       Retrocede para o inÃ­cio do arquivo.
-     "g"        AvanÃ§a para o final do arquivo.
+     <enter>    Avança uma linha no arquivo.
+     <^D>       Avança meia página no arquivo.
+     <^U>       Retrocede meia página no arquivo.
+     "1g"       Retrocede para o início do arquivo.
+     "g"        Avança para o final do arquivo.
 
-     "i"        Insere texto antes do cursor (atÃ© um <esc>).
-     "a"        Insere texto apÃ³s o cursor (atÃ© um <esc>).
-     "o"        Cria novas linhas e insere texto (atÃ© um <esc>).
+     "i"        Insere texto antes do cursor (até um <esc>).
+     "a"        Insere texto após o cursor (até um <esc>).
+     "o"        Cria novas linhas e insere texto (até um <esc>).
      "x"        Remove o caractere indicado pelo cursor.
      "dd"       Remove uma linha.
      "yyp"      Copia uma linha.
 
      "/..."     Procura a cadeia "..."
-     "n"        Procura a ocorrÃªncia seguinte da cadeia.
-     "N"        Procura a ocorrÃªncia anterior da cadeia.
+     "n"        Procura a ocorrência seguinte da cadeia.
+     "N"        Procura a ocorrência anterior da cadeia.
 
-     "."        Repete o Ãºltimo comando de ediÃ§Ã£o.
-     "u"        Desfaz o Ãºltimo comando de ediÃ§Ã£o.
+     "."        Repete o último comando de edição.
+     "u"        Desfaz o último comando de edição.
 
      ":w"       Atualiza o arquivo.
-     ":q"       Sai do "vi" (somente se o arquivo estÃ¡ atualizado).
+     ":q"       Sai do "vi" (somente se o arquivo está atualizado).
      ":q!"      Sai do "vi", sem atualizar o arquivo.
 
-Repare que o arquivo sendo editado ("abc" no caso) sÃ³ serÃ¡ atualizado
+Repare que o arquivo sendo editado ("abc" no caso) só será atualizado
 quando for dado o comando ":w". Se foi feita acidentalmente alguma
-modificaÃ§Ã£o indesejada, podemos sair do "vi" com o comando ":q!",
+modificação indesejada, podemos sair do "vi" com o comando ":q!",
 conservando o arquivo em sua forma original.
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 49
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 49
 
      *********************************************************
      *                                                       *
-     *                      CapÃ­tulo 26                      *
+     *                      Capítulo 26                      *
      *                                                       *
      *     UMA LISTA DOS PRINCIPAIS COMANDOS DOS TROPIX      *
      *                                                       *
      *********************************************************
 
-Para a sua comodidade, damos abaixo uma lista alfabÃ©tica dos principais
-comandos do TROPIX, juntamente com uma breve descriÃ§Ã£o de cada um.
-Para obter mais informaÃ§Ãµes sobre um comando "x" (por exemplo), use
-"man x".
+Para a sua comodidade, damos abaixo uma lista alfabética dos principais
+comandos do TROPIX, juntamente com uma breve descrição de cada um. Para
+obter mais informações sobre um comando "x" (por exemplo), use "man x".
 
      a2ps      - conversor de arquivos texto em PostScript
      as        - montador para INTEL-80386/486/PENTIUM
-     bison     - gerador de analisadores sintÃ¡ticos do GNU
-     c         - escreve as linhas de um arquivo em vÃ¡rias colunas
+     bison     - gerador de analisadores sintáticos do GNU
+     c         - escreve as linhas de um arquivo em várias colunas
      cat       - concatena e copia arquivos
      cc        - compilador para a linguagem "C"
      cdplay    - reproduz faixas de CDs
      cdtowave  - extrai faixas de CDs
-     chgrp     - troca a identificaÃ§Ã£o do grupo de arquivos
-     chmod     - modifica a permissÃ£o de acesso de arquivos
-     chown     - troca a identificaÃ§Ã£o do dono (UID) de arquivos
+     chgrp     - troca a identificação do grupo de arquivos
+     chmod     - modifica a permissão de acesso de arquivos
+     chown     - troca a identificação do dono (UID) de arquivos
      clear     - limpa a tela do terminal
      clr       - limpa a tela do terminal
      cls       - limpa a tela do terminal
      cmp       - compara pares de arquivos
-     cmpobj    - compara pares de mÃ³dulos objeto
-     cmptree   - compara Ã¡rvores
+     cmpobj    - compara pares de módulos objeto
+     cmptree   - compara árvores
      comm      - seleciona ou rejeita linhas comuns a dois arquivos
                  ordenados
-     coremap   - imprime um mapa de alocaÃ§Ã£o da memÃ³ria
+     coremap   - imprime um mapa de alocação da memória
      cp        - copia arquivos
      cpfs      - copia sistemas de arquivos
-     cptree    - copia uma Ã¡rvore
+     cptree    - copia uma árvore
      crypt     - codifica/decodifica arquivos
      data      - mostra/atualiza a data/hora corrente do sistema
-     dc        - calculador de mesa com aritmÃ©tica inteira
+     dc        - calculador de mesa com aritmética inteira
      dd        - copia e converte arquivos
-     df        - informa sobre o espaÃ§o disponÃ­vel de sistemas de
+     df        - informa sobre o espaço disponível de sistemas de
                  arquivos
      diff      - comparador diferencial de arquivos
-     dmesg     - imprime as mensagens iniciais de carga do nÃºcleo
+     dmesg     - imprime as mensagens iniciais de carga do núcleo
      dosmp     - monta/processa um sistema de arquivos no formato
                  MS-DOS/Windows
      du        - informa sobre o uso de disco
@@ -2342,158 +2317,158 @@ Para obter mais informaÃ§Ãµes sobre um comando "x" (por exemplo), use
      ed        - editor de textos orientado por linhas
      edboot    - gerencia "boot0" e "boot2"
      editscb   - edita/imprime o bloco de controle da INTERNET
-     edobj     - editor de mÃ³dulos objeto
-     edscb     - imprime/edita o bloco de controle do nÃºcleo do
+     edobj     - editor de módulos objeto
+     edscb     - imprime/edita o bloco de controle do núcleo do
                  TROPIX
      edusr     - gerencia as contas/senhas
-     eject     - ejeta o meio removÃ­vel de um dispositivo
+     eject     - ejeta o meio removível de um dispositivo
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 50
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 50
 
      ex        - editor visual de textos
      exportfs  - lista/atualiza a tabela "exports" do NFS
-     fdc       - calculador de mesa com aritmÃ©tica flutuante
-     fdisk     - imprime e/ou modifica a tabela de partiÃ§Ãµes
+     fdc       - calculador de mesa com aritmética flutuante
+     fdisk     - imprime e/ou modifica a tabela de partições
                  de um disco
      fdformat  - formata disquetes
-     file      - tenta identificar o conteÃºdo de um arquivo
-     finger    - obtÃ©m informaÃ§Ãµes sobre usuÃ¡rios remotos
-     fsck      - verifica a consistÃªncia de sistemas de arquivos
-     fsdefrag  - melhora a alocaÃ§Ã£o dos blocos de um sistema de
+     file      - tenta identificar o conteúdo de um arquivo
+     finger    - obtém informações sobre usuários remotos
+     fsck      - verifica a consistência de sistemas de arquivos
+     fsdefrag  - melhora a alocação dos blocos de um sistema de
                  arquivos
      fsname    - consulta/atualiza nomes/volumes de sistemas de
                  arquivos
-     ftp       - programa de cÃ³pia remota de arquivos da INTERNET
-     gar       - utilitÃ¡rio para a criaÃ§Ã£o/atualizaÃ§Ã£o de coleÃ§Ãµes
+     ftp       - programa de cópia remota de arquivos da INTERNET
+     gar       - utilitário para a criação/atualização de coleções
                  de arquivos
-     grep      - busca de padrÃµes em arquivos
+     grep      - busca de padrões em arquivos
      gunzip    - comprime ou expande arquivos
      gzip      - comprime ou expande arquivos
-     help      - imprime resumos de utilizaÃ§Ã£o de comandos
+     help      - imprime resumos de utilização de comandos
      hpprint   - impressor para HP DeskJet (PCL)
-     ifdef     - realiza prÃ©processamentos parciais
-     includes  - descobre arquivos incluÃ­dos
+     ifdef     - realiza préprocessamentos parciais
+     includes  - descobre arquivos incluídos
      kill      - envia sinais a processos
      lasttime  - lista os nomes de arquivos modificados recentemente
-     lc        - lista o conteÃºdo de diretÃ³rios
-     ld        - link-editor de mÃ³dulos objeto
+     lc        - lista o conteúdo de diretórios
+     ld        - link-editor de módulos objeto
      ldshlib   - carrega/descarrega uma biblioteca compartilhada
-     linkoptim - substitui arquivos duplicados por elos fÃ­sicos
-     ln        - cria elos fÃ­sicos ou simbÃ³licos para arquivos
-     ls        - lista caracterÃ­sticas de arquivos e conteÃºdos de
-                 diretÃ³rios
-     mail      - recebe ou envia cartas do correio eletrÃ´nico
-     make      - gerenciador de manutenÃ§Ã£o de programas
-     man       - mostra um manual na tela do terminal/vÃ­deo/janela
+     linkoptim - substitui arquivos duplicados por elos físicos
+     ln        - cria elos físicos ou simbólicos para arquivos
+     ls        - lista características de arquivos e conteúdos de
+                 diretórios
+     mail      - recebe ou envia cartas do correio eletrônico
+     make      - gerenciador de manutenção de programas
+     man       - mostra um manual na tela do terminal/vídeo/janela
      mkdev     - cria/atualiza os dispositivos de "/dev"
-     mkdir     - cria diretÃ³rios
+     mkdir     - cria diretórios
      mkfifo    - cria FIFOs
      mkfs      - gera um sistema de arquivos
-     mklib     - cria/atualiza bibliotecas de mÃ³dulos objeto
+     mklib     - cria/atualiza bibliotecas de módulos objeto
      mknod     - cria um arquivo especial
      mount     - monta um sistema de arquivos
      mv        - move (troca o nome de) arquivos
-     mvtree    - move (troca o nome) de uma Ã¡rvore/diretÃ³rio
-     nettime   - obtÃ©m a data/hora corrente de um nÃ³ remoto
+     mvtree    - move (troca o nome) de uma árvore/diretório
+     nettime   - obtém a data/hora corrente de um nó remoto
      nice      - executa um comando com prioridade modificada
-     nm        - imprime a tabela de sÃ­mbolos de mÃ³dulos objeto
+     nm        - imprime a tabela de símbolos de módulos objeto
      nohup     - executa um comando imune ao sinal SIGHUP
-     pallwd    - imprime todos os diretÃ³rios correntes
-     passwd    - altera a senha do usuÃ¡rio
-     paste     - une linhas de vÃ¡rios arquivos
-     ping      - teste de acesso a um nÃ³ remoto
-     pop3      - acessa uma caixa postal remota atravÃ©s do
+     pallwd    - imprime todos os diretórios correntes
+     passwd    - altera a senha do usuário
+     paste     - une linhas de vários arquivos
+     ping      - teste de acesso a um nó remoto
+     pop3      - acessa uma caixa postal remota através do
                  protocolo POP3
      pr        - imprime arquivos
-     prdisktb  - Imprime a tabela de discos/partiÃ§Ãµes
-     prsync    - imprime o estado da sincronizaÃ§Ã£o dos processos
-     ps        - imprime informaÃ§Ãµes sobre processos
-     pwd       - imprime o diretÃ³rio corrente
+     prdisktb  - Imprime a tabela de discos/partições
+     prsync    - imprime o estado da sincronização dos processos
+     ps        - imprime informações sobre processos
+     pwd       - imprime o diretório corrente
      reboot    - Encerra o uso do TROPIX, e recarrega o computador
-     rlogin    - entra em sessÃ£o em um nÃ³ remoto
+     rlogin    - entra em sessão em um nó remoto
      rm        - Remove arquivos
-     rmdir     - remove diretÃ³rios
-     rmtree    - remove Ã¡rvores
+     rmdir     - remove diretórios
+     rmtree    - remove árvores
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 51
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 51
 
      sbvol     - controla o volume da placa de som SB-16
-     sbwave    - Toca mÃºsica PCM atravÃ©s da placa de som SB-16
-     semafree  - libera o semÃ¡foro pelo qual o processo estÃ¡
+     sbwave    - Toca música PCM através da placa de som SB-16
+     semafree  - libera o semáforo pelo qual o processo está
                  esperando
-     setmode   - atribui as proteÃ§Ãµes corretas aos arquivos do
+     setmode   - atribui as proteções corretas aos arquivos do
                  sistema
      sh        - interpretador de comandos
      show      - mostra um arquivo na tela do terminal
-     shutdown  - reinicializa o computador apÃ³s um certo tempo
-     size      - imprime tamanhos e caracterÃ­sticas de mÃ³dulos
+     shutdown  - reinicializa o computador após um certo tempo
+     size      - imprime tamanhos e características de módulos
                  objeto
-     sleep     - suspende a execuÃ§Ã£o por um intervalo de tempo
+     sleep     - suspende a execução por um intervalo de tempo
      sort      - ordena e/ou intercala arquivos
      sroff     - formatador de textos
-     strip     - remove as tabelas de sÃ­mbolos de mÃ³dulos-objeto
-     stty      - consulta/altera parÃ¢metros de terminais/vÃ­deos
+     strip     - remove as tabelas de símbolos de módulos-objeto
+     stty      - consulta/altera parâmetros de terminais/vídeos
      su        - muda de conta temporariamente
-     subst     - busca/substitui cadeias em vÃ¡rios arquivos
+     subst     - busca/substitui cadeias em vários arquivos
      sync      - Atualiza os blocos do cache nos discos
      sysmap    - desenha um mapa de uso de alguns recursos do
-                 sistema (programa grÃ¡fico)
-     tac       - descompila a descriÃ§Ã£o instalada de um terminal/
-                 vÃ­deo
-     tail      - obtÃ©m a parte final de um arquivo
-     tcmpfrom  - comparaÃ§Ã£o/atualizaÃ§Ã£o remota de Ã¡rvores
-                 (caminhando Ã¡rvores remotas)
-     tcmpto    - comparaÃ§Ã£o/atualizaÃ§Ã£o remota de Ã¡rvores
-                 (caminhando Ã¡rvores locais)
-     tcpfrom   - cÃ³pia remota de Ã¡rvores (caminhando Ã¡rvores
+                 sistema (programa gráfico)
+     tac       - descompila a descrição instalada de um terminal/
+                 vídeo
+     tail      - obtém a parte final de um arquivo
+     tcmpfrom  - comparação/atualização remota de árvores
+                 (caminhando árvores remotas)
+     tcmpto    - comparação/atualização remota de árvores
+                 (caminhando árvores locais)
+     tcpfrom   - cópia remota de árvores (caminhando árvores
                  remotas)
-     tcpto     - cÃ³pia remota de Ã¡rvores (caminhando Ã¡rvores
+     tcpto     - cópia remota de árvores (caminhando árvores
                  locais)
-     tee       - copia a entrada padrÃ£o para diversos arquivos e a
-                 saida padrÃ£o
-     telnet    - comunica com um nÃ³ remoto utilizando o protocolo
+     tee       - copia a entrada padrão para diversos arquivos e a
+                 saida padrão
+     telnet    - comunica com um nó remoto utilizando o protocolo
                  TELNET
      test      - testa propriedades de arquivos
      textmap   - imprime uma tabela de programas reentrantes em uso
-     tic       - compila e instala a descriÃ§Ã£o de um terminal/vÃ­deo
+     tic       - compila e instala a descrição de um terminal/vídeo
      touch     - Modifica os tempos de arquivos
-     tpipe     - escreve arquivos remotos na saÃ­da padrÃ£o
+     tpipe     - escreve arquivos remotos na saída padrão
      tr        - traduz caracteres
-     tty       - imprime o nome do terminal/vÃ­deo
+     tty       - imprime o nome do terminal/vídeo
      umount    - desmonta sistemas de arquivos
-     uname     - imprime a identificaÃ§Ã£o do sistema
+     uname     - imprime a identificação do sistema
      uniq      - indica linhas repetidas de um arquivo
      untext    - libera os recursos de programas reentrantes
-     uptime    - fornece o tempo decorrido desde o Ãºltimo "boot"
+     uptime    - fornece o tempo decorrido desde o último "boot"
      vi        - editor visual de textos
-     walk      - caminha em Ã¡rvores do sistema de arquivos
-     wc        - contador de pÃ¡ginas, linhas, palavras e caracteres
-     who       - informa quem estÃ¡ no sistema
-     write     - escreve mensagens para um outro usuÃ¡rio
-     xcoremap  - desenha um mapa de alocaÃ§Ã£o da memÃ³ria
-                 (programa grÃ¡fico)
-     xclock    - relÃ³gio analÃ³gico (programa grÃ¡fico)
-     xcpu      - desenha o grÃ¡fico de uso da CPU
+     walk      - caminha em árvores do sistema de arquivos
+     wc        - contador de páginas, linhas, palavras e caracteres
+     who       - informa quem está no sistema
+     write     - escreve mensagens para um outro usuário
+     xcoremap  - desenha um mapa de alocação da memória
+                 (programa gráfico)
+     xclock    - relógio analógico (programa gráfico)
+     xcpu      - desenha o gráfico de uso da CPU
      xd        - "dump" em hexadecimal e ISO
-     xdefrag   - Melhora a alocaÃ§Ã£o dos blocos de um sistema
+     xdefrag   - Melhora a alocação dos blocos de um sistema
                  de arquivos T1
      xedit     - editor de textos simples para o sistema X-Window
-     xfm       - gerenciador grÃ¡fico de arquivos
+     xfm       - gerenciador gráfico de arquivos
      xmandel   - desenha as imagens fractais de Mandelbrot
-     xpop3     - acessa uma caixa postal remota atravÃ©s do
+     xpop3     - acessa uma caixa postal remota através do
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
 
-INSTALL (ref) TROPIX: Guia de InstalaÃ§Ã£o Pag. 52
+INSTALL (ref) TROPIX: Guia de Instalação Pag. 52
 
                  protocolo POP3
      xpaint    - mostra uma imagem (gif, jpeg, bmp ou xpm) em uma
-                 janela (programa grÃ¡fico)
+                 janela (programa gráfico)
      xterm     - Emulador de terminal ANSI para X-Window
      ziptool   - ferramenta para dispositivos Iomega ZIP
 
-Atualizado em 10.12.08 VersÃ£o 4.9.0
+Atualizado em 10.12.08 Versão 4.9.0
