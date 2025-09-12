@@ -1,3 +1,4 @@
+
       *******   *******  *******   *******    *    *     *
          *      *     *  *     *   *     *    *     *   *
          *      *     *  *     *   *     *    *      * *
@@ -5,6 +6,7 @@
          *      *  *     *     *   *          *      * *
          *      *   *    *     *   *          *     *   *
          *      *    *   *******   *          *    *     *
+
 
 
 
@@ -120,25 +122,14 @@
                   TROPIX ............................... 49
 
 
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 1                       *
-     *                                                       *
-     *                      INTRODUÇÃO                       *
-     *                                                       *
-     *********************************************************
 
-O TROPIX (pronuncia-se "trópix") é um Sistema Operacional de 32 bits,
-multiusuário e multitarefa, de filosofia UNIX ®, desenvolvido no Núcleo
-de Computação Eletrônica da Universidade Federal do Rio de Janeiro
-(NCE/UFRJ).
+    
+# Capítulo 1 
+## INTRODUÇÃO                      
 
-O TROPIX foi inicialmente concebido durantes os anos de 1982 a 1986 (na
-época com o nome PLURIX) para o computador PEGASUS. Este computador foi
-construído também no NCE, e era baseado nos processadores MOTOROLA
-68010/20. Desde seu início, o sistema foi concebido com
-multiprocessamento simétrico, funcionando em um PEGASUS que possuía 2
-CPUs 68020.
+O TROPIX (pronuncia-se "trópix") é um Sistema Operacional de 32 bits,multiusuário e multitarefa, de filosofia UNIX ®, desenvolvido no Núcleo de Computação Eletrônica da Universidade Federal do Rio de Janeiro (NCE/UFRJ).
+
+O TROPIX foi inicialmente concebido durantes os anos de 1982 a 1986 (na época com o nome PLURIX) para o computador PEGASUS. Este computador foi construído também no NCE, e era baseado nos processadores MOTOROLA 68010/20. Desde seu início, o sistema foi concebido com multiprocessamento simétrico, funcionando em um PEGASUS que possuía 2 CPUs 68020.
 
 O sistema foi transportado em 1987 para o computador ICARUS, baseado
 nestes mesmos processadores, e acrescentada parte do suporte para tempo
@@ -187,267 +178,254 @@ A continuação deste trabalho é uma homenagem póstuma a Newton Faller, o
 grande idealizador dos projetos PEGASUS, PLURIX, TROPIX e de tantos
 outros.
 
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 2                       *
-     *                                                       *
-     *                 NOVIDADES DAS VERSÕES                 *
-     *                                                       *
-     *********************************************************
+# Capítulo 2  
+## NOVIDADES DAS VERSÕES                 
 
-Novidades desta versão "4.9.0":
+### Novidades desta versão "4.9.0":
 
-    1: Implementado o protocolo USB 2.0.
+1. Implementado o protocolo USB 2.0.
 
-    2: Suporta a discos SATA.
+2. Suporta a discos SATA.
 
-    3: Nova versão da interface gráfica (baseada  na  versão  4.7.0
+3. Nova versão da interface gráfica (baseada  na  versão  4.7.0
        distribuída pelo Consórcio XFree86).
 
 Para acompanhar a evolução do TROPIX, incluímos as novidades das versões
 anteriores.
 
-Novidades da versão "4.8.0":
+### Novidades da versão "4.8.0":
 
-    1: Sistema de Arquivos NFS (Network  File  System,  Versão  2),
+1. Sistema de Arquivos NFS (Network  File  System,  Versão  2),
        para a montagem de sistemas de arquivos remotos.
 
-Novidades da versão "4.7.0":
+### Novidades da versão "4.7.0":
 
-    1: Distribuição do código objeto em CDROM.
+1. Distribuição do código objeto em CDROM.
 
-    2: Novo utilitário gráfico "xcpu", que desenha o gráfico de uso
-       da CPU.
+2. Novo utilitário gráfico "xcpu", que desenha o gráfico de uso da CPU.
 
-Novidades da versão "4.6.0":
+### Novidades da versão "4.6.0":
 
-    1: Suporte  a  discos  USB (simulados em memória, "pen drive"),
+1. Suporte  a  discos  USB (simulados em memória, "pen drive"),
        com anexação/desanexação dinâmica.
 
-    2: Montagem (somente para  leituras)  do  sistema  de  arquivos
+2. Montagem (somente para  leituras)  do  sistema  de  arquivos
        NTFS.
 
-    3: Montagem  de  imagens  de  sistemas de arquivos (em arquivos
+3. Montagem  de  imagens  de  sistemas de arquivos (em arquivos
        regulares).
 
-    4: Nova versão da interface gráfica (baseada  na  versão  4.4.0
+4. Nova versão da interface gráfica (baseada  na  versão  4.4.0
        distribuída pelo Consórcio XFree86).
 
-Novidades da versão "4.5.0":
+### Novidades da versão "4.5.0":
 
-    1: Reconhecimento de "mouse" USB.
+1. Reconhecimento de "mouse" USB.
 
-    2: Novos utilitários gráficos: o gerenciador de arquivos "xfm",
+2. Novos utilitários gráficos: o gerenciador de arquivos "xfm",
        o  programa  para acessar caixas postais remotas "xpop3" e o
        gerador de imagens fractais de Mandelbrot "xmandel".
 
-    3: Extensão do núcleo  para  permitir  o  compartilhamento  das
+3. Extensão do núcleo  para  permitir  o  compartilhamento  das
        interrupções (IRQ) entre dispositivos.
 
-    4: Acesso a sistemas de arquivos FAT-32 de mais de 4 GB.
+4. Acesso a sistemas de arquivos FAT-32 de mais de 4 GB.
 
-Novidades da versão "4.4.0":
+#### Novidades da versão "4.4.0":
 
-    1: Montagem de Sistemas de Arquivos EXT2 do Linux.
+1. Montagem de Sistemas de Arquivos EXT2 do Linux.
 
-    2: Suporte ao "mouse" PS/2.
+2. Suporte ao "mouse" PS/2.
 
-    3: Nova  versão  (XFree86  Version  4.3.0)  do  Sistema Gráfico
+3. Nova  versão  (XFree86  Version  4.3.0)  do  Sistema Gráfico
        X-Window, suportando os modelos  mais  recentes  das  placas
        gráficas ATI, TRIDENT e S3.
 
-    4: Novas  funções da biblioteca "stdio" com áreas de 4 KB, para
+4. Novas  funções da biblioteca "stdio" com áreas de 4 KB, para
        compatibilizá-la com o novo sistema de arquivos T1.
 
-    5: Funções aritméticas de 64 bits para os valores  "long  long"
+5. Funções aritméticas de 64 bits para os valores  "long  long"
        da linguagem "C". Isto é importante para o acesso a arquivos
        com mais de 4 GB.
 
-    6: Acesso  ao  histórico  da  "sh"  através das teclas de setas
+6. Acesso  ao  histórico  da  "sh"  através das teclas de setas
        também em modo texto.
 
-    7: Novos  comandos:  O  desfragmentador   "xdefrag"   (programa
+7. Novos  comandos:  O  desfragmentador   "xdefrag"   (programa
        gráfico)  permite melhorar a alocação dos blocos de sistemas
        de arquivos T1; o  programa  conversor  "a2ps"  converte  um
        texto  ISO para PostScript, para ser impresso em impressoras
        que aceitam esta linguagem.
 
-Novidades da versão "4.3.0":
+### Novidades da versão "4.3.0":
 
-    1: O novo sistema  de  arquivos  T1,  com  blocos  de  4  KB  e
+1. O novo sistema  de  arquivos  T1,  com  blocos  de  4  KB  e
        identificadores de até 255 caracteres, que tem um desempenho
        muito  superior  ao  sistema  de  arquivos  anterior (V7) de
        blocos de 512 bytes. A presente versão continua suportando o
        sistema de arquivos V7.
 
-    2: Criação do arquivo "/etc/fstab" para o  melhor  controle  da
+2. Criação do arquivo "/etc/fstab" para o  melhor  controle  da
        montagem de dispositivos.
 
-    3: Nova   interface   para   reconhecimento   de   dispositivos
+3. Nova   interface   para   reconhecimento   de   dispositivos
        IDE/ATA/ATAPI.
 
-    4: Disquete de BOOT da distribuição contendo  a  imagem  de  um
+4. Disquete de BOOT da distribuição contendo  a  imagem  de  um
        sistema  de  arquivos  que  é  descompactada  em  um RAMD (a
        simulação de um disco na memória principal). Isto facilita a
        instalação do TROPIX.
 
-Novidades da versão "4.2.0":
+### Novidades da versão "4.2.0":
 
-    1: Aumento do tamanho das áreas de entrada/saída do "cache"  de
+1. Aumento do tamanho das áreas de entrada/saída do "cache"  de
        dispositivos  estruturadas de 512 para 4096 bytes. Com isto,
        possibilitamos a leitura/escrita de dispositivos que possuem
        blocos maiores do que 512 bytes (por exemplo o  CDROM,  cujo
        bloco  é  de  2  KB)  além  de  aumentarmos  a velocidade de
        processamento dos dispositivos já suportados.
 
-    2: Criação da camada abstrata de "nós-índice" para possibilitar
+2. Criação da camada abstrata de "nós-índice" para possibilitar
        a montagem de vários sistemas de arquivos.
 
-    3: Montagem de sistemas de arquivos FAT12/16/32.
+3. Montagem de sistemas de arquivos FAT12/16/32.
 
-    4: Montagem de sistemas de arquivos de CDROM original, além das
+4. Montagem de sistemas de arquivos de CDROM original, além das
        extensões "Rock Ridge" e "Joliet".
 
-    5: Implementação dos elos simbólicos.
+5. Implementação dos elos simbólicos.
 
-Novidades da versão "4.1.0":
+### Novidades da versão "4.1.0":
 
-    1: Novo "driver" para  controladores  SCSI  da  Adaptec:  Agora
+1. Novo "driver" para  controladores  SCSI  da  Adaptec:  Agora
        suportando os novos controladores 29160, para 160 MB/s.
 
-    2: Adicionados  os "chip"s da VIA e INTEL para o uso de DMA com
+2. Adicionados  os "chip"s da VIA e INTEL para o uso de DMA com
        o acesso a discos IDE.
 
-    3: Estendido o sistema de  compilação  da  linguagem  "C"  para
+3. Estendido o sistema de  compilação  da  linguagem  "C"  para
        aceitar identificadores sem limitação de tamanho.
 
-    4: Introduzidas  as  funções  da biblioteca "C" para leitura de
+4. Introduzidas  as  funções  da biblioteca "C" para leitura de
        diretórios  em  um  formato  independente  do   sistema   de
        arquivos: "opendir", "readdir", ...
 
-    5: O  "boot"  do  TROPIX  foi  estendido, e já aceita os discos
+5. O  "boot"  do  TROPIX  foi  estendido, e já aceita os discos
        Iomega ZIP (100 MB) para carregar o  sistema,  em  todas  as
        suas etapas.
 
-Novidades da versão "4.0.0":
+### Novidades da versão "4.0.0":
 
-    1: Melhorado  o  reconhecimento  e a avaliação da velocidade do
+1. Melhorado  o  reconhecimento  e a avaliação da velocidade do
        processador do computador durante o estágio 2  da  carga  do
        sistema ("boot2").
 
-    2: Suporte para discos IDE com mais de 8 GB.
+2. Suporte para discos IDE com mais de 8 GB.
 
-    3: Reconhecimento de dispositivos PnP ("Plug and Play").
+3. Reconhecimento de dispositivos PnP ("Plug and Play").
 
-    4: Utilização  de  DMA  para  o acesso a discos IDE (no momento
+4. Utilização  de  DMA  para  o acesso a discos IDE (no momento
        somente para o "chip" "Acer Aladdin").
 
-    5: Comando "mail" inteiramente reescrito, agora podendo receber
+5. Comando "mail" inteiramente reescrito, agora podendo receber
        e enviar anexos.
 
-Novidades da versão "3.2.3":
+### Novidades da versão "3.2.3":
 
-     Esta versão "continha como novidade principal  as  bibliotecas
+Esta versão "continha como novidade principal  as  bibliotecas
      compartilhadas  (semelhantes  às  DLLs  do  Windows). Todas as
      bibliotecas das versões antigas ("libc", "libm", "libcurses" e
      "libxti")  estão  agora  reunidas  em  apenas  uma  biblioteca
      compartilhada "/lib/libt.o".
 
-     O  mesmo ocorre também com as bibliotecas da interface gráfica
+O  mesmo ocorre também com as bibliotecas da interface gráfica
      X-Window:  todas  elas  estão  agora   integradas   nas   duas
      bibliotecas     compartilhadas     "/usr/xwin/lib/libx.o"    e
      "/usr/xwin/lib/liby.o".
 
-     Com a utilização das bibliotecas compartilhadas, o tamanho dos
+Com a utilização das bibliotecas compartilhadas, o tamanho dos
      módulos   executáveis   diminuiu   drasticamente.   Com   isto
-     reduziu-se  simultaneamente o tempo de carga e a quantidade de
-
-     espaço ocupados (tanto no disco como  na  memória  principal).
+     reduziu-se  simultaneamente o tempo de carga e a quantidade de espaço ocupados (tanto no disco como  na  memória  principal).
      Como  exemplo,  um utilitário típico, o "cp" que ocupava 13704
      bytes, passou a ocupar apenas 4032, isto é, caiu  a  menos  do
      terço  do  tamanho.  No  caso  dos  utilitários gráficos, esta
      redução  é  muito  maior;  como  exemplo  citamos  o  programa
      "xedit", que passou de 612 KB para menos de 4KB!
 
-     Esta  versão  inclui  também  alguns programas novos, entre os
+Esta  versão  inclui  também  alguns programas novos, entre os
      quais:
 
-         1: "cdplay": toca CDs de áudio  em  unidades  IDE/ATAPI  e
+1. "cdplay": toca CDs de áudio  em  unidades  IDE/ATAPI  e
             SCSI.
 
-         2: "cdtowave":  extrai  faixas de áudio de CDs em unidades
+2. "cdtowave":  extrai  faixas de áudio de CDs em unidades
             IDE/ATAPI e SCSI.
 
-         3: "sbvol": controla o volume (mestre) das placas SB-16.
+3. "sbvol": controla o volume (mestre) das placas SB-16.
 
-         4: "mkshlib" e "ldshlib": cria e  carrega  as  bibliotecas
+4. "mkshlib" e "ldshlib": cria e  carrega  as  bibliotecas
             compartilhadas.
 
-         5: "nohup": executa comandos imunes ao sinal SIGHUP.
+5. "nohup": executa comandos imunes ao sinal SIGHUP.
 
-         6: "paste": une linhas de vários arquivos.
+6. "paste": une linhas de vários arquivos.
 
-         7: "fdc": pequeno calculador de mesa para números de ponto
+7. "fdc": pequeno calculador de mesa para números de ponto
             flutuante.
 
-         8: "xcoremap":  programa  gráfico para desenhar um mapa de
+8. "xcoremap":  programa  gráfico para desenhar um mapa de
             alocação da memória principal do computador.
 
-         9: "xedit": programa gráfico para editar  textos  (similar
+9. "xedit": programa gráfico para editar  textos  (similar
             ao "notepad" do Windows).
 
-        10: "xpaint": agora já aceita o formato JPEG.
+10. "xpaint": agora já aceita o formato JPEG.
 
 
      Outros modificações/aprimoramentos:
 
-         1: "Drivers"  para dispositivos IDE-ATAPI: Estes "drivers"
+1. "Drivers"  para dispositivos IDE-ATAPI: Estes "drivers"
             irão permitir ao TROPIX acessar dispositivos IDE-ATAPI,
             tais como CD-ROMs e acionadores de discos ZIP internos.
             No entanto, os sistemas de arquivos dos  CD-ROMs  ainda
             não estão sendo reconhecidos.
 
-         2: "Driver" para o controlador "Realtek RTL 8129/8139 Fast
+2. "Driver" para o controlador "Realtek RTL 8129/8139 Fast
             Ethernet" (10/100 Mbs).
 
-         3: A  partição  de  SWAP  não  é  mais  necessária  para a
+3. A  partição  de  SWAP  não  é  mais  necessária  para a
             instalação,  tanto  em  partições  próprias,  como   em
             arquivos do MS-DOS/Windows.
 
-         4: Já é reconhecido o Fax-modem U.S. Robotics 56K PCI.
+4. Já é reconhecido o Fax-modem U.S. Robotics 56K PCI.
 
-         5: Inauguração   da   distribuição  do  código  fonte  das
+5. Inauguração   da   distribuição  do  código  fonte  das
             bibliotecas e utilitários do TROPIX.
 
-         6: O servidor WWW do TROPIX  já  permite  a  retomada  das
+6. O servidor WWW do TROPIX  já  permite  a  retomada  das
             transferências   a   partir   do  ponto  em  que  foram
             interrompidas.
 
-Novidades da versão "3.2.1":
+### Novidades da versão "3.2.1":
 
-     Inclui a primeira distribuição do código fonte  do  núcleo  do
+Inclui a primeira distribuição do código fonte  do  núcleo  do
      sistema,  recomendando-o  mais ainda para um curso de sistemas
      operacionais.
 
-Novidades da versão "3.2.0":
+### Novidades da versão "3.2.0":
 
-     Continha como novidade principal o suporte  (parcial)  para  a
+Continha como novidade principal o suporte  (parcial)  para  a
      placa de som "Sound Blaster".
 
-Novidades da versão "3.1.8":
+### Novidades da versão "3.1.8":
 
-     Continha  como  novidades  a  Interface  Gráfica  X-Window e o
+Continha  como  novidades  a  Interface  Gráfica  X-Window e o
      suporte para sistemas de arquivos MS-DOS/Windows com FAT32.
 
 
+ # Capítulo 3  
+ ## CARACTERÍSTICAS                    
 
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 3                       *
-     *                                                       *
-     *                    CARACTERÍSTICAS                    *
-     *                                                       *
-     *********************************************************
 
 A distribuição do TROPIX é gratuita, e ele pode ser instalado através de
 um CDROM ou de disquetes.
@@ -489,14 +467,8 @@ Também CD-ROMs podem ser montados em todas as suas variantes (ISO-9660,
 Rock-Ridge e Joliet).
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 4                       *
-     *                                                       *
-     *                   CONFIGURAÇÃO DO PC                  *
-     *                                                       *
-     *********************************************************
+# Capítulo 4  
+## CONFIGURAÇÃO DO PC    
 
 O PC deve possuir um processador Intel 486/PENTIUM ou equivalente. O
 mínimo razoável de memória principal é 8 MB. Com 4 MB é possível
@@ -538,14 +510,8 @@ necessário alocar um certo espaço dos discos rígidos (tipicamente 128
 MB).
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 5                       *
-     *                                                       *
-     *                  CRIAÇÃO DO CDROM                     *
-     *                                                       *
-     *********************************************************
+# Capítulo 5   
+## CRIAÇÃO DO CDROM     
 
 Tendo obtido a coleção "cdrom.tgz" da distribuição do CDROM do TROPIX, é
 necessário gravá-lo.
@@ -577,14 +543,8 @@ necessário gravá-lo.
     o "Easy CD Creator" ou o "Nero").
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 6                       *
-     *                                                       *
-     *            CRIAÇÃO DO DISQUETE DE "BOOT"              *
-     *                                                       *
-     *********************************************************
+#  Capítulo 6  
+## CRIAÇÃO DO DISQUETE DE "BOOT" 
 
 Tendo obtido a coleção "tropix.tgz" da distribuição do TROPIX básico, é
 necessário (pelo menos) criar o disquete de 3½\" chamado de BOOT.
@@ -598,7 +558,7 @@ necessário (pelo menos) criar o disquete de 3½\" chamado de BOOT.
               boot.dsk
               gar1.dsk
 
-    O arquivo "install.txt" é o guia de instalação (que você está
+     O arquivo "install.txt" é o guia de instalação (que você está
     lendo), o arquivo "fdimage.exe" é um utilitário de cópia para o
     MS-DOS/Windows (que neste caso não será usado), e os arquivos
     restantes são os conteúdos dos 2 disquetes chamados de BOOT e GAR1.
@@ -642,14 +602,8 @@ são ocasionados por disquetes defeituosos.
 Após a geração do disquete, recomendamos protegê-lo contra escritas.
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 7                       *
-     *                                                       *
-     *      ALGUMAS CONVENÇÕES/CARACTERÍSTICAS DO TROPIX     *
-     *                                                       *
-     *********************************************************
+# Capítulo 7 
+## ALGUMAS CONVENÇÕES/CARACTERÍSTICAS DO TROPIX 
 
 Conceitualmente, o sistema operacional TROPIX é semelhante aos sistemas
 tipo UNIX, embora existam algumas diferenças. Para descrever de forma
@@ -732,17 +686,11 @@ caracteres especiais. Assim, teclando-se "\~a" obtemos "ã" e com ",c"
 obtemos "ç". Com este método, podemos obter quase todas as vogais
 acentuadas das linguas ocidentais. Se não desejarmos esta composição,
 basta teclar "\" entre os caracteres. Assim, por exemplo, se
-teclarmos"\~`\a`{=tex}\" obteremos "\~a".
+teclarmos"\~\\a\" obteremos "\~a".
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 8                       *
-     *                                                       *
-     *  EXECUTANDO O TROPIX DIRETAMENTE DO CDROM OU DISQUETE *
-     *                                                       *
-     *********************************************************
+# Capítulo 8 
+## EXECUTANDO O TROPIX DIRETAMENTE DO CDROM OU DISQUETE 
 
 Tanto o CDROM do TROPIX (obtido no capítulo 5), como o disquete de BOOT
 (obtido no capítulo 6), contém a imagem comprimida de um sistema de
@@ -756,20 +704,20 @@ de "boot" da BIOS do seu computador é a desejada.
 
 Isto é útil para:
 
-     1. Testar a compatibilidade do TROPIX com o seu computador. Se
+1. Testar a compatibilidade do TROPIX com o seu computador. Se
         houver alguma incompatibilidade, comunique-nos (através  do
         endereço eletrônico do capítulo 1).
 
-     2. Executar   o  TROPIX  experimentalmente,  para  conhecer  o
+2. Executar   o  TROPIX  experimentalmente,  para  conhecer  o
         sistema sem alterar os discos rígidos do seu computador.
 
-     3. Ler este guia de instalação  na  tela  do  computador  e/ou
+3. Ler este guia de instalação  na  tela  do  computador  e/ou
         imprimi-lo na sua impressora (veja o final deste capítulo).
 
-     4. Instalar  o  TROPIX  no  disco rígido do seu computador. Há
+4. Instalar  o  TROPIX  no  disco rígido do seu computador. Há
         dois modos de instalação: veja o capítulo 10.
 
-     5. Consertar  o  TROPIX  residente  no  disco   rígido,   caso
+5. Consertar  o  TROPIX  residente  no  disco   rígido,   caso
         apresente problemas.
 
 Após o "reset", o "boot1" (o primeiro estágio da operação de "boot")
@@ -921,14 +869,8 @@ MS-DOS/Windows; é melhor utilizar o Windows, em virtude do código de
 caracteres usado (ISO-8859-1 (Latim-1)).
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 9                       *
-     *                                                       *
-     *     PREPARAÇÃO DOS DISQUETES/ARQUIVOS RESTANTES       *
-     *                                                       *
-     *********************************************************
+# Capítulo 9 
+## PREPARAÇÃO DOS DISQUETES/ARQUIVOS RESTANTES 
 
 Este capítulo contém informações apenas para a instalação através de
 disquetes. Se você está instalando através de um CDROM, pode pulá-lo.
@@ -938,7 +880,7 @@ GAR1. O disquete de BOOT já foi criado no capítulo 6.
 
 Se você possui uma partição DOS/Windows FAT16/32 ou NTFS em seu
 computador, a criação do disquete GAR1 pode ser dispensada. A idéia
-consiste em copiar a imagem para um diretório "`\TROPIX`{=tex}" da
+consiste em copiar a imagem para um diretório "\\TROPIX" da
 partição DOS/Windows.
 
 1.  Se você utiliza um sistema UNIX, deve utilizar comandos do tipo:
@@ -954,7 +896,7 @@ partição DOS/Windows.
 
 2.  Se você utiliza WinXP/Win2000/WinNT/Win98/Win95/Win3.x, deve
     utilizar o "Windows Explorer" para criar o diretório
-    "C:`\TROPIX`{=tex}" e em seguida copiar o arquivo "gar1.dsk" para o
+    "C:\\TROPIX" e em seguida copiar o arquivo "gar1.dsk" para o
     diretório criado. Ao invés de "C:", pode ser usada uma outra
     partição desejada.
 
@@ -971,14 +913,8 @@ são ocasionados por disquetes defeituosos.
 Após a criação, recomendamos proteger o disquete contra escritas.
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 10                      *
-     *                                                       *
-     *     MODOS DE INSTALAÇÃO DO TROPIX NO DISCO RÍGIDO     *
-     *                                                       *
-     *********************************************************
+# Capítulo 10 
+## MODOS DE INSTALAÇÃO DO TROPIX NO DISCO RÍGIDO
 
 Há dois modos de instalar o TROPIX no disco rígido:
 
@@ -1019,13 +955,8 @@ INSTALANDO/UTILIZANDO O TROPIX SOB SUA PRÓPRIA RESPONSABILIDADE E RISCO!
 
 
 
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 11                      *
-     *                                                       *
-     *  INSTALAÇÃO DO TROPIX EM ARQUIVOS DO MS-DOS/Windows   *
-     *                                                       *
-     *********************************************************
+# Capítulo 11
+## INSTALAÇÃO DO TROPIX EM ARQUIVOS DO MS-DOS/Windows
 
 Este modo não oferece um desempenho tão bom quanto a instalação do
 TROPIX em partições próprias; em compensação, a instalação é mais
@@ -1034,7 +965,7 @@ método só é possível com sistemas de arquivos FAT-16 ou FAT-32; ainda
 NÃO é possível com NTFS.
 
 A idéia consiste em utilizar uma partição já existente do MS-DOS/Windows
-e nela criar o diretório "`\TROPIX`{=tex}" contendo 2 arquivos: "ROOT" e
+e nela criar o diretório "\\TROPIX" contendo 2 arquivos: "ROOT" e
 "HOME". Estes arquivos irão conter os sistemas de arquivos TROPIX e a
 carga do sistema será feita através de CDROM ou disquete.
 
@@ -1052,7 +983,7 @@ As etapas da instalação são as seguintes:
     Isto significa compactar todos os arquivos MS-DOS/Windows no início
     da partição, de tal modo que fique apenas uma área livre ao seu
     final, onde serão criados os 2 arquivos do diretório
-    "`\TROPIX`{=tex}". Isto pode ser feito pelo utilitário DEFRAG (do
+    "\\TROPIX". Isto pode ser feito pelo utilitário DEFRAG (do
     MS-DOS ou do Windows), ou o SPEED DISK dos "NORTON Utilities".
 
 3.  Insira o CDROM ou disquete de BOOT do TROPIX e carregue o sistema
@@ -1103,7 +1034,7 @@ As etapas da instalação são as seguintes:
     do TROPIX, use o comando "shutdown".
 
 7.  Para desinstalar o TROPIX da sua partição MS-DOS/Windows, basta
-    remover o diretório "`\TROPIX`{=tex}" (juntamente com os seus 2
+    remover o diretório "\\TROPIX" (juntamente com os seus 2
     arquivos).
 
 Para facilitar a instalação futura de uma nova versão do TROPIX,
@@ -1112,13 +1043,8 @@ recomendamos colocar seus arquivos particulares apenas no seu diretório
 
 
 
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 12                      *
-     *                                                       *
-     *                  DISCOS E PARTIÇÕES                   *
-     *                                                       *
-     *********************************************************
+# Capítulo 12 
+## DISCOS E PARTIÇÕES 
 
 Para instalar o TROPIX em partições próprias (que possibilita o melhor
 desempenho), é necessário possuir uma noção básica de como são
@@ -1178,14 +1104,8 @@ Se houver espaço disponível em mais de um disco rígido, aconselhamos
 fortemente a distribuir as partições entre os vários discos.
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 13                      *
-     *                                                       *
-     *             O EDITOR DE PARTIÇÕES "fdisk"             *
-     *                                                       *
-     *********************************************************
+# Capítulo 13 
+## O EDITOR DE PARTIÇÕES "fdisk"  
 
 Assim como os outros sistemas operacionais, o TROPIX também possui o seu
 editor de partições, que (como é usual) também é chamado de "fdisk". No
@@ -1196,17 +1116,17 @@ partições com o sistema em funcionamento.
 
 Para executar o "fdisk", insira o CDROM ou o disquete de BOOT do TROPIX,
 e recarregue o sistema (conforme o capítulo 8). Quando surgir o "prompt"
-"boot\>" do "boot2", tecle "-f":
+"boot>" do "boot2", tecle "-f":
 
-boot\> -f
+     boot> -f
 
 Entrando no editor de tabelas de partições "fdisk"
 
-Tecle "?" para uma lista de comandos
+     Tecle "?" para uma lista de comandos
 
-Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
+     Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+     IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
 
@@ -1218,45 +1138,48 @@ BIOS estão ativas (em caso contrário, a letra indicada seria "G").
 Uma vez com o "prompt" do "fdisk", teclando "?" obtemos uma lista dos
 comandos disponiveis:
 
-fdisk\> ?
+     fdisk> ?
 
-Editor de tabelas de partições
+     Editor de tabelas de partições
 
-comandos: -: Imprime a tabela de partições p: Idem, com áreas vagas c:
-Troca o dispositivo (disco) n: Cria uma partição nova d: Remove uma
-partição m: Altera o tamanho de uma partição a: Troca o estado
-(ativo/não ativo) da partição l: Imprime os tipos das partições
+     comandos: 
+     -: Imprime a tabela de partições 
+     p: Idem, com áreas vagas 
+     c:  Troca o dispositivo (disco) 
+     n: Cria uma partição nova 
+     d: Remove uma partição 
+     m: Altera o tamanho de uma partição 
+     a: Troca o estado (ativo/não ativo) da partição 
+     l: Imprime os tipos das partições
+     t: Troca o tipo da partição
+     s: Imprime as áreas vagas do disco
+     u: Liga/desliga o alinhamento (começa ligado)
+     w: Reescreve (atualiza) a tabela de partições no disco
+     q: Termina a execução do editor de partições
 
-
-         t: Troca o tipo da partição
-         s: Imprime as áreas vagas do disco
-         u: Liga/desliga o alinhamento (começa ligado)
-         w: Reescreve (atualiza) a tabela de partições no disco
-         q: Termina a execução do editor de partições
-
-Obs.: Para qualquer dado pedido, "n" cancela o comando
+     Obs.: Para qualquer dado pedido, "n" cancela o comando
 
 Inicialmente vamos criar uma partição estendida para conter os 2
 sistemas de arquivos (tradicionais) do TROPIX. Tecle "n", e siga o
 seguinte diálogo (repare na opção do tipo da partição estendida):
 
-fdisk\> n
+     fdisk> n
 
-Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): e
+     Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): e
 
-Número da partição = 2? (s):
+     Número da partição = 2? (s):
 
-Dê o tipo de partição estendida: DOS (d) ou TROPIX (x): x
+     Dê o tipo de partição estendida: DOS (d) ou TROPIX (x): x
 
-Bloco inicial = 4209030? (s):
+     Bloco inicial = 4209030? (s):
 
-Bloco final = 12402179 (4000.56 MB)? (s): n
+     Bloco final = 12402179 (4000.56 MB)? (s): n
 
-Dê o tamanho desejado (MB): 128
+     Dê o tamanho desejado (MB): 128
 
-Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
+     Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+     IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
@@ -1268,21 +1191,21 @@ demos o comando "u".
 Em seguida, vamos criar a partição lógica para o ROOT. Tecle "n", e siga
 o seguinte diálogo:
 
-fdisk\> n
+     fdisk> n
 
-Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): l
+     Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): l
 
-Partição estendida "hda2":
+     Partição estendida "hda2":
 
-Bloco inicial = 4209093? (s):
+     Bloco inicial = 4209093? (s):
 
-Bloco final = 4482134 (133.32 MB)? (s): n
+     Bloco final = 4482134 (133.32 MB)? (s): n
 
-Dê o tamanho desejado (MB): 64
+     Dê o tamanho desejado (MB): 64
 
-Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
+     Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+     IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
@@ -1292,19 +1215,19 @@ IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 Em seguida, vamos criar a partição lógica para o HOME. Tecle "n", e siga
 o seguinte diálogo:
 
-fdisk\> n
+     fdisk> n
 
-Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): l
+     Dê o tipo desejado: regular (r), estendida (e) ou lógica (l): l
 
-Partição estendida "hda2":
+     Partição estendida "hda2":
 
-Bloco inicial = 4353678? (s):
+     Bloco inicial = 4353678? (s):
 
-Bloco final = 4482134 (62.72 MB)? (s):
+     Bloco final = 4482134 (62.72 MB)? (s):
 
-Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
+     Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+     IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
@@ -1315,13 +1238,13 @@ Finalmente, vamos ativar a partição ROOT, para possibilitar a carga do
 sistema ("boot") através do gerenciador de carga (o "boot0"). Tecle "a",
 e siga o seguinte diálogo:
 
-fdisk\> a
+     fdisk> a
 
-Índice da partição: 3
+     Índice da partição: 3
 
-Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
+     Disco "hda": 6149.88 MB (12594960 blocos), geo = (784, 255, 63, L)
 
-IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
+     IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 
      1  hda1   *         63  4209029  4208967  2055.16  0C DOS FAT32 (L)
      2  hda2        4209030  4482134   273105   133.35  AE TROPIX Extended
@@ -1331,15 +1254,15 @@ IND. -DEV- A D -INÍCIO- --FINAL- -BLOCOs- TAM (MB) TIPO
 Uma vez conferida a tabela de partições, podemos escrevê-la no disco
 rígido através dos seguintes comandos:
 
-fdisk\> w
+     fdisk> w
 
-Reescreve a tabela de partições? (n): s
+     Reescreve a tabela de partições? (n): s
 
-fdisk\> q
+     fdisk> q
 
-Saindo do editor de tabelas de partições
+     Saindo do editor de tabelas de partições
 
-boot\>
+     boot>
 
 O único comando "perigoso" é o "w" (com a respectiva confirmação), pois
 todos os outros comandos apenas modificam a tabela de partições na
@@ -1357,14 +1280,8 @@ diferenças são significativas. Um modo de evitar isto, é usar o comando
 "u", que impede o arredondamento.
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 14                      *
-     *                                                       *
-     *  REDUZINDO O TAMANHO DE UMA PARTIÇÃO MS-DOS/Windows   *
-     *                                                       *
-     *********************************************************
+# Capítulo 14 
+## REDUZINDO O TAMANHO DE UMA PARTIÇÃO MS-DOS/Windows 
 
 Um dos casos mais freqüentes é o de PCs que possuem apenas um disco
 rígido totalmente ocupado com apenas uma partição MS-DOS/Windows,
@@ -1395,12 +1312,12 @@ o arquivo de "swap" do MS-DOS/Windows. Você deve removê-lo (usando o
 "Control Panel") e posteriormente reinstalá-lo.
 
 Se você usa IMAGE ou MIRROR, o último setor da partição contém um
-arquivo "oculto" de nome "`\image`{=tex}.idx" ou
-"`\mirorsav`{=tex}.fil". Você deve remover este arquivo (usando "attrib"
+arquivo "oculto" de nome "\\image`{=tex}.idx" ou
+"\\mirorsav.fil". Você deve remover este arquivo (usando "attrib"
 e "del"). Ele será recriado na próxima vez que você executar IMAGE ou
 MIRROR (assim esperamos, não testamos).
 
-Outra fonte de problemas são arquivos de nome "*`\desktop`{=tex}.*", os
+Outra fonte de problemas são arquivos de nome "*\\desktop.*", os
 quais o Windows não move: eles devem ser salvos e posteriormente
 restaurados.
 
@@ -1442,7 +1359,7 @@ obtemos (por exemplo):
 
 Verifique se o espaço livre disponível é suficiente para a nova partição
 desejada. No nosso exemplo, temos espaço suficiente para o caso típico
-de 128 MB (427.26 \> 128). Lembre-se naturalmente de deixar algum espaço
+de 128 MB (427.26 > 128). Lembre-se naturalmente de deixar algum espaço
 para futuros (novos) arquivos DOS.
 
 Para liberarmos 128 MB (que serão usados para a nova partição a ser
@@ -1510,14 +1427,8 @@ Pronto! Já é hora de instalar o TROPIX nas novas partições, conforme o
 capítulo 15.
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 15                      *
-     *                                                       *
-     *     INSTALAÇÃO DO TROPIX EM PARTIÇÕES PRÓPRIAS        *
-     *                                                       *
-     *********************************************************
+# Capítulo 15
+## INSTALAÇÃO DO TROPIX EM PARTIÇÕES PRÓPRIAS 
 
 Este é o melhor modo, pois oferece o melhor desempenho e possibilita a
 instalação do "boot0", um gerenciador de "boot". Este gerenciador
@@ -1602,13 +1513,8 @@ recomendamos colocar seus arquivos particulares apenas no seu diretório
 
 
 
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 16                      *
-     *                                                       *
-     *          CONFIGURAÇÃO DOS CONTROLADORES USB           *
-     *                                                       *
-     *********************************************************
+# Capítulo 16 
+## CONFIGURAÇÃO DOS CONTROLADORES USB 
 
 O TROPIX (na versão atual) suporta controladores USB dos padrões UHCI,
 OHCI e EHCI.
@@ -1633,15 +1539,8 @@ Para verificar se o controlador USB está sendo reconhecido corretamente,
 acompanhe as mensagens durante a carga do sistema (ou então use o
 comando "dmesg" posteriormente).
 
-
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 17                      *
-     *                                                       *
-     *                      E AGORA ...?                     *
-     *                                                       *
-     *********************************************************
+#  Capítulo 17
+## E AGORA ...?  
 
 Uma vez com o sistema implantado e em funcionamento, temos todos os
 manuais do TROPIX (em português) à disposição através do utilitário
@@ -1650,7 +1549,7 @@ utilização através da opção "-H" (por exemplo "passwd -H").
 
 Para consultar o manual do utilitário "passwd" (por exemplo), tecle "man
 passwd". Para avançar/retroceder pelas várias páginas dos manuais, temos
-os comandos \<\^D\>, \<\^U\>. Para encerrar a execução de "man", use
+os comandos <^D>, <^U>. Para encerrar a execução de "man", use
 "q". Experimente "man man".
 
 Recomendamos inicialmente a modificação da senha da conta "root" e a
@@ -1718,15 +1617,8 @@ de filosofia UNIX, como na utilização de mais um sistema operacional. Em
 caso de dúvidas ou relatos de erros, utilize o endereço eletrônico do
 capítulo 1.
 
-
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 18                      *
-     *                                                       *
-     *  CARACTERÍSTICAS E UTILITÁRIOS ORIGINAIS DO TROPIX    *
-     *                                                       *
-     *********************************************************
+# Capítulo 18
+## CARACTERÍSTICAS E UTILITÁRIOS ORIGINAIS DO TROPIX 
 
 Embora o TROPIX seja um sistema de filosofia UNIX, há algumas
 características originais que não são encontradas em outros sistemas
@@ -1775,14 +1667,8 @@ deste tipo. A seguir são dadas algumas destas originalidades:
     manual).
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 19                      *
-     *                                                       *
-     *       INTRODUÇÃO À INTERFACE GRÁFICA X-WINDOW         *
-     *                                                       *
-     *********************************************************
+#  Capítulo 19                      
+## INTRODUÇÃO À INTERFACE GRÁFICA X-WINDOW  
 
 O sistema X-Window para o TROPIX é uma interface gráfica baseada na
 versão 4.7.0 distribuída pelo Consórcio XFree86.
@@ -1800,15 +1686,8 @@ VOCÊ ESTÁ INSTALANDO/UTILIZANDO A INTERFACE GRÁFICA DO TROPIX SOB SUA
 PRÓPRIA RESPONSABILIDADE E RISCO!
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 20                      *
-     *                                                       *
-     *       CRIAÇÃO E INSTALAÇÃO DOS DISQUETES/ARQUIVOS     *
-     *                 DA INTERFACE GRÁFICA                  *
-     *                                                       *
-     *********************************************************
+# Capítulo 20
+## CRIAÇÃO E INSTALAÇÃO DOS DISQUETES/ARQUIVOS DA INTERFACE GRÁFICA 
 
 Este capítulo contém informações apenas para a instalação através de
 disquetes. Se você está instalando através de um CDROM, pode pulá-lo.
@@ -1842,14 +1721,8 @@ e siga as suas instruções. O sistema necessita de cerca de 10 MB no
 disco.
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 21                      *
-     *                                                       *
-     *            CONFIGURAÇÃO DA INTERFACE GRÁFICA          *
-     *                                                       *
-     *********************************************************
+#  Capítulo 21                      
+## CONFIGURAÇÃO DA INTERFACE GRÁFICA          
 
 Uma vez instalados todos os arquivos da Interface Gráfica X-Window (se
 você está instalando através do CDROM isto é automático, para o caso de
@@ -1948,14 +1821,8 @@ tamanho do seu "desktop". Em caso de não conseguir, envie-nos os dois
 arquivos do diretório "/var/log/xwin", conforme acima.
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 22                      *
-     *                                                       *
-     *          UTILIZAÇÃO BÁSICA DA INTERFACE GRÁFICA       *
-     *                                                       *
-     *********************************************************
+# Capítulo 22
+##  UTILIZAÇÃO BÁSICA DA INTERFACE GRÁFICA 
 
 Uma vez com o sistema em funcionamento, teremos (com já foi citado
 acima), duas janelas "xterm", um relógio e um selecionador de
@@ -1989,14 +1856,8 @@ terá um novo espaço independente para a criação de janelas. Você dispõe
 (na presente configuração), de 6 "desktops".
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 23                      *
-     *                                                       *
-     *   OBTENÇÃO E INSTALAÇÃO DO CÓDIGO FONTE DO TROPIX     *
-     *                                                       *
-     *********************************************************
+#  Capítulo 23                      
+## OBTENÇÃO E INSTALAÇÃO DO CÓDIGO FONTE DO TROPIX     
 
 O código fonte do TROPIX é distribuído através dos 3 arquivos
 "kernel.tgz" (o núcleo do sistema), "lib.tgz" (as bibliotecas) e
@@ -2032,15 +1893,8 @@ descomprimi-la. Isto pode ser feito de diversos modos:
     utilitários "Notepad", "Wordpad" ou "Word", entre outros.
 
 
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 24                      *
-     *                                                       *
-     *           COMPILAÇÃO DO NÚCLEO, BIBLIOTECAS           *
-     *                E UTILITÁRIOS DO TROPIX                *
-     *                                                       *
-     *********************************************************
+# Capítulo 24  
+##  COMPILAÇÃO DO NÚCLEO, BIBLIOTECAS  E UTILITÁRIOS DO TROPIX  
 
 Abaixo damos orientações para compilar os diversos componentes da
 distribuição do código fonte do TROPIX:
@@ -2064,15 +1918,8 @@ distribuição do código fonte do TROPIX:
     todos os utilitários. Se for desejado, pode ser compilado cada um
     deles separadamente (indo para o diretório correspondente).
 
-
-
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 25                      *
-     *                                                       *
-     *              O USO DO EDITOR DE TEXTOS "VI"           *
-     *                                                       *
-     *********************************************************
+# Capítulo 25 
+## O USO DO EDITOR DE TEXTOS "VI"    
 
 O utilitário "vi" é o editor de textos "padrão" dos sistemas
 operacionais de filosofia UNIX. Neste capítulo será dada uma pequena
@@ -2124,13 +1971,8 @@ conservando o arquivo em sua forma original.
 
 
 
-     *********************************************************
-     *                                                       *
-     *                      Capítulo 26                      *
-     *                                                       *
-     *     UMA LISTA DOS PRINCIPAIS COMANDOS DOS TROPIX      *
-     *                                                       *
-     *********************************************************
+#  Capítulo 26
+##  UMA LISTA DOS PRINCIPAIS COMANDOS DOS TROPIX   
 
 Para a sua comodidade, damos abaixo uma lista alfabética dos principais
 comandos do TROPIX, juntamente com uma breve descrição de cada um. Para
