@@ -31,7 +31,7 @@
 
 - **[Perguntas Freqüentes](qfp.md)**
 
-- **[Entrevista da \"GeekStore\"](/entre.html)**
+- **[Entrevista da \"GeekStore\"](entre.md)**
 
 - **[Estatísticas de acesso](#estatísticas-de-acesso)**
 
