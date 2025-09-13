@@ -123,7 +123,6 @@
 
 
 
-    
 # Capítulo 1 
 ## INTRODUÇÃO                      
 
@@ -177,6 +176,7 @@ sistema.
 A continuação deste trabalho é uma homenagem póstuma a Newton Faller, o
 grande idealizador dos projetos PEGASUS, PLURIX, TROPIX e de tantos
 outros.
+
 
 # Capítulo 2  
 ## NOVIDADES DAS VERSÕES                 
@@ -1312,7 +1312,7 @@ o arquivo de "swap" do MS-DOS/Windows. Você deve removê-lo (usando o
 "Control Panel") e posteriormente reinstalá-lo.
 
 Se você usa IMAGE ou MIRROR, o último setor da partição contém um
-arquivo "oculto" de nome "\\image`{=tex}.idx" ou
+arquivo "oculto" de nome "\\image.idx" ou
 "\\mirorsav.fil". Você deve remover este arquivo (usando "attrib"
 e "del"). Ele será recriado na próxima vez que você executar IMAGE ou
 MIRROR (assim esperamos, não testamos).
@@ -1968,8 +1968,6 @@ Repare que o arquivo sendo editado ("abc" no caso) só será atualizado
 quando for dado o comando ":w". Se foi feita acidentalmente alguma
 modificação indesejada, podemos sair do "vi" com o comando ":q!",
 conservando o arquivo em sua forma original.
-
-
 
 #  Capítulo 26
 ##  UMA LISTA DOS PRINCIPAIS COMANDOS DOS TROPIX   
