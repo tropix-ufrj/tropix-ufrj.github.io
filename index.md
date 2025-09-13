@@ -2,7 +2,6 @@
 
 <img src="tropix.gif" alt="tropix" width="400"/>
 
-
 **Versão do sistema: 4.9.0, de 28.11.08 - Data da página: 15.12.08**
 
 ## Índice
@@ -38,7 +37,6 @@
 - **[Ajude no desenvolvimento](#ajude-no-desenvolvimento)**
 
 - **[Visite os outros Projetos do NCE/UFRJ](http://www.nce.ufrj.br/pesquisa/projetos.asp)**
-
 
 ## Descrição do Sistema
 
