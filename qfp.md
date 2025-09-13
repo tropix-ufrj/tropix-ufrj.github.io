@@ -1,7 +1,7 @@
 ---
 layout: default 
 title: Perguntas Frequentes 
-permalink: /gfp/
+permalink: /qfp/
 ---
 
 # O Sistema Operacional TROPIX
@@ -81,9 +81,6 @@ isto).
 
 **[Volta para o Índice](index.html)**
 
-------------------------------------------------------------------------
-
-  ----------------------------------- -----------------------------------
-  Data: 30.05.2000                    Projeto TROPIX\
-
-  ----------------------------------- -----------------------------------
+<hr>
+  Data da Página: {{ "now" | date: "%Y-%m-%d %H:%M" }}  --- Projeto TROPIX
+<hr>
