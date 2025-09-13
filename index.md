@@ -29,7 +29,7 @@
 
 - **[Código Fonte](#código-fonte)**
 
-- **[Perguntas Freqüentes](/qfp.html)**
+- **[Perguntas Freqüentes](qfp.md)**
 
 - **[Entrevista da \"GeekStore\"](/entre.html)**
 
