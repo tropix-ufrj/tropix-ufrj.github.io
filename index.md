@@ -341,7 +341,6 @@ Para maiores detalhes, entre em contato conosco no endereço eletrônico
 
 **[Volta para o Índice](#índice)**
 
-------------------------------------------------------------------------
-  Data da Página: 15.12.08  --- Projeto TROPIX
-
-  ----------------------------------- -----------------------------------
+<hr>
+  Data da Página: {{ "now" | date: "%Y-%m-%d %H:%M" }}  --- Projeto TROPIX
+<hr>
