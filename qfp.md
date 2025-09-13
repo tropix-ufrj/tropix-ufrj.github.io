@@ -12,7 +12,6 @@ Perguntas Frequentes
 ==================== 
 **Versão 4.0.0, de 17.11.00**
 
-------------------------------------------------------------------------
 ## 1. Tamanho dos disquetes
 
 **Pergunta:** Ao tentar gravar os disquetes do TROPIX, verifiquei que o
@@ -57,7 +56,6 @@ manual de instalação.
 executáveis de um sistema não rodam em outro. Normalmente, o transporte
 é realizado através dos programas fontes.
 
-------------------------------------------------------------------------
 
 ## 5. Instalação simultânea de várias Sistemas Operacionais
 
@@ -79,7 +77,7 @@ qualquer partição de todos os discos (desde que o programa de carga
 colocado no início da partição raiz do sistema operacional suporte
 isto).
 
-**[Volta para o Índice](index.html)**
+**[Volta para o Índice](index.md)**
 
 <hr>
   Data da Página: {{ "now" | date: "%Y-%m-%d %H:%M" }}  --- Projeto TROPIX
