@@ -1,6 +1,7 @@
-# O Sistema Operacional TROPIX
 
 <img src="tropix.gif" alt="tropix" width="400"/>
+
+# O Sistema Operacional TROPIX
 
 **Versão do sistema: 4.9.0, de 28.11.08 - Data da página: 15.12.08**
 
