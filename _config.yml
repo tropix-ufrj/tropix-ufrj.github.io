@@ -1,0 +1,17 @@
+# site configuration
+
+theme: jekyll-theme-chirpy
+
+lang: pt_BR
+
+# https://kevinnovak.github.io/Time-Zone-Picker
+timezone: America/Sao_Paulo
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+
+# main title
+title: Tropix
+
+
+# used by seo meta and the atom feed
+description: Sistema Operacional Tropix
